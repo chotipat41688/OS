@@ -1,0 +1,13 @@
+May  1 22:23:07 aueiei-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="477" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+May  1 22:23:07 aueiei-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="477" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+May  1 22:23:16 aueiei-VirtualBox anacron[916]: Job `cron.daily' terminated
+May  1 22:23:16 aueiei-VirtualBox anacron[916]: Job `cron.weekly' started
+May  1 22:23:16 aueiei-VirtualBox anacron[2398]: Updated timestamp for job `cron.weekly' to 2016-05-01
+May  1 22:23:19 aueiei-VirtualBox anacron[916]: Job `cron.weekly' terminated
+May  1 22:23:19 aueiei-VirtualBox anacron[916]: Job `cron.monthly' started
+May  1 22:23:19 aueiei-VirtualBox anacron[2416]: Updated timestamp for job `cron.monthly' to 2016-05-01
+May  1 22:23:19 aueiei-VirtualBox anacron[916]: Job `cron.monthly' terminated
+May  1 22:23:19 aueiei-VirtualBox anacron[916]: Normal exit (3 jobs run)
+May  1 23:17:01 aueiei-VirtualBox CRON[2556]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  2 00:17:01 aueiei-VirtualBox CRON[6109]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  2 00:22:46 aueiei-VirtualBox kernel: [ 8735.125650] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.

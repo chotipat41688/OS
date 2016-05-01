@@ -1,0 +1,1 @@
+May  2 00:22:46 aueiei-VirtualBox kernel: [ 8735.125650] atkbd serio0: Spurious NAK on isa0060/serio0. Some program might be trying to access hardware directly.

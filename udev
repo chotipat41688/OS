@@ -1,0 +1,8009 @@
+monitor will print the received events for:
+UDEV - the event which udev sends out after rule processing
+KERNEL - the kernel uevent
+
+KERNEL[4.657754] add      /devices/LNXSYSTM:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00
+MODALIAS=acpi:LNXSYSTM:
+SEQNUM=1156
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.660169] add      /devices/LNXSYSTM:00/LNXCPU:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/LNXCPU:00
+MODALIAS=acpi:LNXCPU:
+SEQNUM=1157
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.660204] add      /devices/LNXSYSTM:00/LNXPWRBN:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/LNXPWRBN:00
+DRIVER=button
+MODALIAS=acpi:LNXPWRBN:
+SEQNUM=1158
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.660256] add      /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0 (input)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+EV=3
+KEY=10000000000000 0
+MODALIAS=input:b0019v0000p0001e0000-e0,1,k74,ramlsfw
+NAME="Power Button"
+PHYS="LNXPWRBN/button/input0"
+PRODUCT=19/0/1/0
+PROP=0
+SEQNUM=1159
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[4.660302] add      /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0 (input)
+ACTION=add
+DEVNAME=input/event0
+DEVPATH=/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0
+MAJOR=13
+MINOR=64
+SEQNUM=1160
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[4.660337] add      /devices/LNXSYSTM:00/LNXSLPBN:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/LNXSLPBN:00
+DRIVER=button
+MODALIAS=acpi:LNXSLPBN:
+SEQNUM=1161
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.660378] add      /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1 (input)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+EV=3
+KEY=4000 0 0
+MODALIAS=input:b0019v0000p0003e0000-e0,1,k8E,ramlsfw
+NAME="Sleep Button"
+PHYS="LNXSLPBN/button/input0"
+PRODUCT=19/0/3/0
+PROP=0
+SEQNUM=1162
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[4.660422] add      /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1 (input)
+ACTION=add
+DEVNAME=input/event1
+DEVPATH=/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1
+MAJOR=13
+MINOR=65
+SEQNUM=1163
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[4.660451] add      /devices/LNXSYSTM:00/device:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00
+SEQNUM=1164
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.660480] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00
+MODALIAS=acpi:PNP0A03:
+SEQNUM=1165
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.660530] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/ACPI0003:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/ACPI0003:00
+DRIVER=ac
+MODALIAS=acpi:ACPI0003:
+SEQNUM=1166
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.660640] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/ACPI0003:00/power_supply/AC (power_supply)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/ACPI0003:00/power_supply/AC
+POWER_SUPPLY_NAME=AC
+POWER_SUPPLY_ONLINE=1
+SEQNUM=1167
+SUBSYSTEM=power_supply
+UDEV_LOG=3
+
+KERNEL[4.660675] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00
+MODALIAS=acpi:LNXVIDEO:
+SEQNUM=1168
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.660706] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/device:02 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/device:02
+SEQNUM=1169
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.660736] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/PNP0C0A:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/PNP0C0A:00
+DRIVER=battery
+MODALIAS=acpi:PNP0C0A:
+SEQNUM=1170
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.660926] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/PNP0C0A:00/power_supply/BAT0 (power_supply)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/PNP0C0A:00/power_supply/BAT0
+POWER_SUPPLY_CAPACITY=62
+POWER_SUPPLY_CYCLE_COUNT=0
+POWER_SUPPLY_ENERGY_FULL=50000000
+POWER_SUPPLY_ENERGY_FULL_DESIGN=50000000
+POWER_SUPPLY_ENERGY_NOW=31000000
+POWER_SUPPLY_MANUFACTURER=innotek
+POWER_SUPPLY_MODEL_NAME=1
+POWER_SUPPLY_NAME=BAT0
+POWER_SUPPLY_PRESENT=1
+POWER_SUPPLY_SERIAL_NUMBER=0
+POWER_SUPPLY_STATUS=Charging
+POWER_SUPPLY_TECHNOLOGY=Unknown
+POWER_SUPPLY_VOLTAGE_MIN_DESIGN=10000000
+POWER_SUPPLY_VOLTAGE_NOW=10000000
+SEQNUM=1171
+SUBSYSTEM=power_supply
+UDEV_LOG=3
+
+KERNEL[4.660975] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01
+SEQNUM=1172
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661008] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0000:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0000:00
+MODALIAS=acpi:PNP0000:
+SEQNUM=1173
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661037] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0100:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0100:00
+MODALIAS=acpi:PNP0100:
+SEQNUM=1174
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661070] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0200:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0200:00
+MODALIAS=acpi:PNP0200:
+SEQNUM=1175
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661100] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0303:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0303:00
+MODALIAS=acpi:PNP0303:
+SEQNUM=1176
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661129] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0F03:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0F03:00
+MODALIAS=acpi:PNP0F03:
+SEQNUM=1177
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661159] add      /devices/LNXSYSTM:00/device:00/PNP0C0F:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0C0F:00
+MODALIAS=acpi:PNP0C0F:
+SEQNUM=1178
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661190] add      /devices/LNXSYSTM:00/device:00/PNP0C0F:01 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0C0F:01
+MODALIAS=acpi:PNP0C0F:
+SEQNUM=1179
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661218] add      /devices/LNXSYSTM:00/device:00/PNP0C0F:02 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0C0F:02
+MODALIAS=acpi:PNP0C0F:
+SEQNUM=1180
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661248] add      /devices/LNXSYSTM:00/device:00/PNP0C0F:03 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0C0F:03
+MODALIAS=acpi:PNP0C0F:
+SEQNUM=1181
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661278] add      /devices/LNXSYSTM:00/device:03 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:03
+SEQNUM=1182
+SUBSYSTEM=acpi
+UDEV_LOG=3
+
+KERNEL[4.661307] add      /devices/breakpoint (event_source)
+ACTION=add
+DEVPATH=/devices/breakpoint
+SEQNUM=1183
+SUBSYSTEM=event_source
+UDEV_LOG=3
+
+KERNEL[4.661341] add      /devices/pci0000:00/0000:00:00.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:00.0
+MODALIAS=pci:v00008086d00001237sv00000000sd00000000bc06sc00i00
+PCI_CLASS=60000
+PCI_ID=8086:1237
+PCI_SLOT_NAME=0000:00:00.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1184
+SUBSYSTEM=pci
+UDEV_LOG=3
+
+KERNEL[4.661373] add      /devices/pci0000:00/0000:00:01.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.0
+MODALIAS=pci:v00008086d00007000sv00000000sd00000000bc06sc01i00
+PCI_CLASS=60100
+PCI_ID=8086:7000
+PCI_SLOT_NAME=0000:00:01.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1185
+SUBSYSTEM=pci
+UDEV_LOG=3
+
+KERNEL[4.661408] add      /devices/pci0000:00/0000:00:01.1 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1
+DRIVER=ata_piix
+MODALIAS=pci:v00008086d00007111sv00000000sd00000000bc01sc01i8a
+PCI_CLASS=1018A
+PCI_ID=8086:7111
+PCI_SLOT_NAME=0000:00:01.1
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1186
+SUBSYSTEM=pci
+UDEV_LOG=3
+
+KERNEL[4.661438] add      /devices/pci0000:00/0000:00:01.1/ata1/ata_port/ata1 (ata_port)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/ata_port/ata1
+SEQNUM=1187
+SUBSYSTEM=ata_port
+UDEV_LOG=3
+
+KERNEL[4.661471] add      /devices/pci0000:00/0000:00:01.1/ata1/host0 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/host0
+DEVTYPE=scsi_host
+SEQNUM=1188
+SUBSYSTEM=scsi
+UDEV_LOG=3
+
+KERNEL[4.661542] add      /devices/pci0000:00/0000:00:01.1/ata1/host0/scsi_host/host0 (scsi_host)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/host0/scsi_host/host0
+SEQNUM=1189
+SUBSYSTEM=scsi_host
+UDEV_LOG=3
+
+KERNEL[4.661594] add      /devices/pci0000:00/0000:00:01.1/ata1/link1/ata_link/link1 (ata_link)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/link1/ata_link/link1
+SEQNUM=1190
+SUBSYSTEM=ata_link
+UDEV_LOG=3
+
+KERNEL[4.661624] add      /devices/pci0000:00/0000:00:01.1/ata1/link1/dev1.0/ata_device/dev1.0 (ata_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/link1/dev1.0/ata_device/dev1.0
+SEQNUM=1191
+SUBSYSTEM=ata_device
+UDEV_LOG=3
+
+KERNEL[4.661653] add      /devices/pci0000:00/0000:00:01.1/ata1/link1/dev1.1/ata_device/dev1.1 (ata_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/link1/dev1.1/ata_device/dev1.1
+SEQNUM=1192
+SUBSYSTEM=ata_device
+UDEV_LOG=3
+
+KERNEL[4.661681] add      /devices/pci0000:00/0000:00:01.1/ata2/ata_port/ata2 (ata_port)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/ata_port/ata2
+SEQNUM=1193
+SUBSYSTEM=ata_port
+UDEV_LOG=3
+
+KERNEL[4.661710] add      /devices/pci0000:00/0000:00:01.1/ata2/host1 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1
+DEVTYPE=scsi_host
+SEQNUM=1194
+SUBSYSTEM=scsi
+UDEV_LOG=3
+
+KERNEL[4.661741] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/scsi_host/host1 (scsi_host)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/scsi_host/host1
+SEQNUM=1195
+SUBSYSTEM=scsi_host
+UDEV_LOG=3
+
+KERNEL[4.661772] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0
+DEVTYPE=scsi_target
+SEQNUM=1196
+SUBSYSTEM=scsi
+UDEV_LOG=3
+
+KERNEL[4.661806] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0
+DEVTYPE=scsi_device
+DRIVER=sr
+MODALIAS=scsi:t-0x05
+SEQNUM=1197
+SUBSYSTEM=scsi
+UDEV_LOG=3
+
+KERNEL[4.661840] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0 (block)
+ACTION=add
+DEVNAME=sr0
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0
+DEVTYPE=disk
+MAJOR=11
+MINOR=0
+SEQNUM=1198
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.661874] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/bsg/1:0:0:0 (bsg)
+ACTION=add
+DEVNAME=bsg/1:0:0:0
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/bsg/1:0:0:0
+MAJOR=252
+MINOR=0
+SEQNUM=1199
+SUBSYSTEM=bsg
+UDEV_LOG=3
+
+KERNEL[4.661905] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/scsi_device/1:0:0:0 (scsi_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/scsi_device/1:0:0:0
+SEQNUM=1200
+SUBSYSTEM=scsi_device
+UDEV_LOG=3
+
+KERNEL[4.661937] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/scsi_generic/sg0 (scsi_generic)
+ACTION=add
+DEVNAME=sg0
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/scsi_generic/sg0
+MAJOR=21
+MINOR=0
+SEQNUM=1201
+SUBSYSTEM=scsi_generic
+UDEV_LOG=3
+
+KERNEL[4.661966] add      /devices/pci0000:00/0000:00:01.1/ata2/link2/ata_link/link2 (ata_link)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/link2/ata_link/link2
+SEQNUM=1202
+SUBSYSTEM=ata_link
+UDEV_LOG=3
+
+KERNEL[4.661995] add      /devices/pci0000:00/0000:00:01.1/ata2/link2/dev2.0/ata_device/dev2.0 (ata_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/link2/dev2.0/ata_device/dev2.0
+SEQNUM=1203
+SUBSYSTEM=ata_device
+UDEV_LOG=3
+
+KERNEL[4.662025] add      /devices/pci0000:00/0000:00:01.1/ata2/link2/dev2.1/ata_device/dev2.1 (ata_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/link2/dev2.1/ata_device/dev2.1
+SEQNUM=1204
+SUBSYSTEM=ata_device
+UDEV_LOG=3
+
+KERNEL[4.662057] add      /devices/pci0000:00/0000:00:02.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:02.0
+MODALIAS=pci:v000080EEd0000BEEFsv00000000sd00000000bc03sc00i00
+PCI_CLASS=30000
+PCI_ID=80EE:BEEF
+PCI_SLOT_NAME=0000:00:02.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1205
+SUBSYSTEM=pci
+UDEV_LOG=3
+
+KERNEL[4.662094] add      /devices/pci0000:00/0000:00:03.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:03.0
+DRIVER=e1000
+MODALIAS=pci:v00008086d0000100Esv00008086sd0000001Ebc02sc00i00
+PCI_CLASS=20000
+PCI_ID=8086:100E
+PCI_SLOT_NAME=0000:00:03.0
+PCI_SUBSYS_ID=8086:001E
+SEQNUM=1206
+SUBSYSTEM=pci
+UDEV_LOG=3
+
+KERNEL[4.662135] add      /devices/pci0000:00/0000:00:03.0/net/eth0 (net)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:03.0/net/eth0
+IFINDEX=2
+INTERFACE=eth0
+SEQNUM=1207
+SUBSYSTEM=net
+UDEV_LOG=3
+
+KERNEL[4.662167] add      /devices/pci0000:00/0000:00:04.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:04.0
+MODALIAS=pci:v000080EEd0000CAFEsv00000000sd00000000bc08sc80i00
+PCI_CLASS=88000
+PCI_ID=80EE:CAFE
+PCI_SLOT_NAME=0000:00:04.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1208
+SUBSYSTEM=pci
+UDEV_LOG=3
+
+KERNEL[4.662199] add      /devices/pci0000:00/0000:00:05.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:05.0
+MODALIAS=pci:v00008086d00002415sv00001028sd00000177bc04sc01i00
+PCI_CLASS=40100
+PCI_ID=8086:2415
+PCI_SLOT_NAME=0000:00:05.0
+PCI_SUBSYS_ID=1028:0177
+SEQNUM=1209
+SUBSYSTEM=pci
+UDEV_LOG=3
+
+KERNEL[4.662232] add      /devices/pci0000:00/0000:00:06.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:06.0
+DRIVER=ohci-pci
+MODALIAS=pci:v0000106Bd0000003Fsv00000000sd00000000bc0Csc03i10
+PCI_CLASS=C0310
+PCI_ID=106B:003F
+PCI_SLOT_NAME=0000:00:06.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1210
+SUBSYSTEM=pci
+UDEV_LOG=3
+
+KERNEL[4.662269] add      /devices/pci0000:00/0000:00:06.0/usb1 (usb)
+ACTION=add
+BUSNUM=001
+DEVNAME=bus/usb/001/001
+DEVNUM=001
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1
+DEVTYPE=usb_device
+DRIVER=usb
+MAJOR=189
+MINOR=0
+PRODUCT=1d6b/1/313
+SEQNUM=1211
+SUBSYSTEM=usb
+TYPE=9/0/0
+UDEV_LOG=3
+
+KERNEL[4.662307] add      /devices/pci0000:00/0000:00:06.0/usb1/1-0:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-0:1.0
+DEVTYPE=usb_interface
+DRIVER=hub
+INTERFACE=9/0/0
+MODALIAS=usb:v1D6Bp0001d0313dc09dsc00dp00ic09isc00ip00in00
+PRODUCT=1d6b/1/313
+SEQNUM=1212
+SUBSYSTEM=usb
+TYPE=9/0/0
+UDEV_LOG=3
+
+KERNEL[4.662344] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1 (usb)
+ACTION=add
+BUSNUM=001
+DEVNAME=bus/usb/001/002
+DEVNUM=002
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1
+DEVTYPE=usb_device
+DRIVER=usb
+MAJOR=189
+MINOR=1
+PRODUCT=80ee/21/100
+SEQNUM=1213
+SUBSYSTEM=usb
+TYPE=0/0/0
+UDEV_LOG=3
+
+KERNEL[4.662380] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0
+DEVTYPE=usb_interface
+DRIVER=usbhid
+INTERFACE=3/0/0
+MODALIAS=usb:v80EEp0021d0100dc00dsc00dp00ic03isc00ip00in00
+PRODUCT=80ee/21/100
+SEQNUM=1214
+SUBSYSTEM=usb
+TYPE=0/0/0
+UDEV_LOG=3
+
+KERNEL[4.662418] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001 (hid)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001
+DRIVER=hid-generic
+HID_ID=0003:000080EE:00000021
+HID_NAME=VirtualBox USB Tablet
+HID_PHYS=usb-0000:00:06.0-1/input0
+MODALIAS=hid:b0003g0001v000080EEp00000021
+SEQNUM=1215
+SUBSYSTEM=hid
+UDEV_LOG=3
+
+KERNEL[4.662451] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/hidraw/hidraw0 (hidraw)
+ACTION=add
+DEVNAME=hidraw0
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/hidraw/hidraw0
+MAJOR=251
+MINOR=0
+SEQNUM=1216
+SUBSYSTEM=hidraw
+UDEV_LOG=3
+
+KERNEL[4.662533] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4 (input)
+ABS=3
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4
+EV=1f
+KEY=1f0000 0 0 0 0
+MODALIAS=input:b0003v80EEp0021e0110-e0,1,2,3,4,k110,111,112,113,114,r6,8,a0,1,m4,lsfw
+MSC=10
+NAME="VirtualBox USB Tablet"
+PHYS="usb-0000:00:06.0-1/input0"
+PRODUCT=3/80ee/21/110
+PROP=0
+REL=140
+SEQNUM=1217
+SUBSYSTEM=input
+UDEV_LOG=3
+UNIQ=""
+
+KERNEL[4.662573] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/event3 (input)
+ACTION=add
+DEVNAME=input/event3
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/event3
+MAJOR=13
+MINOR=67
+SEQNUM=1218
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[4.662618] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/mouse0 (input)
+ACTION=add
+DEVNAME=input/mouse0
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/mouse0
+MAJOR=13
+MINOR=32
+SEQNUM=1219
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[4.662688] add      /devices/pci0000:00/0000:00:07.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:07.0
+MODALIAS=pci:v00008086d00007113sv00000000sd00000000bc06sc80i00
+PCI_CLASS=68000
+PCI_ID=8086:7113
+PCI_SLOT_NAME=0000:00:07.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1220
+SUBSYSTEM=pci
+UDEV_LOG=3
+
+KERNEL[4.662723] add      /devices/pci0000:00/0000:00:0d.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0
+DRIVER=ahci
+MODALIAS=pci:v00008086d00002829sv00000000sd00000000bc01sc06i01
+PCI_CLASS=10601
+PCI_ID=8086:2829
+PCI_SLOT_NAME=0000:00:0d.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1221
+SUBSYSTEM=pci
+UDEV_LOG=3
+
+KERNEL[4.662754] add      /devices/pci0000:00/0000:00:0d.0/ata3/ata_port/ata3 (ata_port)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/ata_port/ata3
+SEQNUM=1222
+SUBSYSTEM=ata_port
+UDEV_LOG=3
+
+KERNEL[4.662784] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2
+DEVTYPE=scsi_host
+SEQNUM=1223
+SUBSYSTEM=scsi
+UDEV_LOG=3
+
+KERNEL[4.662813] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/scsi_host/host2 (scsi_host)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/scsi_host/host2
+SEQNUM=1224
+SUBSYSTEM=scsi_host
+UDEV_LOG=3
+
+KERNEL[4.662850] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0
+DEVTYPE=scsi_target
+SEQNUM=1225
+SUBSYSTEM=scsi
+UDEV_LOG=3
+
+KERNEL[4.662899] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0
+DEVTYPE=scsi_device
+DRIVER=sd
+MODALIAS=scsi:t-0x00
+SEQNUM=1226
+SUBSYSTEM=scsi
+UDEV_LOG=3
+
+KERNEL[4.662954] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda (block)
+ACTION=add
+DEVNAME=sda
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda
+DEVTYPE=disk
+MAJOR=8
+MINOR=0
+SEQNUM=1227
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.662993] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda1 (block)
+ACTION=add
+DEVNAME=sda1
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda1
+DEVTYPE=partition
+MAJOR=8
+MINOR=1
+SEQNUM=1228
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.663036] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda2 (block)
+ACTION=add
+DEVNAME=sda2
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda2
+DEVTYPE=partition
+MAJOR=8
+MINOR=2
+SEQNUM=1229
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.663068] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda5 (block)
+ACTION=add
+DEVNAME=sda5
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda5
+DEVTYPE=partition
+MAJOR=8
+MINOR=5
+SEQNUM=1230
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.663102] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/bsg/2:0:0:0 (bsg)
+ACTION=add
+DEVNAME=bsg/2:0:0:0
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/bsg/2:0:0:0
+MAJOR=252
+MINOR=1
+SEQNUM=1231
+SUBSYSTEM=bsg
+UDEV_LOG=3
+
+KERNEL[4.663133] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_device/2:0:0:0 (scsi_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_device/2:0:0:0
+SEQNUM=1232
+SUBSYSTEM=scsi_device
+UDEV_LOG=3
+
+KERNEL[4.663163] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_disk/2:0:0:0 (scsi_disk)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_disk/2:0:0:0
+SEQNUM=1233
+SUBSYSTEM=scsi_disk
+UDEV_LOG=3
+
+KERNEL[4.663195] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_generic/sg1 (scsi_generic)
+ACTION=add
+DEVNAME=sg1
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_generic/sg1
+MAJOR=21
+MINOR=1
+SEQNUM=1234
+SUBSYSTEM=scsi_generic
+UDEV_LOG=3
+
+KERNEL[4.663237] add      /devices/pci0000:00/0000:00:0d.0/ata3/link3/ata_link/link3 (ata_link)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/link3/ata_link/link3
+SEQNUM=1235
+SUBSYSTEM=ata_link
+UDEV_LOG=3
+
+KERNEL[4.663282] add      /devices/pci0000:00/0000:00:0d.0/ata3/link3/dev3.0/ata_device/dev3.0 (ata_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/link3/dev3.0/ata_device/dev3.0
+SEQNUM=1236
+SUBSYSTEM=ata_device
+UDEV_LOG=3
+
+KERNEL[4.663909] add      /devices/pci0000:00/pci_bus/0000:00 (pci_bus)
+ACTION=add
+DEVPATH=/devices/pci0000:00/pci_bus/0000:00
+SEQNUM=1237
+SUBSYSTEM=pci_bus
+UDEV_LOG=3
+
+KERNEL[4.663945] add      /devices/platform/Fixed MDIO bus.0 (platform)
+ACTION=add
+DEVPATH=/devices/platform/Fixed MDIO bus.0
+MODALIAS=platform:Fixed MDIO bus
+SEQNUM=1238
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[4.663976] add      /devices/platform/Fixed MDIO bus.0/mdio_bus/fixed-0 (mdio_bus)
+ACTION=add
+DEVPATH=/devices/platform/Fixed MDIO bus.0/mdio_bus/fixed-0
+SEQNUM=1239
+SUBSYSTEM=mdio_bus
+UDEV_LOG=3
+
+KERNEL[4.664061] add      /devices/platform/alarmtimer (platform)
+ACTION=add
+DEVPATH=/devices/platform/alarmtimer
+DRIVER=alarmtimer
+MODALIAS=platform:alarmtimer
+SEQNUM=1240
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[4.664137] add      /devices/platform/i8042 (platform)
+ACTION=add
+DEVPATH=/devices/platform/i8042
+DRIVER=i8042
+MODALIAS=platform:i8042
+SEQNUM=1241
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[4.664173] add      /devices/platform/i8042/serio0 (serio)
+ACTION=add
+DEVPATH=/devices/platform/i8042/serio0
+DRIVER=atkbd
+MODALIAS=serio:ty06pr00id00ex00
+SEQNUM=1242
+SERIO_EXTRA=00
+SERIO_ID=00
+SERIO_PROTO=00
+SERIO_TYPE=06
+SUBSYSTEM=serio
+UDEV_LOG=3
+
+KERNEL[4.664221] add      /devices/platform/i8042/serio0/input/input2 (input)
+ACTION=add
+DEVPATH=/devices/platform/i8042/serio0/input/input2
+EV=120013
+KEY=402000000 3803078f800d001 feffffdfffefffff fffffffffffffffe
+LED=7
+MODALIAS=input:b0011v0001p0001eAB41-e0,1,4,11,14,k71,72,73,74,75,76,77,79,7A,7B,7C,7D,7E,7F,80,8C,8E,8F,9B,9C,9D,9E,9F,A3,A4,A5,A6,AC,AD,B7,B8,B9,D9,E2,ram4,l0,1,2,sfw
+MSC=10
+NAME="AT Translated Set 2 keyboard"
+PHYS="isa0060/serio0/input0"
+PRODUCT=11/1/1/ab41
+PROP=0
+SEQNUM=1243
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[4.664264] add      /devices/platform/i8042/serio0/input/input2/event2 (input)
+ACTION=add
+DEVNAME=input/event2
+DEVPATH=/devices/platform/i8042/serio0/input/input2/event2
+MAJOR=13
+MINOR=66
+SEQNUM=1244
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[4.664298] add      /devices/platform/i8042/serio1 (serio)
+ACTION=add
+DEVPATH=/devices/platform/i8042/serio1
+MODALIAS=serio:ty01pr00id00ex00
+SEQNUM=1245
+SERIO_EXTRA=00
+SERIO_ID=00
+SERIO_PROTO=00
+SERIO_TYPE=01
+SUBSYSTEM=serio
+UDEV_LOG=3
+
+KERNEL[4.664329] add      /devices/platform/microcode (platform)
+ACTION=add
+DEVPATH=/devices/platform/microcode
+MODALIAS=platform:microcode
+SEQNUM=1246
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[4.664358] add      /devices/platform/pcspkr (platform)
+ACTION=add
+DEVPATH=/devices/platform/pcspkr
+MODALIAS=platform:pcspkr
+SEQNUM=1247
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[4.664387] add      /devices/platform/reg-dummy (platform)
+ACTION=add
+DEVPATH=/devices/platform/reg-dummy
+DRIVER=reg-dummy
+MODALIAS=platform:reg-dummy
+SEQNUM=1248
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[4.664418] add      /devices/platform/reg-dummy/regulator/regulator.0 (regulator)
+ACTION=add
+DEVPATH=/devices/platform/reg-dummy/regulator/regulator.0
+SEQNUM=1249
+SUBSYSTEM=regulator
+UDEV_LOG=3
+
+KERNEL[4.666506] add      /devices/platform/rtc_cmos (platform)
+ACTION=add
+DEVPATH=/devices/platform/rtc_cmos
+DRIVER=rtc_cmos
+MODALIAS=platform:rtc_cmos
+SEQNUM=1250
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[4.666558] add      /devices/platform/rtc_cmos/rtc/rtc0 (rtc)
+ACTION=add
+DEVNAME=rtc0
+DEVPATH=/devices/platform/rtc_cmos/rtc/rtc0
+MAJOR=254
+MINOR=0
+SEQNUM=1251
+SUBSYSTEM=rtc
+UDEV_LOG=3
+
+KERNEL[4.666593] add      /devices/platform/serial8250 (platform)
+ACTION=add
+DEVPATH=/devices/platform/serial8250
+DRIVER=serial8250
+MODALIAS=platform:serial8250
+SEQNUM=1252
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[4.666643] add      /devices/platform/serial8250/tty/ttyS0 (tty)
+ACTION=add
+DEVNAME=ttyS0
+DEVPATH=/devices/platform/serial8250/tty/ttyS0
+MAJOR=4
+MINOR=64
+SEQNUM=1253
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.666676] add      /devices/platform/serial8250/tty/ttyS1 (tty)
+ACTION=add
+DEVNAME=ttyS1
+DEVPATH=/devices/platform/serial8250/tty/ttyS1
+MAJOR=4
+MINOR=65
+SEQNUM=1254
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.666710] add      /devices/platform/serial8250/tty/ttyS10 (tty)
+ACTION=add
+DEVNAME=ttyS10
+DEVPATH=/devices/platform/serial8250/tty/ttyS10
+MAJOR=4
+MINOR=74
+SEQNUM=1255
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.666743] add      /devices/platform/serial8250/tty/ttyS11 (tty)
+ACTION=add
+DEVNAME=ttyS11
+DEVPATH=/devices/platform/serial8250/tty/ttyS11
+MAJOR=4
+MINOR=75
+SEQNUM=1256
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.666776] add      /devices/platform/serial8250/tty/ttyS12 (tty)
+ACTION=add
+DEVNAME=ttyS12
+DEVPATH=/devices/platform/serial8250/tty/ttyS12
+MAJOR=4
+MINOR=76
+SEQNUM=1257
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.666809] add      /devices/platform/serial8250/tty/ttyS13 (tty)
+ACTION=add
+DEVNAME=ttyS13
+DEVPATH=/devices/platform/serial8250/tty/ttyS13
+MAJOR=4
+MINOR=77
+SEQNUM=1258
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.666845] add      /devices/platform/serial8250/tty/ttyS14 (tty)
+ACTION=add
+DEVNAME=ttyS14
+DEVPATH=/devices/platform/serial8250/tty/ttyS14
+MAJOR=4
+MINOR=78
+SEQNUM=1259
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.666878] add      /devices/platform/serial8250/tty/ttyS15 (tty)
+ACTION=add
+DEVNAME=ttyS15
+DEVPATH=/devices/platform/serial8250/tty/ttyS15
+MAJOR=4
+MINOR=79
+SEQNUM=1260
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.666918] add      /devices/platform/serial8250/tty/ttyS16 (tty)
+ACTION=add
+DEVNAME=ttyS16
+DEVPATH=/devices/platform/serial8250/tty/ttyS16
+MAJOR=4
+MINOR=80
+SEQNUM=1261
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.666949] add      /devices/platform/serial8250/tty/ttyS17 (tty)
+ACTION=add
+DEVNAME=ttyS17
+DEVPATH=/devices/platform/serial8250/tty/ttyS17
+MAJOR=4
+MINOR=81
+SEQNUM=1262
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.666982] add      /devices/platform/serial8250/tty/ttyS18 (tty)
+ACTION=add
+DEVNAME=ttyS18
+DEVPATH=/devices/platform/serial8250/tty/ttyS18
+MAJOR=4
+MINOR=82
+SEQNUM=1263
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667012] add      /devices/platform/serial8250/tty/ttyS19 (tty)
+ACTION=add
+DEVNAME=ttyS19
+DEVPATH=/devices/platform/serial8250/tty/ttyS19
+MAJOR=4
+MINOR=83
+SEQNUM=1264
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667044] add      /devices/platform/serial8250/tty/ttyS2 (tty)
+ACTION=add
+DEVNAME=ttyS2
+DEVPATH=/devices/platform/serial8250/tty/ttyS2
+MAJOR=4
+MINOR=66
+SEQNUM=1265
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667075] add      /devices/platform/serial8250/tty/ttyS20 (tty)
+ACTION=add
+DEVNAME=ttyS20
+DEVPATH=/devices/platform/serial8250/tty/ttyS20
+MAJOR=4
+MINOR=84
+SEQNUM=1266
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667107] add      /devices/platform/serial8250/tty/ttyS21 (tty)
+ACTION=add
+DEVNAME=ttyS21
+DEVPATH=/devices/platform/serial8250/tty/ttyS21
+MAJOR=4
+MINOR=85
+SEQNUM=1267
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667139] add      /devices/platform/serial8250/tty/ttyS22 (tty)
+ACTION=add
+DEVNAME=ttyS22
+DEVPATH=/devices/platform/serial8250/tty/ttyS22
+MAJOR=4
+MINOR=86
+SEQNUM=1268
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667169] add      /devices/platform/serial8250/tty/ttyS23 (tty)
+ACTION=add
+DEVNAME=ttyS23
+DEVPATH=/devices/platform/serial8250/tty/ttyS23
+MAJOR=4
+MINOR=87
+SEQNUM=1269
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667199] add      /devices/platform/serial8250/tty/ttyS24 (tty)
+ACTION=add
+DEVNAME=ttyS24
+DEVPATH=/devices/platform/serial8250/tty/ttyS24
+MAJOR=4
+MINOR=88
+SEQNUM=1270
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667231] add      /devices/platform/serial8250/tty/ttyS25 (tty)
+ACTION=add
+DEVNAME=ttyS25
+DEVPATH=/devices/platform/serial8250/tty/ttyS25
+MAJOR=4
+MINOR=89
+SEQNUM=1271
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667263] add      /devices/platform/serial8250/tty/ttyS26 (tty)
+ACTION=add
+DEVNAME=ttyS26
+DEVPATH=/devices/platform/serial8250/tty/ttyS26
+MAJOR=4
+MINOR=90
+SEQNUM=1272
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667293] add      /devices/platform/serial8250/tty/ttyS27 (tty)
+ACTION=add
+DEVNAME=ttyS27
+DEVPATH=/devices/platform/serial8250/tty/ttyS27
+MAJOR=4
+MINOR=91
+SEQNUM=1273
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667331] add      /devices/platform/serial8250/tty/ttyS28 (tty)
+ACTION=add
+DEVNAME=ttyS28
+DEVPATH=/devices/platform/serial8250/tty/ttyS28
+MAJOR=4
+MINOR=92
+SEQNUM=1274
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667411] add      /devices/platform/serial8250/tty/ttyS29 (tty)
+ACTION=add
+DEVNAME=ttyS29
+DEVPATH=/devices/platform/serial8250/tty/ttyS29
+MAJOR=4
+MINOR=93
+SEQNUM=1275
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667449] add      /devices/platform/serial8250/tty/ttyS3 (tty)
+ACTION=add
+DEVNAME=ttyS3
+DEVPATH=/devices/platform/serial8250/tty/ttyS3
+MAJOR=4
+MINOR=67
+SEQNUM=1276
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667491] add      /devices/platform/serial8250/tty/ttyS30 (tty)
+ACTION=add
+DEVNAME=ttyS30
+DEVPATH=/devices/platform/serial8250/tty/ttyS30
+MAJOR=4
+MINOR=94
+SEQNUM=1277
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667521] add      /devices/platform/serial8250/tty/ttyS31 (tty)
+ACTION=add
+DEVNAME=ttyS31
+DEVPATH=/devices/platform/serial8250/tty/ttyS31
+MAJOR=4
+MINOR=95
+SEQNUM=1278
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667554] add      /devices/platform/serial8250/tty/ttyS4 (tty)
+ACTION=add
+DEVNAME=ttyS4
+DEVPATH=/devices/platform/serial8250/tty/ttyS4
+MAJOR=4
+MINOR=68
+SEQNUM=1279
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667584] add      /devices/platform/serial8250/tty/ttyS5 (tty)
+ACTION=add
+DEVNAME=ttyS5
+DEVPATH=/devices/platform/serial8250/tty/ttyS5
+MAJOR=4
+MINOR=69
+SEQNUM=1280
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667615] add      /devices/platform/serial8250/tty/ttyS6 (tty)
+ACTION=add
+DEVNAME=ttyS6
+DEVPATH=/devices/platform/serial8250/tty/ttyS6
+MAJOR=4
+MINOR=70
+SEQNUM=1281
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667645] add      /devices/platform/serial8250/tty/ttyS7 (tty)
+ACTION=add
+DEVNAME=ttyS7
+DEVPATH=/devices/platform/serial8250/tty/ttyS7
+MAJOR=4
+MINOR=71
+SEQNUM=1282
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667677] add      /devices/platform/serial8250/tty/ttyS8 (tty)
+ACTION=add
+DEVNAME=ttyS8
+DEVPATH=/devices/platform/serial8250/tty/ttyS8
+MAJOR=4
+MINOR=72
+SEQNUM=1283
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667707] add      /devices/platform/serial8250/tty/ttyS9 (tty)
+ACTION=add
+DEVNAME=ttyS9
+DEVPATH=/devices/platform/serial8250/tty/ttyS9
+MAJOR=4
+MINOR=73
+SEQNUM=1284
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.667740] add      /devices/platform/vesa-framebuffer.0 (platform)
+ACTION=add
+DEVPATH=/devices/platform/vesa-framebuffer.0
+DRIVER=vesa-framebuffer
+MODALIAS=platform:vesa-framebuffer
+SEQNUM=1285
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[4.667772] add      /devices/platform/vesa-framebuffer.0/graphics/fb0 (graphics)
+ACTION=add
+DEVNAME=fb0
+DEVPATH=/devices/platform/vesa-framebuffer.0/graphics/fb0
+MAJOR=29
+MINOR=0
+SEQNUM=1286
+SUBSYSTEM=graphics
+UDEV_LOG=3
+
+KERNEL[4.667804] add      /devices/pnp0/00:00 (pnp)
+ACTION=add
+DEVPATH=/devices/pnp0/00:00
+DRIVER=i8042 kbd
+SEQNUM=1287
+SUBSYSTEM=pnp
+UDEV_LOG=3
+
+KERNEL[4.667832] add      /devices/pnp0/00:01 (pnp)
+ACTION=add
+DEVPATH=/devices/pnp0/00:01
+SEQNUM=1288
+SUBSYSTEM=pnp
+UDEV_LOG=3
+
+KERNEL[4.667860] add      /devices/pnp0/00:02 (pnp)
+ACTION=add
+DEVPATH=/devices/pnp0/00:02
+DRIVER=i8042 aux
+SEQNUM=1289
+SUBSYSTEM=pnp
+UDEV_LOG=3
+
+KERNEL[4.667936] add      /devices/software (event_source)
+ACTION=add
+DEVPATH=/devices/software
+SEQNUM=1290
+SUBSYSTEM=event_source
+UDEV_LOG=3
+
+KERNEL[4.667978] add      /devices/system/clockevents/broadcast (clockevents)
+ACTION=add
+DEVPATH=/devices/system/clockevents/broadcast
+SEQNUM=1291
+SUBSYSTEM=clockevents
+UDEV_LOG=3
+
+KERNEL[4.668019] add      /devices/system/clockevents/clockevent0 (clockevents)
+ACTION=add
+DEVPATH=/devices/system/clockevents/clockevent0
+SEQNUM=1292
+SUBSYSTEM=clockevents
+UDEV_LOG=3
+
+KERNEL[4.668049] add      /devices/system/clocksource/clocksource0 (clocksource)
+ACTION=add
+DEVPATH=/devices/system/clocksource/clocksource0
+SEQNUM=1293
+SUBSYSTEM=clocksource
+UDEV_LOG=3
+
+KERNEL[4.668091] add      /devices/system/cpu/cpu0 (cpu)
+ACTION=add
+DEVPATH=/devices/system/cpu/cpu0
+DRIVER=processor
+MODALIAS=x86cpu:vendor:0000:family:0006:model:002A:feature:,0000,0001,0002,0003,0004,0005,0006,0007,0008,0009,000B,000C,000D,000E,000F,0010,0011,0013,0017,0018,0019,001A,002B,0034,003B,003D,0068,006F,0070,0072,0074,0075,0076,0078,0080,0081,0083,0089,008D,0093,0094,0097,0099,009A,009B,009C,009F,00C0
+
+SEQNUM=1294
+SUBSYSTEM=cpu
+UDEV_LOG=3
+
+KERNEL[4.668132] add      /devices/system/machinecheck/machinecheck0 (machinecheck)
+ACTION=add
+DEVPATH=/devices/system/machinecheck/machinecheck0
+SEQNUM=1295
+SUBSYSTEM=machinecheck
+UDEV_LOG=3
+
+KERNEL[4.668161] add      /devices/system/memory/memory0 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory0
+SEQNUM=1296
+SUBSYSTEM=memory
+UDEV_LOG=3
+
+KERNEL[4.668190] add      /devices/system/memory/memory1 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory1
+SEQNUM=1297
+SUBSYSTEM=memory
+UDEV_LOG=3
+
+KERNEL[4.668218] add      /devices/system/memory/memory2 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory2
+SEQNUM=1298
+SUBSYSTEM=memory
+UDEV_LOG=3
+
+KERNEL[4.668244] add      /devices/system/memory/memory3 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory3
+SEQNUM=1299
+SUBSYSTEM=memory
+UDEV_LOG=3
+
+KERNEL[4.668274] add      /devices/system/memory/memory4 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory4
+SEQNUM=1300
+SUBSYSTEM=memory
+UDEV_LOG=3
+
+KERNEL[4.668301] add      /devices/system/memory/memory5 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory5
+SEQNUM=1301
+SUBSYSTEM=memory
+UDEV_LOG=3
+
+KERNEL[4.668417] add      /devices/system/memory/memory6 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory6
+SEQNUM=1302
+SUBSYSTEM=memory
+UDEV_LOG=3
+
+KERNEL[4.668621] add      /devices/system/memory/memory7 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory7
+SEQNUM=1303
+SUBSYSTEM=memory
+UDEV_LOG=3
+
+KERNEL[4.668653] add      /devices/system/node/node0 (node)
+ACTION=add
+DEVPATH=/devices/system/node/node0
+SEQNUM=1304
+SUBSYSTEM=node
+UDEV_LOG=3
+
+KERNEL[4.668682] add      /devices/tracepoint (event_source)
+ACTION=add
+DEVPATH=/devices/tracepoint
+SEQNUM=1305
+SUBSYSTEM=event_source
+UDEV_LOG=3
+
+KERNEL[4.668714] add      /devices/virtual/bdi/11:0 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/11:0
+SEQNUM=1306
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.668743] add      /devices/virtual/bdi/1:0 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:0
+SEQNUM=1307
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.668773] add      /devices/virtual/bdi/1:1 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:1
+SEQNUM=1308
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.668801] add      /devices/virtual/bdi/1:10 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:10
+SEQNUM=1309
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.668830] add      /devices/virtual/bdi/1:11 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:11
+SEQNUM=1310
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.668857] add      /devices/virtual/bdi/1:12 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:12
+SEQNUM=1311
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.668884] add      /devices/virtual/bdi/1:13 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:13
+SEQNUM=1312
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.668912] add      /devices/virtual/bdi/1:14 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:14
+SEQNUM=1313
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.668939] add      /devices/virtual/bdi/1:15 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:15
+SEQNUM=1314
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.668967] add      /devices/virtual/bdi/1:2 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:2
+SEQNUM=1315
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.668997] add      /devices/virtual/bdi/1:3 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:3
+SEQNUM=1316
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669025] add      /devices/virtual/bdi/1:4 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:4
+SEQNUM=1317
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669053] add      /devices/virtual/bdi/1:5 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:5
+SEQNUM=1318
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669081] add      /devices/virtual/bdi/1:6 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:6
+SEQNUM=1319
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669108] add      /devices/virtual/bdi/1:7 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:7
+SEQNUM=1320
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669146] add      /devices/virtual/bdi/1:8 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:8
+SEQNUM=1321
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669173] add      /devices/virtual/bdi/1:9 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:9
+SEQNUM=1322
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669201] add      /devices/virtual/bdi/7:0 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:0
+SEQNUM=1323
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669230] add      /devices/virtual/bdi/7:1 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:1
+SEQNUM=1324
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669258] add      /devices/virtual/bdi/7:2 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:2
+SEQNUM=1325
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669286] add      /devices/virtual/bdi/7:3 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:3
+SEQNUM=1326
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669336] add      /devices/virtual/bdi/7:4 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:4
+SEQNUM=1327
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669368] add      /devices/virtual/bdi/7:5 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:5
+SEQNUM=1328
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669395] add      /devices/virtual/bdi/7:6 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:6
+SEQNUM=1329
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669433] add      /devices/virtual/bdi/7:7 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:7
+SEQNUM=1330
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669464] add      /devices/virtual/bdi/8:0 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/8:0
+SEQNUM=1331
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669503] add      /devices/virtual/bdi/default (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/default
+SEQNUM=1332
+SUBSYSTEM=bdi
+UDEV_LOG=3
+
+KERNEL[4.669536] add      /devices/virtual/block/loop0 (block)
+ACTION=add
+DEVNAME=loop0
+DEVPATH=/devices/virtual/block/loop0
+DEVTYPE=disk
+MAJOR=7
+MINOR=0
+SEQNUM=1333
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669568] add      /devices/virtual/block/loop1 (block)
+ACTION=add
+DEVNAME=loop1
+DEVPATH=/devices/virtual/block/loop1
+DEVTYPE=disk
+MAJOR=7
+MINOR=1
+SEQNUM=1334
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669599] add      /devices/virtual/block/loop2 (block)
+ACTION=add
+DEVNAME=loop2
+DEVPATH=/devices/virtual/block/loop2
+DEVTYPE=disk
+MAJOR=7
+MINOR=2
+SEQNUM=1335
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669631] add      /devices/virtual/block/loop3 (block)
+ACTION=add
+DEVNAME=loop3
+DEVPATH=/devices/virtual/block/loop3
+DEVTYPE=disk
+MAJOR=7
+MINOR=3
+SEQNUM=1336
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669663] add      /devices/virtual/block/loop4 (block)
+ACTION=add
+DEVNAME=loop4
+DEVPATH=/devices/virtual/block/loop4
+DEVTYPE=disk
+MAJOR=7
+MINOR=4
+SEQNUM=1337
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669693] add      /devices/virtual/block/loop5 (block)
+ACTION=add
+DEVNAME=loop5
+DEVPATH=/devices/virtual/block/loop5
+DEVTYPE=disk
+MAJOR=7
+MINOR=5
+SEQNUM=1338
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669725] add      /devices/virtual/block/loop6 (block)
+ACTION=add
+DEVNAME=loop6
+DEVPATH=/devices/virtual/block/loop6
+DEVTYPE=disk
+MAJOR=7
+MINOR=6
+SEQNUM=1339
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669756] add      /devices/virtual/block/loop7 (block)
+ACTION=add
+DEVNAME=loop7
+DEVPATH=/devices/virtual/block/loop7
+DEVTYPE=disk
+MAJOR=7
+MINOR=7
+SEQNUM=1340
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669790] add      /devices/virtual/block/ram0 (block)
+ACTION=add
+DEVNAME=ram0
+DEVPATH=/devices/virtual/block/ram0
+DEVTYPE=disk
+MAJOR=1
+MINOR=0
+SEQNUM=1341
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669820] add      /devices/virtual/block/ram1 (block)
+ACTION=add
+DEVNAME=ram1
+DEVPATH=/devices/virtual/block/ram1
+DEVTYPE=disk
+MAJOR=1
+MINOR=1
+SEQNUM=1342
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669851] add      /devices/virtual/block/ram10 (block)
+ACTION=add
+DEVNAME=ram10
+DEVPATH=/devices/virtual/block/ram10
+DEVTYPE=disk
+MAJOR=1
+MINOR=10
+SEQNUM=1343
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669882] add      /devices/virtual/block/ram11 (block)
+ACTION=add
+DEVNAME=ram11
+DEVPATH=/devices/virtual/block/ram11
+DEVTYPE=disk
+MAJOR=1
+MINOR=11
+SEQNUM=1344
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669913] add      /devices/virtual/block/ram12 (block)
+ACTION=add
+DEVNAME=ram12
+DEVPATH=/devices/virtual/block/ram12
+DEVTYPE=disk
+MAJOR=1
+MINOR=12
+SEQNUM=1345
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669951] add      /devices/virtual/block/ram13 (block)
+ACTION=add
+DEVNAME=ram13
+DEVPATH=/devices/virtual/block/ram13
+DEVTYPE=disk
+MAJOR=1
+MINOR=13
+SEQNUM=1346
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.669982] add      /devices/virtual/block/ram14 (block)
+ACTION=add
+DEVNAME=ram14
+DEVPATH=/devices/virtual/block/ram14
+DEVTYPE=disk
+MAJOR=1
+MINOR=14
+SEQNUM=1347
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.670015] add      /devices/virtual/block/ram15 (block)
+ACTION=add
+DEVNAME=ram15
+DEVPATH=/devices/virtual/block/ram15
+DEVTYPE=disk
+MAJOR=1
+MINOR=15
+SEQNUM=1348
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.670045] add      /devices/virtual/block/ram2 (block)
+ACTION=add
+DEVNAME=ram2
+DEVPATH=/devices/virtual/block/ram2
+DEVTYPE=disk
+MAJOR=1
+MINOR=2
+SEQNUM=1349
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.670075] add      /devices/virtual/block/ram3 (block)
+ACTION=add
+DEVNAME=ram3
+DEVPATH=/devices/virtual/block/ram3
+DEVTYPE=disk
+MAJOR=1
+MINOR=3
+SEQNUM=1350
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.670107] add      /devices/virtual/block/ram4 (block)
+ACTION=add
+DEVNAME=ram4
+DEVPATH=/devices/virtual/block/ram4
+DEVTYPE=disk
+MAJOR=1
+MINOR=4
+SEQNUM=1351
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.670137] add      /devices/virtual/block/ram5 (block)
+ACTION=add
+DEVNAME=ram5
+DEVPATH=/devices/virtual/block/ram5
+DEVTYPE=disk
+MAJOR=1
+MINOR=5
+SEQNUM=1352
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.670167] add      /devices/virtual/block/ram6 (block)
+ACTION=add
+DEVNAME=ram6
+DEVPATH=/devices/virtual/block/ram6
+DEVTYPE=disk
+MAJOR=1
+MINOR=6
+SEQNUM=1353
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.670197] add      /devices/virtual/block/ram7 (block)
+ACTION=add
+DEVNAME=ram7
+DEVPATH=/devices/virtual/block/ram7
+DEVTYPE=disk
+MAJOR=1
+MINOR=7
+SEQNUM=1354
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.670227] add      /devices/virtual/block/ram8 (block)
+ACTION=add
+DEVNAME=ram8
+DEVPATH=/devices/virtual/block/ram8
+DEVTYPE=disk
+MAJOR=1
+MINOR=8
+SEQNUM=1355
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.670258] add      /devices/virtual/block/ram9 (block)
+ACTION=add
+DEVNAME=ram9
+DEVPATH=/devices/virtual/block/ram9
+DEVTYPE=disk
+MAJOR=1
+MINOR=9
+SEQNUM=1356
+SUBSYSTEM=block
+UDEV_LOG=3
+
+KERNEL[4.670325] add      /devices/virtual/dmi/id (dmi)
+ACTION=add
+DEVPATH=/devices/virtual/dmi/id
+MODALIAS=dmi:bvninnotekGmbH:bvrVirtualBox:bd12/01/2006:svninnotekGmbH:pnVirtualBox:pvr1.2:rvnOracleCorporation:rnVirtualBox:rvr1.2:cvnOracleCorporation:ct1:cvr:
+SEQNUM=1357
+SUBSYSTEM=dmi
+UDEV_LOG=3
+
+KERNEL[4.670368] add      /devices/virtual/graphics/fbcon (graphics)
+ACTION=add
+DEVPATH=/devices/virtual/graphics/fbcon
+SEQNUM=1358
+SUBSYSTEM=graphics
+UDEV_LOG=3
+
+KERNEL[4.670960] add      /devices/virtual/input/mice (input)
+ACTION=add
+DEVNAME=input/mice
+DEVPATH=/devices/virtual/input/mice
+MAJOR=13
+MINOR=63
+SEQNUM=1359
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[4.670998] add      /devices/virtual/mem/full (mem)
+ACTION=add
+DEVMODE=0666
+DEVNAME=full
+DEVPATH=/devices/virtual/mem/full
+MAJOR=1
+MINOR=7
+SEQNUM=1360
+SUBSYSTEM=mem
+UDEV_LOG=3
+
+KERNEL[4.671030] add      /devices/virtual/mem/kmsg (mem)
+ACTION=add
+DEVMODE=0644
+DEVNAME=kmsg
+DEVPATH=/devices/virtual/mem/kmsg
+MAJOR=1
+MINOR=11
+SEQNUM=1361
+SUBSYSTEM=mem
+UDEV_LOG=3
+
+KERNEL[4.671061] add      /devices/virtual/mem/mem (mem)
+ACTION=add
+DEVNAME=mem
+DEVPATH=/devices/virtual/mem/mem
+MAJOR=1
+MINOR=1
+SEQNUM=1362
+SUBSYSTEM=mem
+UDEV_LOG=3
+
+KERNEL[4.671092] add      /devices/virtual/mem/null (mem)
+ACTION=add
+DEVMODE=0666
+DEVNAME=null
+DEVPATH=/devices/virtual/mem/null
+MAJOR=1
+MINOR=3
+SEQNUM=1363
+SUBSYSTEM=mem
+UDEV_LOG=3
+
+KERNEL[4.671122] add      /devices/virtual/mem/port (mem)
+ACTION=add
+DEVNAME=port
+DEVPATH=/devices/virtual/mem/port
+MAJOR=1
+MINOR=4
+SEQNUM=1364
+SUBSYSTEM=mem
+UDEV_LOG=3
+
+KERNEL[4.671154] add      /devices/virtual/mem/random (mem)
+ACTION=add
+DEVMODE=0666
+DEVNAME=random
+DEVPATH=/devices/virtual/mem/random
+MAJOR=1
+MINOR=8
+SEQNUM=1365
+SUBSYSTEM=mem
+UDEV_LOG=3
+
+KERNEL[4.671186] add      /devices/virtual/mem/urandom (mem)
+ACTION=add
+DEVMODE=0666
+DEVNAME=urandom
+DEVPATH=/devices/virtual/mem/urandom
+MAJOR=1
+MINOR=9
+SEQNUM=1366
+SUBSYSTEM=mem
+UDEV_LOG=3
+
+KERNEL[4.671226] add      /devices/virtual/mem/zero (mem)
+ACTION=add
+DEVMODE=0666
+DEVNAME=zero
+DEVPATH=/devices/virtual/mem/zero
+MAJOR=1
+MINOR=5
+SEQNUM=1367
+SUBSYSTEM=mem
+UDEV_LOG=3
+
+KERNEL[4.671280] add      /devices/virtual/misc/cpu_dma_latency (misc)
+ACTION=add
+DEVNAME=cpu_dma_latency
+DEVPATH=/devices/virtual/misc/cpu_dma_latency
+MAJOR=10
+MINOR=60
+SEQNUM=1368
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671321] add      /devices/virtual/misc/device-mapper (misc)
+ACTION=add
+DEVNAME=mapper/control
+DEVPATH=/devices/virtual/misc/device-mapper
+MAJOR=10
+MINOR=236
+SEQNUM=1369
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671352] add      /devices/virtual/misc/ecryptfs (misc)
+ACTION=add
+DEVNAME=ecryptfs
+DEVPATH=/devices/virtual/misc/ecryptfs
+MAJOR=10
+MINOR=61
+SEQNUM=1370
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671384] add      /devices/virtual/misc/fuse (misc)
+ACTION=add
+DEVNAME=fuse
+DEVPATH=/devices/virtual/misc/fuse
+MAJOR=10
+MINOR=229
+SEQNUM=1371
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671417] add      /devices/virtual/misc/hpet (misc)
+ACTION=add
+DEVNAME=hpet
+DEVPATH=/devices/virtual/misc/hpet
+MAJOR=10
+MINOR=228
+SEQNUM=1372
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671449] add      /devices/virtual/misc/loop-control (misc)
+ACTION=add
+DEVNAME=loop-control
+DEVPATH=/devices/virtual/misc/loop-control
+MAJOR=10
+MINOR=237
+SEQNUM=1373
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671480] add      /devices/virtual/misc/mcelog (misc)
+ACTION=add
+DEVNAME=mcelog
+DEVPATH=/devices/virtual/misc/mcelog
+MAJOR=10
+MINOR=227
+SEQNUM=1374
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671513] add      /devices/virtual/misc/microcode (misc)
+ACTION=add
+DEVNAME=cpu/microcode
+DEVPATH=/devices/virtual/misc/microcode
+MAJOR=10
+MINOR=184
+SEQNUM=1375
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671544] add      /devices/virtual/misc/network_latency (misc)
+ACTION=add
+DEVNAME=network_latency
+DEVPATH=/devices/virtual/misc/network_latency
+MAJOR=10
+MINOR=59
+SEQNUM=1376
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671575] add      /devices/virtual/misc/network_throughput (misc)
+ACTION=add
+DEVNAME=network_throughput
+DEVPATH=/devices/virtual/misc/network_throughput
+MAJOR=10
+MINOR=58
+SEQNUM=1377
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671606] add      /devices/virtual/misc/psaux (misc)
+ACTION=add
+DEVNAME=psaux
+DEVPATH=/devices/virtual/misc/psaux
+MAJOR=10
+MINOR=1
+SEQNUM=1378
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671636] add      /devices/virtual/misc/rfkill (misc)
+ACTION=add
+DEVNAME=rfkill
+DEVPATH=/devices/virtual/misc/rfkill
+MAJOR=10
+MINOR=62
+SEQNUM=1379
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671669] add      /devices/virtual/misc/snapshot (misc)
+ACTION=add
+DEVNAME=snapshot
+DEVPATH=/devices/virtual/misc/snapshot
+MAJOR=10
+MINOR=231
+SEQNUM=1380
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671700] add      /devices/virtual/misc/tun (misc)
+ACTION=add
+DEVNAME=net/tun
+DEVPATH=/devices/virtual/misc/tun
+MAJOR=10
+MINOR=200
+SEQNUM=1381
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671731] add      /devices/virtual/misc/uinput (misc)
+ACTION=add
+DEVNAME=uinput
+DEVPATH=/devices/virtual/misc/uinput
+MAJOR=10
+MINOR=223
+SEQNUM=1382
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671764] add      /devices/virtual/misc/vga_arbiter (misc)
+ACTION=add
+DEVNAME=vga_arbiter
+DEVPATH=/devices/virtual/misc/vga_arbiter
+MAJOR=10
+MINOR=63
+SEQNUM=1383
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[4.671842] add      /devices/virtual/net/lo (net)
+ACTION=add
+DEVPATH=/devices/virtual/net/lo
+IFINDEX=1
+INTERFACE=lo
+SEQNUM=1384
+SUBSYSTEM=net
+UDEV_LOG=3
+
+KERNEL[4.671874] add      /devices/virtual/ppp/ppp (ppp)
+ACTION=add
+DEVNAME=ppp
+DEVPATH=/devices/virtual/ppp/ppp
+MAJOR=108
+MINOR=0
+SEQNUM=1385
+SUBSYSTEM=ppp
+UDEV_LOG=3
+
+KERNEL[4.671904] add      /devices/virtual/thermal/cooling_device0 (thermal)
+ACTION=add
+DEVPATH=/devices/virtual/thermal/cooling_device0
+SEQNUM=1386
+SUBSYSTEM=thermal
+UDEV_LOG=3
+
+KERNEL[4.671936] add      /devices/virtual/tty/console (tty)
+ACTION=add
+DEVNAME=console
+DEVPATH=/devices/virtual/tty/console
+MAJOR=5
+MINOR=1
+SEQNUM=1387
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.671969] add      /devices/virtual/tty/ptmx (tty)
+ACTION=add
+DEVMODE=0666
+DEVNAME=ptmx
+DEVPATH=/devices/virtual/tty/ptmx
+MAJOR=5
+MINOR=2
+SEQNUM=1388
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672008] add      /devices/virtual/tty/tty (tty)
+ACTION=add
+DEVMODE=0666
+DEVNAME=tty
+DEVPATH=/devices/virtual/tty/tty
+MAJOR=5
+MINOR=0
+SEQNUM=1389
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672039] add      /devices/virtual/tty/tty0 (tty)
+ACTION=add
+DEVNAME=tty0
+DEVPATH=/devices/virtual/tty/tty0
+MAJOR=4
+MINOR=0
+SEQNUM=1390
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672070] add      /devices/virtual/tty/tty1 (tty)
+ACTION=add
+DEVNAME=tty1
+DEVPATH=/devices/virtual/tty/tty1
+MAJOR=4
+MINOR=1
+SEQNUM=1391
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672102] add      /devices/virtual/tty/tty10 (tty)
+ACTION=add
+DEVNAME=tty10
+DEVPATH=/devices/virtual/tty/tty10
+MAJOR=4
+MINOR=10
+SEQNUM=1392
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672132] add      /devices/virtual/tty/tty11 (tty)
+ACTION=add
+DEVNAME=tty11
+DEVPATH=/devices/virtual/tty/tty11
+MAJOR=4
+MINOR=11
+SEQNUM=1393
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672161] add      /devices/virtual/tty/tty12 (tty)
+ACTION=add
+DEVNAME=tty12
+DEVPATH=/devices/virtual/tty/tty12
+MAJOR=4
+MINOR=12
+SEQNUM=1394
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672191] add      /devices/virtual/tty/tty13 (tty)
+ACTION=add
+DEVNAME=tty13
+DEVPATH=/devices/virtual/tty/tty13
+MAJOR=4
+MINOR=13
+SEQNUM=1395
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672227] add      /devices/virtual/tty/tty14 (tty)
+ACTION=add
+DEVNAME=tty14
+DEVPATH=/devices/virtual/tty/tty14
+MAJOR=4
+MINOR=14
+SEQNUM=1396
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672417] add      /devices/virtual/tty/tty15 (tty)
+ACTION=add
+DEVNAME=tty15
+DEVPATH=/devices/virtual/tty/tty15
+MAJOR=4
+MINOR=15
+SEQNUM=1397
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672452] add      /devices/virtual/tty/tty16 (tty)
+ACTION=add
+DEVNAME=tty16
+DEVPATH=/devices/virtual/tty/tty16
+MAJOR=4
+MINOR=16
+SEQNUM=1398
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672487] add      /devices/virtual/tty/tty17 (tty)
+ACTION=add
+DEVNAME=tty17
+DEVPATH=/devices/virtual/tty/tty17
+MAJOR=4
+MINOR=17
+SEQNUM=1399
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672520] add      /devices/virtual/tty/tty18 (tty)
+ACTION=add
+DEVNAME=tty18
+DEVPATH=/devices/virtual/tty/tty18
+MAJOR=4
+MINOR=18
+SEQNUM=1400
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672551] add      /devices/virtual/tty/tty19 (tty)
+ACTION=add
+DEVNAME=tty19
+DEVPATH=/devices/virtual/tty/tty19
+MAJOR=4
+MINOR=19
+SEQNUM=1401
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672585] add      /devices/virtual/tty/tty2 (tty)
+ACTION=add
+DEVNAME=tty2
+DEVPATH=/devices/virtual/tty/tty2
+MAJOR=4
+MINOR=2
+SEQNUM=1402
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672619] add      /devices/virtual/tty/tty20 (tty)
+ACTION=add
+DEVNAME=tty20
+DEVPATH=/devices/virtual/tty/tty20
+MAJOR=4
+MINOR=20
+SEQNUM=1403
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672650] add      /devices/virtual/tty/tty21 (tty)
+ACTION=add
+DEVNAME=tty21
+DEVPATH=/devices/virtual/tty/tty21
+MAJOR=4
+MINOR=21
+SEQNUM=1404
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672683] add      /devices/virtual/tty/tty22 (tty)
+ACTION=add
+DEVNAME=tty22
+DEVPATH=/devices/virtual/tty/tty22
+MAJOR=4
+MINOR=22
+SEQNUM=1405
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672714] add      /devices/virtual/tty/tty23 (tty)
+ACTION=add
+DEVNAME=tty23
+DEVPATH=/devices/virtual/tty/tty23
+MAJOR=4
+MINOR=23
+SEQNUM=1406
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672747] add      /devices/virtual/tty/tty24 (tty)
+ACTION=add
+DEVNAME=tty24
+DEVPATH=/devices/virtual/tty/tty24
+MAJOR=4
+MINOR=24
+SEQNUM=1407
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672781] add      /devices/virtual/tty/tty25 (tty)
+ACTION=add
+DEVNAME=tty25
+DEVPATH=/devices/virtual/tty/tty25
+MAJOR=4
+MINOR=25
+SEQNUM=1408
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672813] add      /devices/virtual/tty/tty26 (tty)
+ACTION=add
+DEVNAME=tty26
+DEVPATH=/devices/virtual/tty/tty26
+MAJOR=4
+MINOR=26
+SEQNUM=1409
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672847] add      /devices/virtual/tty/tty27 (tty)
+ACTION=add
+DEVNAME=tty27
+DEVPATH=/devices/virtual/tty/tty27
+MAJOR=4
+MINOR=27
+SEQNUM=1410
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672880] add      /devices/virtual/tty/tty28 (tty)
+ACTION=add
+DEVNAME=tty28
+DEVPATH=/devices/virtual/tty/tty28
+MAJOR=4
+MINOR=28
+SEQNUM=1411
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672913] add      /devices/virtual/tty/tty29 (tty)
+ACTION=add
+DEVNAME=tty29
+DEVPATH=/devices/virtual/tty/tty29
+MAJOR=4
+MINOR=29
+SEQNUM=1412
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672958] add      /devices/virtual/tty/tty3 (tty)
+ACTION=add
+DEVNAME=tty3
+DEVPATH=/devices/virtual/tty/tty3
+MAJOR=4
+MINOR=3
+SEQNUM=1413
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.672993] add      /devices/virtual/tty/tty30 (tty)
+ACTION=add
+DEVNAME=tty30
+DEVPATH=/devices/virtual/tty/tty30
+MAJOR=4
+MINOR=30
+SEQNUM=1414
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673027] add      /devices/virtual/tty/tty31 (tty)
+ACTION=add
+DEVNAME=tty31
+DEVPATH=/devices/virtual/tty/tty31
+MAJOR=4
+MINOR=31
+SEQNUM=1415
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673059] add      /devices/virtual/tty/tty32 (tty)
+ACTION=add
+DEVNAME=tty32
+DEVPATH=/devices/virtual/tty/tty32
+MAJOR=4
+MINOR=32
+SEQNUM=1416
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673090] add      /devices/virtual/tty/tty33 (tty)
+ACTION=add
+DEVNAME=tty33
+DEVPATH=/devices/virtual/tty/tty33
+MAJOR=4
+MINOR=33
+SEQNUM=1417
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673122] add      /devices/virtual/tty/tty34 (tty)
+ACTION=add
+DEVNAME=tty34
+DEVPATH=/devices/virtual/tty/tty34
+MAJOR=4
+MINOR=34
+SEQNUM=1418
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673153] add      /devices/virtual/tty/tty35 (tty)
+ACTION=add
+DEVNAME=tty35
+DEVPATH=/devices/virtual/tty/tty35
+MAJOR=4
+MINOR=35
+SEQNUM=1419
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673185] add      /devices/virtual/tty/tty36 (tty)
+ACTION=add
+DEVNAME=tty36
+DEVPATH=/devices/virtual/tty/tty36
+MAJOR=4
+MINOR=36
+SEQNUM=1420
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673239] add      /devices/virtual/tty/tty37 (tty)
+ACTION=add
+DEVNAME=tty37
+DEVPATH=/devices/virtual/tty/tty37
+MAJOR=4
+MINOR=37
+SEQNUM=1421
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673280] add      /devices/virtual/tty/tty38 (tty)
+ACTION=add
+DEVNAME=tty38
+DEVPATH=/devices/virtual/tty/tty38
+MAJOR=4
+MINOR=38
+SEQNUM=1422
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673316] add      /devices/virtual/tty/tty39 (tty)
+ACTION=add
+DEVNAME=tty39
+DEVPATH=/devices/virtual/tty/tty39
+MAJOR=4
+MINOR=39
+SEQNUM=1423
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673348] add      /devices/virtual/tty/tty4 (tty)
+ACTION=add
+DEVNAME=tty4
+DEVPATH=/devices/virtual/tty/tty4
+MAJOR=4
+MINOR=4
+SEQNUM=1424
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673379] add      /devices/virtual/tty/tty40 (tty)
+ACTION=add
+DEVNAME=tty40
+DEVPATH=/devices/virtual/tty/tty40
+MAJOR=4
+MINOR=40
+SEQNUM=1425
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673412] add      /devices/virtual/tty/tty41 (tty)
+ACTION=add
+DEVNAME=tty41
+DEVPATH=/devices/virtual/tty/tty41
+MAJOR=4
+MINOR=41
+SEQNUM=1426
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673444] add      /devices/virtual/tty/tty42 (tty)
+ACTION=add
+DEVNAME=tty42
+DEVPATH=/devices/virtual/tty/tty42
+MAJOR=4
+MINOR=42
+SEQNUM=1427
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673476] add      /devices/virtual/tty/tty43 (tty)
+ACTION=add
+DEVNAME=tty43
+DEVPATH=/devices/virtual/tty/tty43
+MAJOR=4
+MINOR=43
+SEQNUM=1428
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673507] add      /devices/virtual/tty/tty44 (tty)
+ACTION=add
+DEVNAME=tty44
+DEVPATH=/devices/virtual/tty/tty44
+MAJOR=4
+MINOR=44
+SEQNUM=1429
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673539] add      /devices/virtual/tty/tty45 (tty)
+ACTION=add
+DEVNAME=tty45
+DEVPATH=/devices/virtual/tty/tty45
+MAJOR=4
+MINOR=45
+SEQNUM=1430
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673572] add      /devices/virtual/tty/tty46 (tty)
+ACTION=add
+DEVNAME=tty46
+DEVPATH=/devices/virtual/tty/tty46
+MAJOR=4
+MINOR=46
+SEQNUM=1431
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673603] add      /devices/virtual/tty/tty47 (tty)
+ACTION=add
+DEVNAME=tty47
+DEVPATH=/devices/virtual/tty/tty47
+MAJOR=4
+MINOR=47
+SEQNUM=1432
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673635] add      /devices/virtual/tty/tty48 (tty)
+ACTION=add
+DEVNAME=tty48
+DEVPATH=/devices/virtual/tty/tty48
+MAJOR=4
+MINOR=48
+SEQNUM=1433
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673668] add      /devices/virtual/tty/tty49 (tty)
+ACTION=add
+DEVNAME=tty49
+DEVPATH=/devices/virtual/tty/tty49
+MAJOR=4
+MINOR=49
+SEQNUM=1434
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673699] add      /devices/virtual/tty/tty5 (tty)
+ACTION=add
+DEVNAME=tty5
+DEVPATH=/devices/virtual/tty/tty5
+MAJOR=4
+MINOR=5
+SEQNUM=1435
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673747] add      /devices/virtual/tty/tty50 (tty)
+ACTION=add
+DEVNAME=tty50
+DEVPATH=/devices/virtual/tty/tty50
+MAJOR=4
+MINOR=50
+SEQNUM=1436
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673779] add      /devices/virtual/tty/tty51 (tty)
+ACTION=add
+DEVNAME=tty51
+DEVPATH=/devices/virtual/tty/tty51
+MAJOR=4
+MINOR=51
+SEQNUM=1437
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673809] add      /devices/virtual/tty/tty52 (tty)
+ACTION=add
+DEVNAME=tty52
+DEVPATH=/devices/virtual/tty/tty52
+MAJOR=4
+MINOR=52
+SEQNUM=1438
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673841] add      /devices/virtual/tty/tty53 (tty)
+ACTION=add
+DEVNAME=tty53
+DEVPATH=/devices/virtual/tty/tty53
+MAJOR=4
+MINOR=53
+SEQNUM=1439
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673871] add      /devices/virtual/tty/tty54 (tty)
+ACTION=add
+DEVNAME=tty54
+DEVPATH=/devices/virtual/tty/tty54
+MAJOR=4
+MINOR=54
+SEQNUM=1440
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673900] add      /devices/virtual/tty/tty55 (tty)
+ACTION=add
+DEVNAME=tty55
+DEVPATH=/devices/virtual/tty/tty55
+MAJOR=4
+MINOR=55
+SEQNUM=1441
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673929] add      /devices/virtual/tty/tty56 (tty)
+ACTION=add
+DEVNAME=tty56
+DEVPATH=/devices/virtual/tty/tty56
+MAJOR=4
+MINOR=56
+SEQNUM=1442
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673958] add      /devices/virtual/tty/tty57 (tty)
+ACTION=add
+DEVNAME=tty57
+DEVPATH=/devices/virtual/tty/tty57
+MAJOR=4
+MINOR=57
+SEQNUM=1443
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.673988] add      /devices/virtual/tty/tty58 (tty)
+ACTION=add
+DEVNAME=tty58
+DEVPATH=/devices/virtual/tty/tty58
+MAJOR=4
+MINOR=58
+SEQNUM=1444
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674020] add      /devices/virtual/tty/tty59 (tty)
+ACTION=add
+DEVNAME=tty59
+DEVPATH=/devices/virtual/tty/tty59
+MAJOR=4
+MINOR=59
+SEQNUM=1445
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674050] add      /devices/virtual/tty/tty6 (tty)
+ACTION=add
+DEVNAME=tty6
+DEVPATH=/devices/virtual/tty/tty6
+MAJOR=4
+MINOR=6
+SEQNUM=1446
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674081] add      /devices/virtual/tty/tty60 (tty)
+ACTION=add
+DEVNAME=tty60
+DEVPATH=/devices/virtual/tty/tty60
+MAJOR=4
+MINOR=60
+SEQNUM=1447
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674111] add      /devices/virtual/tty/tty61 (tty)
+ACTION=add
+DEVNAME=tty61
+DEVPATH=/devices/virtual/tty/tty61
+MAJOR=4
+MINOR=61
+SEQNUM=1448
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674141] add      /devices/virtual/tty/tty62 (tty)
+ACTION=add
+DEVNAME=tty62
+DEVPATH=/devices/virtual/tty/tty62
+MAJOR=4
+MINOR=62
+SEQNUM=1449
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674171] add      /devices/virtual/tty/tty63 (tty)
+ACTION=add
+DEVNAME=tty63
+DEVPATH=/devices/virtual/tty/tty63
+MAJOR=4
+MINOR=63
+SEQNUM=1450
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674222] add      /devices/virtual/tty/tty7 (tty)
+ACTION=add
+DEVNAME=tty7
+DEVPATH=/devices/virtual/tty/tty7
+MAJOR=4
+MINOR=7
+SEQNUM=1451
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674256] add      /devices/virtual/tty/tty8 (tty)
+ACTION=add
+DEVNAME=tty8
+DEVPATH=/devices/virtual/tty/tty8
+MAJOR=4
+MINOR=8
+SEQNUM=1452
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674287] add      /devices/virtual/tty/tty9 (tty)
+ACTION=add
+DEVNAME=tty9
+DEVPATH=/devices/virtual/tty/tty9
+MAJOR=4
+MINOR=9
+SEQNUM=1453
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674319] add      /devices/virtual/tty/ttyprintk (tty)
+ACTION=add
+DEVNAME=ttyprintk
+DEVPATH=/devices/virtual/tty/ttyprintk
+MAJOR=5
+MINOR=3
+SEQNUM=1454
+SUBSYSTEM=tty
+UDEV_LOG=3
+
+KERNEL[4.674352] add      /devices/virtual/vc/vcs (vc)
+ACTION=add
+DEVNAME=vcs
+DEVPATH=/devices/virtual/vc/vcs
+MAJOR=7
+MINOR=0
+SEQNUM=1455
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+KERNEL[4.674384] add      /devices/virtual/vc/vcs1 (vc)
+ACTION=add
+DEVNAME=vcs1
+DEVPATH=/devices/virtual/vc/vcs1
+MAJOR=7
+MINOR=1
+SEQNUM=1456
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+KERNEL[4.674422] add      /devices/virtual/vc/vcs7 (vc)
+ACTION=add
+DEVNAME=vcs7
+DEVPATH=/devices/virtual/vc/vcs7
+MAJOR=7
+MINOR=7
+SEQNUM=1457
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+KERNEL[4.674457] add      /devices/virtual/vc/vcsa (vc)
+ACTION=add
+DEVNAME=vcsa
+DEVPATH=/devices/virtual/vc/vcsa
+MAJOR=7
+MINOR=128
+SEQNUM=1458
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+KERNEL[4.674490] add      /devices/virtual/vc/vcsa1 (vc)
+ACTION=add
+DEVNAME=vcsa1
+DEVPATH=/devices/virtual/vc/vcsa1
+MAJOR=7
+MINOR=129
+SEQNUM=1459
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+KERNEL[4.674530] add      /devices/virtual/vc/vcsa7 (vc)
+ACTION=add
+DEVNAME=vcsa7
+DEVPATH=/devices/virtual/vc/vcsa7
+MAJOR=7
+MINOR=135
+SEQNUM=1460
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+KERNEL[4.674566] add      /devices/virtual/vtconsole/vtcon0 (vtconsole)
+ACTION=add
+DEVPATH=/devices/virtual/vtconsole/vtcon0
+SEQNUM=1461
+SUBSYSTEM=vtconsole
+UDEV_LOG=3
+
+KERNEL[4.674605] add      /devices/virtual/vtconsole/vtcon1 (vtconsole)
+ACTION=add
+DEVPATH=/devices/virtual/vtconsole/vtcon1
+SEQNUM=1462
+SUBSYSTEM=vtconsole
+UDEV_LOG=3
+
+KERNEL[4.885997] add      /module/parport (module)
+ACTION=add
+DEVPATH=/module/parport
+SEQNUM=1463
+SUBSYSTEM=module
+UDEV_LOG=3
+
+KERNEL[4.937258] add      /module/lp (module)
+ACTION=add
+DEVPATH=/module/lp
+SEQNUM=1464
+SUBSYSTEM=module
+UDEV_LOG=3
+
+KERNEL[4.937463] add      /class/printer (class)
+ACTION=add
+DEVPATH=/class/printer
+SEQNUM=1465
+SUBSYSTEM=class
+UDEV_LOG=3
+
+KERNEL[5.551740] change   /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda1 (block)
+ACTION=change
+DEVNAME=sda1
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda1
+DEVTYPE=partition
+MAJOR=8
+MINOR=1
+SEQNUM=1466
+SUBSYSTEM=block
+UDEV_LOG=3
+
+UDEV  [5.566999] add      /devices/LNXSYSTM:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00
+MODALIAS=acpi:LNXSYSTM:
+SEQNUM=1156
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5550762
+
+UDEV  [5.574535] add      /devices/pci0000:00/0000:00:03.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:03.0
+DRIVER=e1000
+MODALIAS=pci:v00008086d0000100Esv00008086sd0000001Ebc02sc00i00
+PCI_CLASS=20000
+PCI_ID=8086:100E
+PCI_SLOT_NAME=0000:00:03.0
+PCI_SUBSYS_ID=8086:001E
+SEQNUM=1206
+SUBSYSTEM=pci
+UDEV_LOG=3
+USEC_INITIALIZED=5563002
+
+UDEV  [5.597658] add      /devices/pci0000:00/0000:00:06.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:06.0
+DRIVER=ohci-pci
+MODALIAS=pci:v0000106Bd0000003Fsv00000000sd00000000bc0Csc03i10
+PCI_CLASS=C0310
+PCI_ID=106B:003F
+PCI_SLOT_NAME=0000:00:06.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1210
+SUBSYSTEM=pci
+UDEV_LOG=3
+USEC_INITIALIZED=5563703
+
+UDEV  [5.599526] add      /devices/LNXSYSTM:00/LNXCPU:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/LNXCPU:00
+MODALIAS=acpi:LNXCPU:
+SEQNUM=1157
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5581083
+
+UDEV  [5.601862] add      /devices/LNXSYSTM:00/device:03 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:03
+SEQNUM=1182
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5559991
+
+UDEV  [5.602493] add      /devices/LNXSYSTM:00/LNXPWRBN:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/LNXPWRBN:00
+DRIVER=button
+MODALIAS=acpi:LNXPWRBN:
+SEQNUM=1158
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5553136
+
+UDEV  [5.603003] add      /devices/LNXSYSTM:00/LNXSLPBN:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/LNXSLPBN:00
+DRIVER=button
+MODALIAS=acpi:LNXSLPBN:
+SEQNUM=1161
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5553317
+
+UDEV  [5.603491] add      /devices/LNXSYSTM:00/device:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00
+SEQNUM=1164
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5559009
+
+UDEV  [5.608554] add      /devices/breakpoint (event_source)
+ACTION=add
+DEVPATH=/devices/breakpoint
+SEQNUM=1183
+SUBSYSTEM=event_source
+UDEV_LOG=3
+USEC_INITIALIZED=5561351
+
+UDEV  [5.617539] add      /devices/pci0000:00/0000:00:02.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:02.0
+MODALIAS=pci:v000080EEd0000BEEFsv00000000sd00000000bc03sc00i00
+PCI_CLASS=30000
+PCI_ID=80EE:BEEF
+PCI_SLOT_NAME=0000:00:02.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1205
+SUBSYSTEM=pci
+UDEV_LOG=3
+USEC_INITIALIZED=5562806
+
+UDEV  [5.619484] add      /devices/platform/alarmtimer (platform)
+ACTION=add
+DEVPATH=/devices/platform/alarmtimer
+DRIVER=alarmtimer
+MODALIAS=platform:alarmtimer
+SEQNUM=1240
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=5619419
+
+UDEV  [5.620096] add      /devices/platform/i8042 (platform)
+ACTION=add
+DEVPATH=/devices/platform/i8042
+DRIVER=i8042
+MODALIAS=platform:i8042
+SEQNUM=1241
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=5620037
+
+UDEV  [5.629063] add      /devices/pci0000:00/0000:00:01.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.0
+MODALIAS=pci:v00008086d00007000sv00000000sd00000000bc06sc01i00
+PCI_CLASS=60100
+PCI_ID=8086:7000
+PCI_SLOT_NAME=0000:00:01.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1185
+SUBSYSTEM=pci
+UDEV_LOG=3
+USEC_INITIALIZED=5561874
+
+UDEV  [5.629912] add      /devices/pci0000:00/0000:00:00.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:00.0
+MODALIAS=pci:v00008086d00001237sv00000000sd00000000bc06sc00i00
+PCI_CLASS=60000
+PCI_ID=8086:1237
+PCI_SLOT_NAME=0000:00:00.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1184
+SUBSYSTEM=pci
+UDEV_LOG=3
+USEC_INITIALIZED=5561654
+
+UDEV  [5.634768] add      /devices/LNXSYSTM:00/device:00/PNP0C0F:03 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0C0F:03
+MODALIAS=acpi:PNP0C0F:
+SEQNUM=1181
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5618160
+
+UDEV  [5.636898] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00
+MODALIAS=acpi:PNP0A03:
+SEQNUM=1165
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5612852
+
+UDEV  [5.649454] add      /devices/platform/reg-dummy (platform)
+ACTION=add
+DEVPATH=/devices/platform/reg-dummy
+DRIVER=reg-dummy
+MODALIAS=platform:reg-dummy
+SEQNUM=1248
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=5621478
+
+UDEV  [5.650211] add      /devices/platform/rtc_cmos (platform)
+ACTION=add
+DEVPATH=/devices/platform/rtc_cmos
+DRIVER=rtc_cmos
+MODALIAS=platform:rtc_cmos
+SEQNUM=1250
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=5621664
+
+UDEV  [5.651154] add      /devices/pci0000:00/0000:00:06.0/usb1 (usb)
+ACTION=add
+BUSNUM=001
+DEVNAME=/dev/bus/usb/001/001
+DEVNUM=001
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1
+DEVTYPE=usb_device
+DRIVER=usb
+ID_BUS=usb
+ID_MODEL=OHCI_PCI_host_controller
+ID_MODEL_ENC=OHCI\x20PCI\x20host\x20controller
+ID_MODEL_ID=0001
+ID_REVISION=0313
+ID_SERIAL=Linux_3.13.0-32-generic_ohci_hcd_OHCI_PCI_host_controller_0000:00:06.0
+ID_SERIAL_SHORT=0000:00:06.0
+ID_USB_INTERFACES=:090000:
+ID_VENDOR=Linux_3.13.0-32-generic_ohci_hcd
+ID_VENDOR_ENC=Linux\x203.13.0-32-generic\x20ohci_hcd
+ID_VENDOR_ID=1d6b
+MAJOR=189
+MINOR=0
+PRODUCT=1d6b/1/313
+SEQNUM=1211
+SUBSYSTEM=usb
+TYPE=9/0/0
+UDEV_LOG=3
+USEC_INITIALIZED=1785805
+
+UDEV  [5.651766] add      /devices/LNXSYSTM:00/device:00/PNP0C0F:01 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0C0F:01
+MODALIAS=acpi:PNP0C0F:
+SEQNUM=1179
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5616141
+
+UDEV  [5.653212] add      /devices/platform/serial8250 (platform)
+ACTION=add
+DEVPATH=/devices/platform/serial8250
+DRIVER=serial8250
+MODALIAS=platform:serial8250
+SEQNUM=1252
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=5621890
+
+UDEV  [5.653473] add      /devices/LNXSYSTM:00/device:00/PNP0C0F:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0C0F:00
+MODALIAS=acpi:PNP0C0F:
+SEQNUM=1178
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5615729
+
+UDEV  [5.656560] add      /devices/pci0000:00/pci_bus/0000:00 (pci_bus)
+ACTION=add
+DEVPATH=/devices/pci0000:00/pci_bus/0000:00
+SEQNUM=1237
+SUBSYSTEM=pci_bus
+UDEV_LOG=3
+USEC_INITIALIZED=5610666
+
+UDEV  [5.660422] add      /devices/LNXSYSTM:00/device:00/PNP0C0F:02 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0C0F:02
+MODALIAS=acpi:PNP0C0F:
+SEQNUM=1180
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5616432
+
+UDEV  [5.662161] add      /devices/platform/vesa-framebuffer.0 (platform)
+ACTION=add
+DEVPATH=/devices/platform/vesa-framebuffer.0
+DRIVER=vesa-framebuffer
+MODALIAS=platform:vesa-framebuffer
+SEQNUM=1285
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=5622801
+
+UDEV  [5.665215] add      /devices/pnp0/00:01 (pnp)
+ACTION=add
+DEVPATH=/devices/pnp0/00:01
+SEQNUM=1288
+SUBSYSTEM=pnp
+UDEV_LOG=3
+USEC_INITIALIZED=5623142
+
+UDEV  [5.665507] add      /devices/platform/Fixed MDIO bus.0 (platform)
+ACTION=add
+DEVPATH=/devices/platform/Fixed MDIO bus.0
+MODALIAS=platform:Fixed MDIO bus
+SEQNUM=1238
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=5610989
+
+UDEV  [5.668130] add      /devices/platform/microcode (platform)
+ACTION=add
+DEVPATH=/devices/platform/microcode
+MODALIAS=platform:microcode
+SEQNUM=1246
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=5621167
+
+UDEV  [5.670159] add      /devices/pnp0/00:02 (pnp)
+ACTION=add
+DEVPATH=/devices/pnp0/00:02
+DRIVER=i8042 aux
+SEQNUM=1289
+SUBSYSTEM=pnp
+UDEV_LOG=3
+USEC_INITIALIZED=5623329
+
+UDEV  [5.670374] add      /devices/platform/pcspkr (platform)
+ACTION=add
+DEVPATH=/devices/platform/pcspkr
+MODALIAS=platform:pcspkr
+SEQNUM=1247
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=5621325
+
+UDEV  [5.674550] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/ACPI0003:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/ACPI0003:00
+DRIVER=ac
+MODALIAS=acpi:ACPI0003:
+SEQNUM=1166
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5674454
+
+UDEV  [5.675403] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/PNP0C0A:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/PNP0C0A:00
+DRIVER=battery
+MODALIAS=acpi:PNP0C0A:
+SEQNUM=1170
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5675344
+
+UDEV  [5.675866] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01
+SEQNUM=1172
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5675825
+
+UDEV  [5.676780] add      /devices/pci0000:00/0000:00:06.0/usb1/1-0:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-0:1.0
+DEVTYPE=usb_interface
+DRIVER=hub
+INTERFACE=9/0/0
+MODALIAS=usb:v1D6Bp0001d0313dc09dsc00dp00ic09isc00ip00in00
+PRODUCT=1d6b/1/313
+SEQNUM=1212
+SUBSYSTEM=usb
+TYPE=9/0/0
+UDEV_LOG=3
+USEC_INITIALIZED=5676415
+
+UDEV  [5.678677] add      /devices/platform/Fixed MDIO bus.0/mdio_bus/fixed-0 (mdio_bus)
+ACTION=add
+DEVPATH=/devices/platform/Fixed MDIO bus.0/mdio_bus/fixed-0
+SEQNUM=1239
+SUBSYSTEM=mdio_bus
+UDEV_LOG=3
+USEC_INITIALIZED=5678625
+
+UDEV  [5.684664] add      /devices/platform/reg-dummy/regulator/regulator.0 (regulator)
+ACTION=add
+DEVPATH=/devices/platform/reg-dummy/regulator/regulator.0
+SEQNUM=1249
+SUBSYSTEM=regulator
+UDEV_LOG=3
+USEC_INITIALIZED=5684610
+
+UDEV  [5.685383] add      /devices/platform/rtc_cmos/rtc/rtc0 (rtc)
+ACTION=add
+DEVLINKS=/dev/rtc
+DEVNAME=/dev/rtc0
+DEVPATH=/devices/platform/rtc_cmos/rtc/rtc0
+MAJOR=254
+MINOR=0
+SEQNUM=1251
+SUBSYSTEM=rtc
+UDEV_LOG=3
+USEC_INITIALIZED=1027575
+
+UDEV  [5.685931] add      /devices/platform/serial8250/tty/ttyS0 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS0
+DEVPATH=/devices/platform/serial8250/tty/ttyS0
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=64
+SEQNUM=1253
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5685838
+
+UDEV  [5.686509] add      /devices/platform/serial8250/tty/ttyS1 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS1
+DEVPATH=/devices/platform/serial8250/tty/ttyS1
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=65
+SEQNUM=1254
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5686411
+
+UDEV  [5.687091] add      /devices/platform/serial8250/tty/ttyS10 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS10
+DEVPATH=/devices/platform/serial8250/tty/ttyS10
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=74
+SEQNUM=1255
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5686988
+
+UDEV  [5.687737] add      /devices/platform/serial8250/tty/ttyS11 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS11
+DEVPATH=/devices/platform/serial8250/tty/ttyS11
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=75
+SEQNUM=1256
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5687642
+
+UDEV  [5.689074] add      /devices/platform/serial8250/tty/ttyS12 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS12
+DEVPATH=/devices/platform/serial8250/tty/ttyS12
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=76
+SEQNUM=1257
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5688959
+
+UDEV  [5.690600] add      /devices/platform/serial8250/tty/ttyS13 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS13
+DEVPATH=/devices/platform/serial8250/tty/ttyS13
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=77
+SEQNUM=1258
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5690500
+
+UDEV  [5.691287] add      /devices/pnp0/00:00 (pnp)
+ACTION=add
+DEVPATH=/devices/pnp0/00:00
+DRIVER=i8042 kbd
+SEQNUM=1287
+SUBSYSTEM=pnp
+UDEV_LOG=3
+USEC_INITIALIZED=5622994
+
+UDEV  [5.698182] add      /devices/software (event_source)
+ACTION=add
+DEVPATH=/devices/software
+SEQNUM=1290
+SUBSYSTEM=event_source
+UDEV_LOG=3
+USEC_INITIALIZED=5623524
+
+UDEV  [5.699152] add      /devices/platform/serial8250/tty/ttyS14 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS14
+DEVPATH=/devices/platform/serial8250/tty/ttyS14
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=78
+SEQNUM=1259
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622171
+
+UDEV  [5.700130] add      /devices/platform/serial8250/tty/ttyS15 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS15
+DEVPATH=/devices/platform/serial8250/tty/ttyS15
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=79
+SEQNUM=1260
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622192
+
+KERNEL[5.707103] add      /module/snd_page_alloc (module)
+ACTION=add
+DEVPATH=/module/snd_page_alloc
+SEQNUM=1467
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [5.709420] add      /devices/platform/serial8250/tty/ttyS21 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS21
+DEVPATH=/devices/platform/serial8250/tty/ttyS21
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=85
+SEQNUM=1267
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622340
+
+UDEV  [5.710512] add      /devices/platform/serial8250/tty/ttyS22 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS22
+DEVPATH=/devices/platform/serial8250/tty/ttyS22
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=86
+SEQNUM=1268
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622363
+
+KERNEL[5.711760] add      /module/soundcore (module)
+ACTION=add
+DEVPATH=/module/soundcore
+SEQNUM=1468
+SUBSYSTEM=module
+UDEV_LOG=3
+
+KERNEL[5.712299] add      /class/sound (class)
+ACTION=add
+DEVPATH=/class/sound
+SEQNUM=1469
+SUBSYSTEM=class
+UDEV_LOG=3
+
+UDEV  [5.713305] add      /devices/platform/serial8250/tty/ttyS23 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS23
+DEVPATH=/devices/platform/serial8250/tty/ttyS23
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=87
+SEQNUM=1269
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622385
+
+UDEV  [5.717782] add      /devices/platform/serial8250/tty/ttyS24 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS24
+DEVPATH=/devices/platform/serial8250/tty/ttyS24
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=88
+SEQNUM=1270
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622408
+
+UDEV  [5.719111] add      /devices/platform/serial8250/tty/ttyS19 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS19
+DEVPATH=/devices/platform/serial8250/tty/ttyS19
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=83
+SEQNUM=1264
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622275
+
+UDEV  [5.721231] add      /devices/platform/serial8250/tty/ttyS26 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS26
+DEVPATH=/devices/platform/serial8250/tty/ttyS26
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=90
+SEQNUM=1272
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622453
+
+UDEV  [5.724270] add      /devices/platform/serial8250/tty/ttyS18 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS18
+DEVPATH=/devices/platform/serial8250/tty/ttyS18
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=82
+SEQNUM=1263
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622255
+
+UDEV  [5.725484] add      /devices/platform/serial8250/tty/ttyS28 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS28
+DEVPATH=/devices/platform/serial8250/tty/ttyS28
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=92
+SEQNUM=1274
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622499
+
+UDEV  [5.726984] add      /devices/platform/serial8250/tty/ttyS27 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS27
+DEVPATH=/devices/platform/serial8250/tty/ttyS27
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=91
+SEQNUM=1273
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622477
+
+UDEV  [5.728043] add      /devices/platform/serial8250/tty/ttyS17 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS17
+DEVPATH=/devices/platform/serial8250/tty/ttyS17
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=81
+SEQNUM=1262
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622233
+
+UDEV  [5.728760] add      /devices/platform/serial8250/tty/ttyS20 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS20
+DEVPATH=/devices/platform/serial8250/tty/ttyS20
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=84
+SEQNUM=1266
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622317
+
+KERNEL[5.733519] add      /module/i2c_piix4 (module)
+ACTION=add
+DEVPATH=/module/i2c_piix4
+SEQNUM=1470
+SUBSYSTEM=module
+UDEV_LOG=3
+
+KERNEL[5.733948] add      /bus/pci/drivers/piix4_smbus (drivers)
+ACTION=add
+DEVPATH=/bus/pci/drivers/piix4_smbus
+SEQNUM=1471
+SUBSYSTEM=drivers
+UDEV_LOG=3
+
+UDEV  [5.734216] add      /devices/pci0000:00/0000:00:07.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:07.0
+MODALIAS=pci:v00008086d00007113sv00000000sd00000000bc06sc80i00
+PCI_CLASS=68000
+PCI_ID=8086:7113
+PCI_SLOT_NAME=0000:00:07.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1220
+SUBSYSTEM=pci
+UDEV_LOG=3
+USEC_INITIALIZED=5590879
+
+UDEV  [5.735453] add      /devices/platform/serial8250/tty/ttyS29 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS29
+DEVPATH=/devices/platform/serial8250/tty/ttyS29
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=93
+SEQNUM=1275
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622524
+
+KERNEL[5.738256] add      /module/vboxguest (module)
+ACTION=add
+DEVPATH=/module/vboxguest
+SEQNUM=1472
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [5.739239] add      /devices/platform/serial8250/tty/ttyS25 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS25
+DEVPATH=/devices/platform/serial8250/tty/ttyS25
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=89
+SEQNUM=1271
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622429
+
+KERNEL[5.746255] add      /devices/virtual/input/input5 (input)
+ACTION=add
+DEVPATH=/devices/virtual/input/input5
+EV=1
+MODALIAS=input:b0001v80EEpCAFEe0401-e0,kramlsfw
+PRODUCT=1/80ee/cafe/401
+PROP=0
+SEQNUM=1473
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[5.749527] add      /devices/virtual/input/input5/event4 (input)
+ACTION=add
+DEVNAME=input/event4
+DEVPATH=/devices/virtual/input/input5/event4
+MAJOR=13
+MINOR=68
+SEQNUM=1474
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[5.749606] add      /devices/virtual/misc/vboxguest (misc)
+ACTION=add
+DEVNAME=vboxguest
+DEVPATH=/devices/virtual/misc/vboxguest
+MAJOR=10
+MINOR=57
+SEQNUM=1475
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+KERNEL[5.749649] add      /devices/virtual/misc/vboxuser (misc)
+ACTION=add
+DEVNAME=vboxuser
+DEVPATH=/devices/virtual/misc/vboxuser
+MAJOR=10
+MINOR=56
+SEQNUM=1476
+SUBSYSTEM=misc
+UDEV_LOG=3
+
+UDEV  [5.750099] add      /devices/pci0000:00/0000:00:04.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:04.0
+MODALIAS=pci:v000080EEd0000CAFEsv00000000sd00000000bc08sc80i00
+PCI_CLASS=88000
+PCI_ID=80EE:CAFE
+PCI_SLOT_NAME=0000:00:04.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1208
+SUBSYSTEM=pci
+UDEV_LOG=3
+USEC_INITIALIZED=5563288
+
+KERNEL[5.752019] add      /module/mac_hid (module)
+ACTION=add
+DEVPATH=/module/mac_hid
+SEQNUM=1477
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [5.753342] add      /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0 (input)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+EV=3
+ID_INPUT=1
+ID_INPUT_KEY=1
+ID_PATH=acpi-LNXPWRBN:00
+ID_PATH_TAG=acpi-LNXPWRBN_00
+KEY=10000000000000 0
+MODALIAS=input:b0019v0000p0001e0000-e0,1,k74,ramlsfw
+NAME="Power Button"
+PHYS="LNXPWRBN/button/input0"
+PRODUCT=19/0/1/0
+PROP=0
+SEQNUM=1159
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=997419
+
+UDEV  [5.753911] add      /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1 (input)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+EV=3
+ID_INPUT=1
+ID_INPUT_KEY=1
+ID_PATH=acpi-LNXSLPBN:00
+ID_PATH_TAG=acpi-LNXSLPBN_00
+KEY=4000 0 0
+MODALIAS=input:b0019v0000p0003e0000-e0,1,k8E,ramlsfw
+NAME="Sleep Button"
+PHYS="LNXSLPBN/button/input0"
+PRODUCT=19/0/3/0
+PROP=0
+SEQNUM=1162
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=997984
+
+KERNEL[5.757506] add      /module/serio_raw (module)
+ACTION=add
+DEVPATH=/module/serio_raw
+SEQNUM=1478
+SUBSYSTEM=module
+UDEV_LOG=3
+
+KERNEL[5.758688] add      /bus/serio/drivers/serio_raw (drivers)
+ACTION=add
+DEVPATH=/bus/serio/drivers/serio_raw
+SEQNUM=1479
+SUBSYSTEM=drivers
+UDEV_LOG=3
+
+UDEV  [5.759108] add      /devices/platform/i8042/serio0 (serio)
+ACTION=add
+DEVPATH=/devices/platform/i8042/serio0
+DMI_VENDOR=innotek GmbH
+DRIVER=atkbd
+MODALIAS=serio:ty06pr00id00ex00
+SEQNUM=1242
+SERIO_EXTRA=00
+SERIO_ID=00
+SERIO_PROTO=00
+SERIO_TYPE=06
+SUBSYSTEM=serio
+UDEV_LOG=3
+USEC_INITIALIZED=5620659
+
+UDEV  [5.775317] add      /devices/platform/serial8250/tty/ttyS31 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS31
+DEVPATH=/devices/platform/serial8250/tty/ttyS31
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=95
+SEQNUM=1278
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622596
+
+UDEV  [5.775571] add      /devices/platform/serial8250/tty/ttyS16 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS16
+DEVPATH=/devices/platform/serial8250/tty/ttyS16
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=80
+SEQNUM=1261
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622211
+
+UDEV  [5.775785] add      /devices/platform/serial8250/tty/ttyS4 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS4
+DEVPATH=/devices/platform/serial8250/tty/ttyS4
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=68
+SEQNUM=1279
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622620
+
+UDEV  [5.777021] add      /devices/platform/serial8250/tty/ttyS6 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS6
+DEVPATH=/devices/platform/serial8250/tty/ttyS6
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=70
+SEQNUM=1281
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622669
+
+UDEV  [5.777451] add      /devices/platform/serial8250/tty/ttyS7 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS7
+DEVPATH=/devices/platform/serial8250/tty/ttyS7
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=71
+SEQNUM=1282
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622695
+
+UDEV  [5.777588] add      /devices/platform/serial8250/tty/ttyS30 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS30
+DEVPATH=/devices/platform/serial8250/tty/ttyS30
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=94
+SEQNUM=1277
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622571
+
+UDEV  [5.778254] add      /devices/platform/serial8250/tty/ttyS8 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS8
+DEVPATH=/devices/platform/serial8250/tty/ttyS8
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=72
+SEQNUM=1283
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622724
+
+UDEV  [5.779048] add      /devices/platform/serial8250/tty/ttyS3 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS3
+DEVPATH=/devices/platform/serial8250/tty/ttyS3
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=67
+SEQNUM=1276
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622546
+
+UDEV  [5.783135] add      /devices/platform/serial8250/tty/ttyS2 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS2
+DEVPATH=/devices/platform/serial8250/tty/ttyS2
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=66
+SEQNUM=1265
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622297
+
+UDEV  [5.784510] add      /devices/platform/serial8250/tty/ttyS5 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS5
+DEVPATH=/devices/platform/serial8250/tty/ttyS5
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=69
+SEQNUM=1280
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622645
+
+UDEV  [5.789343] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/ACPI0003:00/power_supply/AC (power_supply)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/ACPI0003:00/power_supply/AC
+POWER_SUPPLY_NAME=AC
+POWER_SUPPLY_ONLINE=1
+SEQNUM=1167
+SUBSYSTEM=power_supply
+UDEV_LOG=3
+USEC_INITIALIZED=5789142
+
+UDEV  [5.790530] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/PNP0C0A:00/power_supply/BAT0 (power_supply)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/PNP0C0A:00/power_supply/BAT0
+POWER_SUPPLY_CAPACITY=62
+POWER_SUPPLY_CYCLE_COUNT=0
+POWER_SUPPLY_ENERGY_FULL=50000000
+POWER_SUPPLY_ENERGY_FULL_DESIGN=50000000
+POWER_SUPPLY_ENERGY_NOW=31000000
+POWER_SUPPLY_MANUFACTURER=innotek
+POWER_SUPPLY_MODEL_NAME=1
+POWER_SUPPLY_NAME=BAT0
+POWER_SUPPLY_PRESENT=1
+POWER_SUPPLY_SERIAL_NUMBER=0
+POWER_SUPPLY_STATUS=Charging
+POWER_SUPPLY_TECHNOLOGY=Unknown
+POWER_SUPPLY_VOLTAGE_MIN_DESIGN=10000000
+POWER_SUPPLY_VOLTAGE_NOW=10000000
+SEQNUM=1171
+SUBSYSTEM=power_supply
+UDEV_LOG=3
+USEC_INITIALIZED=5790432
+
+UDEV  [5.794771] add      /devices/system/clockevents/clockevent0 (clockevents)
+ACTION=add
+DEVPATH=/devices/system/clockevents/clockevent0
+SEQNUM=1292
+SUBSYSTEM=clockevents
+UDEV_LOG=3
+USEC_INITIALIZED=5794687
+
+UDEV  [5.795432] add      /devices/system/clocksource/clocksource0 (clocksource)
+ACTION=add
+DEVPATH=/devices/system/clocksource/clocksource0
+SEQNUM=1293
+SUBSYSTEM=clocksource
+UDEV_LOG=3
+USEC_INITIALIZED=5795382
+
+UDEV  [5.796004] add      /devices/system/cpu/cpu0 (cpu)
+ACTION=add
+DEVPATH=/devices/system/cpu/cpu0
+DRIVER=processor
+MODALIAS=x86cpu:vendor:0000:family:0006:model:002A:feature:,0000,0001,0002,0003,0004,0005,0006,0007,0008,0009,000B,000C,000D,000E,000F,0010,0011,0013,0017,0018,0019,001A,002B,0034,003B,003D,0068,006F,0070,0072,0074,0075,0076,0078,0080,0081,0083,0089,008D,0093,0094,0097,0099,009A,009B,009C,009F,00C0
+
+SEQNUM=1294
+SUBSYSTEM=cpu
+UDEV_LOG=3
+USEC_INITIALIZED=5795935
+
+UDEV  [5.798971] add      /devices/pci0000:00/0000:00:0d.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0
+DRIVER=ahci
+ID_MODEL_FROM_DATABASE=82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode]
+ID_VENDOR_FROM_DATABASE=Intel Corporation
+MODALIAS=pci:v00008086d00002829sv00000000sd00000000bc01sc06i01
+PCI_CLASS=10601
+PCI_ID=8086:2829
+PCI_SLOT_NAME=0000:00:0d.0
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1221
+SUBSYSTEM=pci
+UDEV_LOG=3
+USEC_INITIALIZED=5591095
+
+UDEV  [5.799232] add      /devices/pci0000:00/0000:00:03.0/net/eth0 (net)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:03.0/net/eth0
+ID_BUS=pci
+ID_MM_CANDIDATE=1
+ID_MODEL_FROM_DATABASE=82540EM Gigabit Ethernet Controller
+ID_MODEL_ID=/sys/devices/pci0000:00/0000:00:03.0
+ID_VENDOR_FROM_DATABASE=Intel Corporation
+ID_VENDOR_ID=0x8086
+IFINDEX=2
+INTERFACE=eth0
+SEQNUM=1207
+SUBSYSTEM=net
+UDEV_LOG=3
+USEC_INITIALIZED=5799117
+
+UDEV  [5.810053] add      /devices/pci0000:00/0000:00:01.1 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1
+DRIVER=ata_piix
+ID_MODEL_FROM_DATABASE=82371AB/EB/MB PIIX4 IDE
+ID_VENDOR_FROM_DATABASE=Intel Corporation
+MODALIAS=pci:v00008086d00007111sv00000000sd00000000bc01sc01i8a
+PCI_CLASS=1018A
+PCI_ID=8086:7111
+PCI_SLOT_NAME=0000:00:01.1
+PCI_SUBSYS_ID=0000:0000
+SEQNUM=1186
+SUBSYSTEM=pci
+UDEV_LOG=3
+USEC_INITIALIZED=5562092
+
+KERNEL[5.810947] add      /module/psmouse (module)
+ACTION=add
+DEVPATH=/module/psmouse
+SEQNUM=1480
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [5.814547] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0100:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0100:00
+MODALIAS=acpi:PNP0100:
+SEQNUM=1174
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5791950
+
+UDEV  [5.816443] add      /devices/pci0000:00/0000:00:01.1/ata1/ata_port/ata1 (ata_port)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/ata_port/ata1
+SEQNUM=1187
+SUBSYSTEM=ata_port
+UDEV_LOG=3
+USEC_INITIALIZED=5816384
+
+UDEV  [5.816761] add      /devices/pci0000:00/0000:00:01.1/ata1/host0 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/host0
+DEVTYPE=scsi_host
+SEQNUM=1188
+SUBSYSTEM=scsi
+UDEV_LOG=3
+USEC_INITIALIZED=5816729
+
+UDEV  [5.817096] add      /devices/pci0000:00/0000:00:01.1/ata1/link1/ata_link/link1 (ata_link)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/link1/ata_link/link1
+SEQNUM=1190
+SUBSYSTEM=ata_link
+UDEV_LOG=3
+USEC_INITIALIZED=5817046
+
+UDEV  [5.817537] add      /devices/pci0000:00/0000:00:01.1/ata1/link1/dev1.0/ata_device/dev1.0 (ata_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/link1/dev1.0/ata_device/dev1.0
+SEQNUM=1191
+SUBSYSTEM=ata_device
+UDEV_LOG=3
+USEC_INITIALIZED=5817484
+
+UDEV  [5.817877] add      /devices/pci0000:00/0000:00:01.1/ata1/link1/dev1.1/ata_device/dev1.1 (ata_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/link1/dev1.1/ata_device/dev1.1
+SEQNUM=1192
+SUBSYSTEM=ata_device
+UDEV_LOG=3
+USEC_INITIALIZED=5817833
+
+UDEV  [5.818393] add      /devices/pci0000:00/0000:00:01.1/ata2/ata_port/ata2 (ata_port)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/ata_port/ata2
+SEQNUM=1193
+SUBSYSTEM=ata_port
+UDEV_LOG=3
+USEC_INITIALIZED=5818328
+
+UDEV  [5.819053] add      /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1 (input)
+ACTION=add
+DEVNAME=/dev/input/event1
+DEVPATH=/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1
+DMI_VENDOR=innotek GmbH
+ID_INPUT=1
+ID_INPUT_KEY=1
+ID_PATH=acpi-LNXSLPBN:00
+ID_PATH_TAG=acpi-LNXSLPBN_00
+MAJOR=13
+MINOR=65
+SEQNUM=1163
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=1015066
+XKBLAYOUT=us,th
+XKBMODEL=pc105
+XKBOPTIONS=grp:alt_shift_toggle,grp_led:scroll
+XKBVARIANT=,
+
+UDEV  [5.819647] add      /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0 (input)
+ACTION=add
+DEVNAME=/dev/input/event0
+DEVPATH=/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0
+DMI_VENDOR=innotek GmbH
+ID_INPUT=1
+ID_INPUT_KEY=1
+ID_PATH=acpi-LNXPWRBN:00
+ID_PATH_TAG=acpi-LNXPWRBN_00
+MAJOR=13
+MINOR=64
+SEQNUM=1160
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=1012429
+XKBLAYOUT=us,th
+XKBMODEL=pc105
+XKBOPTIONS=grp:alt_shift_toggle,grp_led:scroll
+XKBVARIANT=,
+
+UDEV  [5.820690] add      /devices/pci0000:00/0000:00:01.1/ata2/host1 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1
+DEVTYPE=scsi_host
+SEQNUM=1194
+SUBSYSTEM=scsi
+UDEV_LOG=3
+USEC_INITIALIZED=5820621
+
+UDEV  [5.821258] add      /devices/pci0000:00/0000:00:01.1/ata2/link2/ata_link/link2 (ata_link)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/link2/ata_link/link2
+SEQNUM=1202
+SUBSYSTEM=ata_link
+UDEV_LOG=3
+USEC_INITIALIZED=5821204
+
+UDEV  [5.821613] add      /devices/pci0000:00/0000:00:01.1/ata2/link2/dev2.0/ata_device/dev2.0 (ata_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/link2/dev2.0/ata_device/dev2.0
+SEQNUM=1203
+SUBSYSTEM=ata_device
+UDEV_LOG=3
+USEC_INITIALIZED=5821566
+
+UDEV  [5.821930] add      /devices/pci0000:00/0000:00:01.1/ata2/link2/dev2.1/ata_device/dev2.1 (ata_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/link2/dev2.1/ata_device/dev2.1
+SEQNUM=1204
+SUBSYSTEM=ata_device
+UDEV_LOG=3
+USEC_INITIALIZED=5821885
+
+UDEV  [5.822263] add      /devices/pci0000:00/0000:00:0d.0/ata3/ata_port/ata3 (ata_port)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/ata_port/ata3
+SEQNUM=1222
+SUBSYSTEM=ata_port
+UDEV_LOG=3
+USEC_INITIALIZED=5822215
+
+UDEV  [5.822523] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2
+DEVTYPE=scsi_host
+SEQNUM=1223
+SUBSYSTEM=scsi
+UDEV_LOG=3
+USEC_INITIALIZED=5822494
+
+UDEV  [5.822876] add      /devices/pci0000:00/0000:00:0d.0/ata3/link3/ata_link/link3 (ata_link)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/link3/ata_link/link3
+SEQNUM=1235
+SUBSYSTEM=ata_link
+UDEV_LOG=3
+USEC_INITIALIZED=5822831
+
+UDEV  [5.823687] add      /devices/pci0000:00/0000:00:0d.0/ata3/link3/dev3.0/ata_device/dev3.0 (ata_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/link3/dev3.0/ata_device/dev3.0
+SEQNUM=1236
+SUBSYSTEM=ata_device
+UDEV_LOG=3
+USEC_INITIALIZED=5823587
+
+UDEV  [5.824273] add      /devices/system/machinecheck/machinecheck0 (machinecheck)
+ACTION=add
+DEVPATH=/devices/system/machinecheck/machinecheck0
+SEQNUM=1295
+SUBSYSTEM=machinecheck
+UDEV_LOG=3
+USEC_INITIALIZED=5824224
+
+UDEV  [5.824740] add      /devices/pci0000:00/0000:00:01.1/ata1/host0/scsi_host/host0 (scsi_host)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata1/host0/scsi_host/host0
+SEQNUM=1189
+SUBSYSTEM=scsi_host
+UDEV_LOG=3
+USEC_INITIALIZED=5824693
+
+UDEV  [5.825094] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/scsi_host/host1 (scsi_host)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/scsi_host/host1
+SEQNUM=1195
+SUBSYSTEM=scsi_host
+UDEV_LOG=3
+USEC_INITIALIZED=5825039
+
+UDEV  [5.825447] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0
+DEVTYPE=scsi_target
+SEQNUM=1196
+SUBSYSTEM=scsi
+UDEV_LOG=3
+USEC_INITIALIZED=5825398
+
+UDEV  [5.825872] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/scsi_host/host2 (scsi_host)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/scsi_host/host2
+SEQNUM=1224
+SUBSYSTEM=scsi_host
+UDEV_LOG=3
+USEC_INITIALIZED=5825814
+
+UDEV  [5.830180] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1 (usb)
+ACTION=add
+BUSNUM=001
+DEVNAME=/dev/bus/usb/001/002
+DEVNUM=002
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1
+DEVTYPE=usb_device
+DRIVER=usb
+ID_BUS=usb
+ID_MODEL=USB_Tablet
+ID_MODEL_ENC=USB\x20Tablet
+ID_MODEL_ID=0021
+ID_REVISION=0100
+ID_SERIAL=VirtualBox_USB_Tablet
+ID_USB_INTERFACES=:030000:
+ID_VENDOR=VirtualBox
+ID_VENDOR_ENC=VirtualBox
+ID_VENDOR_ID=80ee
+MAJOR=189
+MINOR=1
+PRODUCT=80ee/21/100
+SEQNUM=1213
+SUBSYSTEM=usb
+TYPE=0/0/0
+UDEV_LOG=3
+USEC_INITIALIZED=1788155
+
+KERNEL[5.831828] add      /module/video (module)
+ACTION=add
+DEVPATH=/module/video
+SEQNUM=1481
+SUBSYSTEM=module
+UDEV_LOG=3
+
+KERNEL[5.832064] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input6 (input)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input6
+EV=3
+KEY=3e000b00000000 0 0 0
+MODALIAS=input:b0019v0000p0006e0000-e0,1,kE0,E1,E3,F1,F2,F3,F4,F5,ramlsfw
+NAME="Video Bus"
+PHYS="LNXVIDEO/video/input0"
+PRODUCT=19/0/6/0
+PROP=0
+SEQNUM=1482
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[5.832162] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input6/event5 (input)
+ACTION=add
+DEVNAME=input/event5
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input6/event5
+MAJOR=13
+MINOR=69
+SEQNUM=1483
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[5.838599] add      /bus/acpi/drivers/video (drivers)
+ACTION=add
+DEVPATH=/bus/acpi/drivers/video
+SEQNUM=1484
+SUBSYSTEM=drivers
+UDEV_LOG=3
+
+UDEV  [5.839010] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00
+MODALIAS=acpi:LNXVIDEO:
+SEQNUM=1168
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5674989
+
+KERNEL[5.839380] add      /bus/serio/drivers/psmouse (drivers)
+ACTION=add
+DEVPATH=/bus/serio/drivers/psmouse
+SEQNUM=1485
+SUBSYSTEM=drivers
+UDEV_LOG=3
+
+UDEV  [5.846581] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0000:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0000:00
+MODALIAS=acpi:PNP0000:
+SEQNUM=1173
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5791230
+
+UDEV  [5.848226] add      /devices/platform/i8042/serio0/input/input2 (input)
+ACTION=add
+DEVPATH=/devices/platform/i8042/serio0/input/input2
+EV=120013
+ID_INPUT=1
+ID_INPUT_KEY=1
+ID_INPUT_KEYBOARD=1
+ID_PATH=platform-i8042-serio-0
+ID_PATH_TAG=platform-i8042-serio-0
+ID_SERIAL=noserial
+KEY=402000000 3803078f800d001 feffffdfffefffff fffffffffffffffe
+LED=7
+MODALIAS=input:b0011v0001p0001eAB41-e0,1,4,11,14,k71,72,73,74,75,76,77,79,7A,7B,7C,7D,7E,7F,80,8C,8E,8F,9B,9C,9D,9E,9F,A3,A4,A5,A6,AC,AD,B7,B8,B9,D9,E2,ram4,l0,1,2,sfw
+MSC=10
+NAME="AT Translated Set 2 keyboard"
+PHYS="isa0060/serio0/input0"
+PRODUCT=11/1/1/ab41
+PROP=0
+SEQNUM=1243
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=1038290
+
+UDEV  [5.851306] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0F03:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0F03:00
+MODALIAS=acpi:PNP0F03:
+SEQNUM=1177
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5793323
+
+KERNEL[5.856363] add      /module/snd (module)
+ACTION=add
+DEVPATH=/module/snd
+SEQNUM=1486
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [5.858795] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0
+DEVTYPE=scsi_target
+SEQNUM=1225
+SUBSYSTEM=scsi
+UDEV_LOG=3
+USEC_INITIALIZED=5858735
+
+UDEV  [5.859947] add      /devices/system/memory/memory0 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory0
+SEQNUM=1296
+SUBSYSTEM=memory
+UDEV_LOG=3
+USEC_INITIALIZED=5859859
+
+UDEV  [5.860897] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/device:02 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/device:02
+SEQNUM=1169
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5860845
+
+UDEV  [5.861378] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0
+DEVTYPE=scsi_device
+DRIVER=sr
+MODALIAS=scsi:t-0x05
+SEQNUM=1197
+SUBSYSTEM=scsi
+UDEV_LOG=3
+USEC_INITIALIZED=5861345
+
+UDEV  [5.861993] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0
+DEVTYPE=usb_interface
+DRIVER=usbhid
+INTERFACE=3/0/0
+MODALIAS=usb:v80EEp0021d0100dc00dsc00dp00ic03isc00ip00in00
+PRODUCT=80ee/21/100
+SEQNUM=1214
+SUBSYSTEM=usb
+TYPE=0/0/0
+UDEV_LOG=3
+USEC_INITIALIZED=5861958
+
+UDEV  [5.862459] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0 (scsi)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0
+DEVTYPE=scsi_device
+DRIVER=sd
+MODALIAS=scsi:t-0x00
+SEQNUM=1226
+SUBSYSTEM=scsi
+UDEV_LOG=3
+USEC_INITIALIZED=5862425
+
+UDEV  [5.863344] add      /devices/platform/i8042/serio0/input/input2/event2 (input)
+ACTION=add
+DEVLINKS=/dev/input/by-path/platform-i8042-serio-0-event-kbd
+DEVNAME=/dev/input/event2
+DEVPATH=/devices/platform/i8042/serio0/input/input2/event2
+DMI_VENDOR=innotek GmbH
+ID_INPUT=1
+ID_INPUT_KEY=1
+ID_INPUT_KEYBOARD=1
+ID_PATH=platform-i8042-serio-0
+ID_PATH_TAG=platform-i8042-serio-0
+ID_SERIAL=noserial
+MAJOR=13
+MINOR=66
+SEQNUM=1244
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=1047899
+XKBLAYOUT=us,th
+XKBMODEL=pc105
+XKBOPTIONS=grp:alt_shift_toggle,grp_led:scroll
+XKBVARIANT=,
+
+UDEV  [5.863868] add      /devices/system/memory/memory1 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory1
+SEQNUM=1297
+SUBSYSTEM=memory
+UDEV_LOG=3
+USEC_INITIALIZED=5863823
+
+UDEV  [5.865001] add      /devices/platform/serial8250/tty/ttyS9 (tty)
+ACTION=add
+DEVNAME=/dev/ttyS9
+DEVPATH=/devices/platform/serial8250/tty/ttyS9
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=73
+SEQNUM=1284
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=5622769
+
+UDEV  [5.865642] add      /devices/platform/vesa-framebuffer.0/graphics/fb0 (graphics)
+ACTION=add
+DEVNAME=/dev/fb0
+DEVPATH=/devices/platform/vesa-framebuffer.0/graphics/fb0
+MAJOR=29
+MINOR=0
+PRIMARY_DEVICE_FOR_DISPLAY=1
+SEQNUM=1286
+SUBSYSTEM=graphics
+UDEV_LOG=3
+USEC_INITIALIZED=5794370
+
+UDEV  [5.874668] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0303:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0303:00
+MODALIAS=acpi:PNP0303:
+SEQNUM=1176
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5792990
+
+UDEV  [5.878234] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0200:00 (acpi)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/device:01/PNP0200:00
+MODALIAS=acpi:PNP0200:
+SEQNUM=1175
+SUBSYSTEM=acpi
+UDEV_LOG=3
+USEC_INITIALIZED=5792529
+
+UDEV  [5.878936] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/bsg/1:0:0:0 (bsg)
+ACTION=add
+DEVNAME=/dev/bsg/1:0:0:0
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/bsg/1:0:0:0
+MAJOR=252
+MINOR=0
+SEQNUM=1199
+SUBSYSTEM=bsg
+UDEV_LOG=3
+USEC_INITIALIZED=5878829
+
+UDEV  [5.879292] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/scsi_device/1:0:0:0 (scsi_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/scsi_device/1:0:0:0
+SEQNUM=1200
+SUBSYSTEM=scsi_device
+UDEV_LOG=3
+USEC_INITIALIZED=5879246
+
+UDEV  [5.879869] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/scsi_generic/sg0 (scsi_generic)
+ACTION=add
+DEVNAME=/dev/sg0
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/scsi_generic/sg0
+MAJOR=21
+MINOR=0
+SEQNUM=1201
+SUBSYSTEM=scsi_generic
+TAGS=:udev-acl:
+UDEV_LOG=3
+USEC_INITIALIZED=5879690
+
+UDEV  [5.881160] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001 (hid)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001
+DRIVER=hid-generic
+HID_ID=0003:000080EE:00000021
+HID_NAME=VirtualBox USB Tablet
+HID_PHYS=usb-0000:00:06.0-1/input0
+MODALIAS=hid:b0003g0001v000080EEp00000021
+SEQNUM=1215
+SUBSYSTEM=hid
+UDEV_LOG=3
+USEC_INITIALIZED=5881095
+
+UDEV  [5.883814] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/bsg/2:0:0:0 (bsg)
+ACTION=add
+DEVNAME=/dev/bsg/2:0:0:0
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/bsg/2:0:0:0
+MAJOR=252
+MINOR=1
+SEQNUM=1231
+SUBSYSTEM=bsg
+UDEV_LOG=3
+USEC_INITIALIZED=5883499
+
+UDEV  [5.893024] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_device/2:0:0:0 (scsi_device)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_device/2:0:0:0
+SEQNUM=1232
+SUBSYSTEM=scsi_device
+UDEV_LOG=3
+USEC_INITIALIZED=5892910
+
+UDEV  [5.893473] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_disk/2:0:0:0 (scsi_disk)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_disk/2:0:0:0
+SEQNUM=1233
+SUBSYSTEM=scsi_disk
+UDEV_LOG=3
+USEC_INITIALIZED=5893364
+
+UDEV  [5.894083] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_generic/sg1 (scsi_generic)
+ACTION=add
+DEVNAME=/dev/sg1
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/scsi_generic/sg1
+MAJOR=21
+MINOR=1
+SEQNUM=1234
+SUBSYSTEM=scsi_generic
+UDEV_LOG=3
+USEC_INITIALIZED=5893995
+
+UDEV  [5.894400] add      /devices/system/memory/memory2 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory2
+SEQNUM=1298
+SUBSYSTEM=memory
+UDEV_LOG=3
+USEC_INITIALIZED=5894345
+
+UDEV  [5.895064] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/hidraw/hidraw0 (hidraw)
+ACTION=add
+DEVNAME=/dev/hidraw0
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/hidraw/hidraw0
+MAJOR=251
+MINOR=0
+SEQNUM=1216
+SUBSYSTEM=hidraw
+UDEV_LOG=3
+USEC_INITIALIZED=5894988
+
+UDEV  [5.895366] add      /devices/system/memory/memory3 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory3
+SEQNUM=1299
+SUBSYSTEM=memory
+UDEV_LOG=3
+USEC_INITIALIZED=5895322
+
+UDEV  [5.896127] add      /devices/system/memory/memory4 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory4
+SEQNUM=1300
+SUBSYSTEM=memory
+UDEV_LOG=3
+USEC_INITIALIZED=5896073
+
+UDEV  [5.896516] add      /devices/system/memory/memory5 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory5
+SEQNUM=1301
+SUBSYSTEM=memory
+UDEV_LOG=3
+USEC_INITIALIZED=5896468
+
+UDEV  [5.896792] add      /devices/system/memory/memory6 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory6
+SEQNUM=1302
+SUBSYSTEM=memory
+UDEV_LOG=3
+USEC_INITIALIZED=5896750
+
+UDEV  [5.897060] add      /devices/system/memory/memory7 (memory)
+ACTION=add
+DEVPATH=/devices/system/memory/memory7
+SEQNUM=1303
+SUBSYSTEM=memory
+UDEV_LOG=3
+USEC_INITIALIZED=5897019
+
+UDEV  [5.897320] add      /devices/system/node/node0 (node)
+ACTION=add
+DEVPATH=/devices/system/node/node0
+SEQNUM=1304
+SUBSYSTEM=node
+UDEV_LOG=3
+USEC_INITIALIZED=5897278
+
+UDEV  [5.897589] add      /devices/tracepoint (event_source)
+ACTION=add
+DEVPATH=/devices/tracepoint
+SEQNUM=1305
+SUBSYSTEM=event_source
+UDEV_LOG=3
+USEC_INITIALIZED=5897549
+
+UDEV  [5.897839] add      /devices/virtual/bdi/11:0 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/11:0
+SEQNUM=1306
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5897798
+
+UDEV  [5.898088] add      /devices/virtual/bdi/1:0 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:0
+SEQNUM=1307
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5898048
+
+UDEV  [5.898356] add      /devices/virtual/bdi/1:1 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:1
+SEQNUM=1308
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5898292
+
+UDEV  [5.898773] add      /devices/virtual/bdi/1:10 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:10
+SEQNUM=1309
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5898734
+
+UDEV  [5.899018] add      /devices/platform/i8042/serio1 (serio)
+ACTION=add
+DEVPATH=/devices/platform/i8042/serio1
+MODALIAS=serio:ty01pr00id00ex00
+SEQNUM=1245
+SERIO_EXTRA=00
+SERIO_ID=00
+SERIO_PROTO=00
+SERIO_TYPE=01
+SUBSYSTEM=serio
+UDEV_LOG=3
+USEC_INITIALIZED=5620999
+
+UDEV  [5.900771] add      /devices/virtual/bdi/1:11 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:11
+SEQNUM=1310
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5900699
+
+UDEV  [5.902999] add      /devices/virtual/bdi/1:12 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:12
+SEQNUM=1311
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5902929
+
+UDEV  [5.903468] add      /devices/virtual/bdi/1:13 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:13
+SEQNUM=1312
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5903407
+
+UDEV  [5.903907] add      /devices/virtual/bdi/1:14 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:14
+SEQNUM=1313
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5903833
+
+UDEV  [5.904659] add      /devices/virtual/bdi/1:15 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:15
+SEQNUM=1314
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5904586
+
+UDEV  [5.905002] add      /devices/virtual/bdi/1:2 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:2
+SEQNUM=1315
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5904957
+
+UDEV  [5.906937] add      /devices/system/clockevents/broadcast (clockevents)
+ACTION=add
+DEVPATH=/devices/system/clockevents/broadcast
+SEQNUM=1291
+SUBSYSTEM=clockevents
+UDEV_LOG=3
+USEC_INITIALIZED=5672075
+
+UDEV  [5.907348] add      /devices/virtual/bdi/1:3 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:3
+SEQNUM=1316
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5907287
+
+UDEV  [5.907791] add      /devices/virtual/bdi/1:4 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:4
+SEQNUM=1317
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5907749
+
+UDEV  [5.908230] add      /devices/virtual/bdi/1:5 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:5
+SEQNUM=1318
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5908001
+
+UDEV  [5.908630] add      /devices/virtual/bdi/1:6 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:6
+SEQNUM=1319
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5908574
+
+UDEV  [5.909040] add      /devices/virtual/bdi/1:7 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:7
+SEQNUM=1320
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5908979
+
+UDEV  [5.909486] add      /devices/virtual/bdi/1:8 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:8
+SEQNUM=1321
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5909423
+
+UDEV  [5.909890] add      /devices/virtual/bdi/1:9 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/1:9
+SEQNUM=1322
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5909821
+
+UDEV  [5.910345] add      /devices/virtual/bdi/7:0 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:0
+SEQNUM=1323
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5910292
+
+UDEV  [5.910758] add      /devices/virtual/bdi/7:1 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:1
+SEQNUM=1324
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5910705
+
+UDEV  [5.911569] add      /devices/virtual/bdi/7:3 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:3
+SEQNUM=1326
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5911505
+
+UDEV  [5.911829] add      /devices/virtual/bdi/7:2 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:2
+SEQNUM=1325
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5911787
+
+UDEV  [5.920557] add      /devices/virtual/bdi/7:4 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:4
+SEQNUM=1327
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5920495
+
+UDEV  [5.921202] add      /devices/virtual/bdi/7:5 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:5
+SEQNUM=1328
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5921123
+
+UDEV  [5.921630] add      /devices/virtual/bdi/7:6 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:6
+SEQNUM=1329
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5921579
+
+UDEV  [5.921990] add      /devices/virtual/bdi/7:7 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/7:7
+SEQNUM=1330
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5921944
+
+UDEV  [5.922305] add      /devices/virtual/bdi/default (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/default
+SEQNUM=1332
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5922263
+
+UDEV  [5.922527] add      /devices/virtual/bdi/8:0 (bdi)
+ACTION=add
+DEVPATH=/devices/virtual/bdi/8:0
+SEQNUM=1331
+SUBSYSTEM=bdi
+UDEV_LOG=3
+USEC_INITIALIZED=5922477
+
+KERNEL[5.937998] add      /module/joydev (module)
+ACTION=add
+DEVPATH=/module/joydev
+SEQNUM=1487
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [5.945364] add      /devices/virtual/input/mice (input)
+ACTION=add
+DEVNAME=/dev/input/mice
+DEVPATH=/devices/virtual/input/mice
+MAJOR=13
+MINOR=63
+SEQNUM=1359
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=5945267
+
+UDEV  [5.945791] add      /devices/virtual/mem/full (mem)
+ACTION=add
+DEVMODE=0666
+DEVNAME=/dev/full
+DEVPATH=/devices/virtual/mem/full
+MAJOR=1
+MINOR=7
+SEQNUM=1360
+SUBSYSTEM=mem
+UDEV_LOG=3
+USEC_INITIALIZED=5945716
+
+UDEV  [5.946143] add      /devices/virtual/mem/kmsg (mem)
+ACTION=add
+DEVMODE=0644
+DEVNAME=/dev/kmsg
+DEVPATH=/devices/virtual/mem/kmsg
+MAJOR=1
+MINOR=11
+SEQNUM=1361
+SUBSYSTEM=mem
+UDEV_LOG=3
+USEC_INITIALIZED=5946071
+
+UDEV  [5.946679] add      /devices/virtual/mem/mem (mem)
+ACTION=add
+DEVNAME=/dev/mem
+DEVPATH=/devices/virtual/mem/mem
+MAJOR=1
+MINOR=1
+SEQNUM=1362
+SUBSYSTEM=mem
+UDEV_LOG=3
+USEC_INITIALIZED=5946611
+
+KERNEL[5.946804] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/js0 (input)
+ACTION=add
+DEVNAME=input/js0
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/js0
+MAJOR=13
+MINOR=0
+SEQNUM=1488
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[5.946870] add      /devices/virtual/input/input5/js1 (input)
+ACTION=add
+DEVNAME=input/js1
+DEVPATH=/devices/virtual/input/input5/js1
+MAJOR=13
+MINOR=1
+SEQNUM=1489
+SUBSYSTEM=input
+UDEV_LOG=3
+
+UDEV  [5.947130] add      /devices/virtual/mem/null (mem)
+ACTION=add
+DEVMODE=0666
+DEVNAME=/dev/null
+DEVPATH=/devices/virtual/mem/null
+MAJOR=1
+MINOR=3
+SEQNUM=1363
+SUBSYSTEM=mem
+UDEV_LOG=3
+USEC_INITIALIZED=5947062
+
+UDEV  [5.947981] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4 (input)
+ABS=3
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4
+EV=1f
+ID_BUS=usb
+ID_INPUT=1
+ID_INPUT_MOUSE=1
+ID_MODEL=USB_Tablet
+ID_MODEL_ENC=USB\x20Tablet
+ID_MODEL_ID=0021
+ID_PATH=pci-0000:00:06.0-usb-0:1:1.0
+ID_PATH_TAG=pci-0000_00_06_0-usb-0_1_1_0
+ID_REVISION=0100
+ID_SERIAL=VirtualBox_USB_Tablet
+ID_TYPE=hid
+ID_USB_DRIVER=usbhid
+ID_USB_INTERFACES=:030000:
+ID_USB_INTERFACE_NUM=00
+ID_VENDOR=VirtualBox
+ID_VENDOR_ENC=VirtualBox
+ID_VENDOR_ID=80ee
+KEY=1f0000 0 0 0 0
+MODALIAS=input:b0003v80EEp0021e0110-e0,1,2,3,4,k110,111,112,113,114,r6,8,a0,1,m4,lsfw
+MSC=10
+NAME="VirtualBox USB Tablet"
+PHYS="usb-0000:00:06.0-1/input0"
+PRODUCT=3/80ee/21/110
+PROP=0
+REL=140
+SEQNUM=1217
+SUBSYSTEM=input
+UDEV_LOG=3
+UNIQ=""
+USEC_INITIALIZED=1838359
+
+UDEV  [5.949353] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/event3 (input)
+ACTION=add
+DEVLINKS=/dev/input/by-id/usb-VirtualBox_USB_Tablet-event-mouse /dev/input/by-path/pci-0000:00:06.0-usb-0:1:1.0-event-mouse
+DEVNAME=/dev/input/event3
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/event3
+ID_BUS=usb
+ID_INPUT=1
+ID_INPUT_MOUSE=1
+ID_MODEL=USB_Tablet
+ID_MODEL_ENC=USB\x20Tablet
+ID_MODEL_ID=0021
+ID_PATH=pci-0000:00:06.0-usb-0:1:1.0
+ID_PATH_TAG=pci-0000_00_06_0-usb-0_1_1_0
+ID_REVISION=0100
+ID_SERIAL=VirtualBox_USB_Tablet
+ID_TYPE=hid
+ID_USB_DRIVER=usbhid
+ID_USB_INTERFACES=:030000:
+ID_USB_INTERFACE_NUM=00
+ID_VENDOR=VirtualBox
+ID_VENDOR_ENC=VirtualBox
+ID_VENDOR_ID=80ee
+MAJOR=13
+MINOR=67
+SEQNUM=1218
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=1842289
+
+UDEV  [5.952446] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/mouse0 (input)
+ACTION=add
+DEVLINKS=/dev/input/by-id/usb-VirtualBox_USB_Tablet-mouse /dev/input/by-path/pci-0000:00:06.0-usb-0:1:1.0-mouse
+DEVNAME=/dev/input/mouse0
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/mouse0
+ID_BUS=usb
+ID_INPUT=1
+ID_INPUT_MOUSE=1
+ID_MODEL=USB_Tablet
+ID_MODEL_ENC=USB\x20Tablet
+ID_MODEL_ID=0021
+ID_PATH=pci-0000:00:06.0-usb-0:1:1.0
+ID_PATH_TAG=pci-0000_00_06_0-usb-0_1_1_0
+ID_REVISION=0100
+ID_SERIAL=VirtualBox_USB_Tablet
+ID_TYPE=hid
+ID_USB_DRIVER=usbhid
+ID_USB_INTERFACES=:030000:
+ID_USB_INTERFACE_NUM=00
+ID_VENDOR=VirtualBox
+ID_VENDOR_ENC=VirtualBox
+ID_VENDOR_ID=80ee
+MAJOR=13
+MINOR=32
+SEQNUM=1219
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=1842006
+
+UDEV  [5.953003] add      /devices/virtual/mem/port (mem)
+ACTION=add
+DEVNAME=/dev/port
+DEVPATH=/devices/virtual/mem/port
+MAJOR=1
+MINOR=4
+SEQNUM=1364
+SUBSYSTEM=mem
+UDEV_LOG=3
+USEC_INITIALIZED=5952930
+
+UDEV  [5.953481] add      /devices/virtual/mem/random (mem)
+ACTION=add
+DEVMODE=0666
+DEVNAME=/dev/random
+DEVPATH=/devices/virtual/mem/random
+MAJOR=1
+MINOR=8
+SEQNUM=1365
+SUBSYSTEM=mem
+UDEV_LOG=3
+USEC_INITIALIZED=5953381
+
+UDEV  [5.953914] add      /devices/virtual/mem/urandom (mem)
+ACTION=add
+DEVMODE=0666
+DEVNAME=/dev/urandom
+DEVPATH=/devices/virtual/mem/urandom
+MAJOR=1
+MINOR=9
+SEQNUM=1366
+SUBSYSTEM=mem
+UDEV_LOG=3
+USEC_INITIALIZED=5953836
+
+UDEV  [5.960786] add      /devices/virtual/mem/zero (mem)
+ACTION=add
+DEVMODE=0666
+DEVNAME=/dev/zero
+DEVPATH=/devices/virtual/mem/zero
+MAJOR=1
+MINOR=5
+SEQNUM=1367
+SUBSYSTEM=mem
+UDEV_LOG=3
+USEC_INITIALIZED=5960683
+
+UDEV  [5.963208] add      /devices/virtual/misc/cpu_dma_latency (misc)
+ACTION=add
+DEVNAME=/dev/cpu_dma_latency
+DEVPATH=/devices/virtual/misc/cpu_dma_latency
+MAJOR=10
+MINOR=60
+SEQNUM=1368
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=5963119
+
+UDEV  [5.975130] add      /devices/virtual/block/ram11 (block)
+ACTION=add
+DEVNAME=/dev/ram11
+DEVPATH=/devices/virtual/block/ram11
+DEVTYPE=disk
+MAJOR=1
+MINOR=11
+SEQNUM=1344
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=926982
+
+UDEV  [5.981569] add      /devices/virtual/block/ram10 (block)
+ACTION=add
+DEVNAME=/dev/ram10
+DEVPATH=/devices/virtual/block/ram10
+DEVTYPE=disk
+MAJOR=1
+MINOR=10
+SEQNUM=1343
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=926862
+
+KERNEL[5.992449] add      /module/snd_seq_device (module)
+ACTION=add
+DEVPATH=/module/snd_seq_device
+SEQNUM=1490
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.011748] add      /devices/virtual/block/ram12 (block)
+ACTION=add
+DEVNAME=/dev/ram12
+DEVPATH=/devices/virtual/block/ram12
+DEVTYPE=disk
+MAJOR=1
+MINOR=12
+SEQNUM=1345
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=927107
+
+UDEV  [6.013532] add      /devices/virtual/block/ram14 (block)
+ACTION=add
+DEVNAME=/dev/ram14
+DEVPATH=/devices/virtual/block/ram14
+DEVTYPE=disk
+MAJOR=1
+MINOR=14
+SEQNUM=1347
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=927369
+
+UDEV  [6.016258] add      /devices/virtual/block/ram3 (block)
+ACTION=add
+DEVNAME=/dev/ram3
+DEVPATH=/devices/virtual/block/ram3
+DEVTYPE=disk
+MAJOR=1
+MINOR=3
+SEQNUM=1350
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=927793
+
+UDEV  [6.017104] add      /devices/virtual/block/ram1 (block)
+ACTION=add
+DEVNAME=/dev/ram1
+DEVPATH=/devices/virtual/block/ram1
+DEVTYPE=disk
+MAJOR=1
+MINOR=1
+SEQNUM=1342
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=926726
+
+UDEV  [6.017812] add      /devices/virtual/block/ram0 (block)
+ACTION=add
+DEVNAME=/dev/ram0
+DEVPATH=/devices/virtual/block/ram0
+DEVTYPE=disk
+MAJOR=1
+MINOR=0
+SEQNUM=1341
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=926509
+
+UDEV  [6.021491] add      /devices/virtual/misc/device-mapper (misc)
+ACTION=add
+DEVNAME=/dev/mapper/control
+DEVPATH=/devices/virtual/misc/device-mapper
+MAJOR=10
+MINOR=236
+SEQNUM=1369
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6021369
+
+UDEV  [6.022130] add      /devices/virtual/misc/ecryptfs (misc)
+ACTION=add
+DEVNAME=/dev/ecryptfs
+DEVPATH=/devices/virtual/misc/ecryptfs
+MAJOR=10
+MINOR=61
+SEQNUM=1370
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6022055
+
+UDEV  [6.022713] add      /devices/virtual/misc/fuse (misc)
+ACTION=add
+DEVNAME=/dev/fuse
+DEVPATH=/devices/virtual/misc/fuse
+MAJOR=10
+MINOR=229
+SEQNUM=1371
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6022635
+
+UDEV  [6.023261] add      /devices/virtual/misc/hpet (misc)
+ACTION=add
+DEVNAME=/dev/hpet
+DEVPATH=/devices/virtual/misc/hpet
+MAJOR=10
+MINOR=228
+SEQNUM=1372
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6023185
+
+UDEV  [6.023893] add      /devices/virtual/misc/loop-control (misc)
+ACTION=add
+DEVNAME=/dev/loop-control
+DEVPATH=/devices/virtual/misc/loop-control
+MAJOR=10
+MINOR=237
+SEQNUM=1373
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6023808
+
+UDEV  [6.024694] add      /devices/virtual/misc/mcelog (misc)
+ACTION=add
+DEVNAME=/dev/mcelog
+DEVPATH=/devices/virtual/misc/mcelog
+MAJOR=10
+MINOR=227
+SEQNUM=1374
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6024614
+
+UDEV  [6.025247] add      /devices/virtual/misc/microcode (misc)
+ACTION=add
+DEVNAME=/dev/cpu/microcode
+DEVPATH=/devices/virtual/misc/microcode
+MAJOR=10
+MINOR=184
+SEQNUM=1375
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6025172
+
+UDEV  [6.026053] add      /devices/virtual/misc/network_latency (misc)
+ACTION=add
+DEVNAME=/dev/network_latency
+DEVPATH=/devices/virtual/misc/network_latency
+MAJOR=10
+MINOR=59
+SEQNUM=1376
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6025936
+
+UDEV  [6.028685] add      /devices/virtual/misc/network_throughput (misc)
+ACTION=add
+DEVNAME=/dev/network_throughput
+DEVPATH=/devices/virtual/misc/network_throughput
+MAJOR=10
+MINOR=58
+SEQNUM=1377
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6028589
+
+UDEV  [6.029452] add      /devices/virtual/misc/psaux (misc)
+ACTION=add
+DEVNAME=/dev/psaux
+DEVPATH=/devices/virtual/misc/psaux
+MAJOR=10
+MINOR=1
+SEQNUM=1378
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6029213
+
+KERNEL[6.029781] add      /module/snd_timer (module)
+ACTION=add
+DEVPATH=/module/snd_timer
+SEQNUM=1491
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.030578] add      /devices/virtual/misc/rfkill (misc)
+ACTION=add
+DEVNAME=/dev/rfkill
+DEVPATH=/devices/virtual/misc/rfkill
+MAJOR=10
+MINOR=62
+SEQNUM=1379
+SUBSYSTEM=misc
+TAGS=:udev-acl:
+UDEV_LOG=3
+USEC_INITIALIZED=6030187
+
+UDEV  [6.031515] add      /devices/virtual/block/ram5 (block)
+ACTION=add
+DEVNAME=/dev/ram5
+DEVPATH=/devices/virtual/block/ram5
+DEVTYPE=disk
+MAJOR=1
+MINOR=5
+SEQNUM=1352
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=928048
+
+UDEV  [6.032500] add      /devices/virtual/block/ram4 (block)
+ACTION=add
+DEVNAME=/dev/ram4
+DEVPATH=/devices/virtual/block/ram4
+DEVTYPE=disk
+MAJOR=1
+MINOR=4
+SEQNUM=1351
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=927923
+
+UDEV  [6.033085] add      /devices/virtual/block/ram2 (block)
+ACTION=add
+DEVNAME=/dev/ram2
+DEVPATH=/devices/virtual/block/ram2
+DEVTYPE=disk
+MAJOR=1
+MINOR=2
+SEQNUM=1349
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=927623
+
+UDEV  [6.034307] add      /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0 (block)
+ACTION=add
+DEVLINKS=/dev/cdrom /dev/disk/by-id/ata-VBOX_CD-ROM_VB2-01700376 /dev/disk/by-path/pci-0000:00:01.1-scsi-0:0:0:0 /dev/dvd
+DEVNAME=/dev/sr0
+DEVPATH=/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0
+DEVTYPE=disk
+GENERATED=1
+ID_ATA=1
+ID_BUS=ata
+ID_CDROM=1
+ID_CDROM_CD=1
+ID_CDROM_DVD=1
+ID_CDROM_MRW=1
+ID_CDROM_MRW_W=1
+ID_MODEL=VBOX_CD-ROM
+ID_MODEL_ENC=VBOX\x20CD-ROM\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_PATH=pci-0000:00:01.1-scsi-0:0:0:0
+ID_PATH_TAG=pci-0000_00_01_1-scsi-0_0_0_0
+ID_REVISION=1.0
+ID_SERIAL=VBOX_CD-ROM_VB2-01700376
+ID_SERIAL_SHORT=VB2-01700376
+ID_TYPE=cd
+MAJOR=11
+MINOR=0
+SEQNUM=1198
+SUBSYSTEM=block
+TAGS=:udev-acl:
+UDEV_LOG=3
+UDISKS_PRESENTATION_NOPOLICY=0
+USEC_INITIALIZED=906314
+
+UDEV  [6.035486] add      /devices/virtual/block/ram8 (block)
+ACTION=add
+DEVNAME=/dev/ram8
+DEVPATH=/devices/virtual/block/ram8
+DEVTYPE=disk
+MAJOR=1
+MINOR=8
+SEQNUM=1355
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=982865
+
+UDEV  [6.035947] add      /devices/virtual/block/ram6 (block)
+ACTION=add
+DEVNAME=/dev/ram6
+DEVPATH=/devices/virtual/block/ram6
+DEVTYPE=disk
+MAJOR=1
+MINOR=6
+SEQNUM=1353
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=933424
+
+UDEV  [6.036517] add      /devices/virtual/block/ram15 (block)
+ACTION=add
+DEVNAME=/dev/ram15
+DEVPATH=/devices/virtual/block/ram15
+DEVTYPE=disk
+MAJOR=1
+MINOR=15
+SEQNUM=1348
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=927493
+
+UDEV  [6.037040] add      /devices/virtual/block/ram7 (block)
+ACTION=add
+DEVNAME=/dev/ram7
+DEVPATH=/devices/virtual/block/ram7
+DEVTYPE=disk
+MAJOR=1
+MINOR=7
+SEQNUM=1354
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=978823
+
+UDEV  [6.037520] add      /devices/virtual/block/ram13 (block)
+ACTION=add
+DEVNAME=/dev/ram13
+DEVPATH=/devices/virtual/block/ram13
+DEVTYPE=disk
+MAJOR=1
+MINOR=13
+SEQNUM=1346
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=927239
+
+KERNEL[6.037881] add      /devices/virtual/sound/timer (sound)
+ACTION=add
+DEVNAME=snd/timer
+DEVPATH=/devices/virtual/sound/timer
+MAJOR=116
+MINOR=33
+SEQNUM=1492
+SUBSYSTEM=sound
+UDEV_LOG=3
+
+UDEV  [6.038759] add      /devices/virtual/block/ram9 (block)
+ACTION=add
+DEVNAME=/dev/ram9
+DEVPATH=/devices/virtual/block/ram9
+DEVTYPE=disk
+MAJOR=1
+MINOR=9
+SEQNUM=1356
+SUBSYSTEM=block
+UDEV_LOG=3
+USEC_INITIALIZED=945369
+
+UDEV  [6.039527] add      /devices/virtual/dmi/id (dmi)
+ACTION=add
+DEVPATH=/devices/virtual/dmi/id
+MODALIAS=dmi:bvninnotekGmbH:bvrVirtualBox:bd12/01/2006:svninnotekGmbH:pnVirtualBox:pvr1.2:rvnOracleCorporation:rnVirtualBox:rvr1.2:cvnOracleCorporation:ct1:cvr:
+SEQNUM=1357
+SUBSYSTEM=dmi
+UDEV_LOG=3
+USEC_INITIALIZED=5944570
+
+KERNEL[6.042230] add      /devices/platform/i8042/serio1/input/input7 (input)
+ACTION=add
+DEVPATH=/devices/platform/i8042/serio1/input/input7
+EV=7
+KEY=1f0000 0 0 0 0 0 0 0 0
+MODALIAS=input:b0011v0002p0006e0000-e0,1,2,k110,111,112,113,114,r0,1,6,8,amlsfw
+NAME="ImExPS/2 Generic Explorer Mouse"
+PHYS="isa0060/serio1/input0"
+PRODUCT=11/2/6/0
+PROP=0
+REL=143
+SEQNUM=1493
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[6.042495] add      /devices/platform/i8042/serio1/input/input7/mouse1 (input)
+ACTION=add
+DEVNAME=input/mouse1
+DEVPATH=/devices/platform/i8042/serio1/input/input7/mouse1
+MAJOR=13
+MINOR=33
+SEQNUM=1494
+SUBSYSTEM=input
+UDEV_LOG=3
+
+KERNEL[6.042545] add      /devices/platform/i8042/serio1/input/input7/event6 (input)
+ACTION=add
+DEVNAME=input/event6
+DEVPATH=/devices/platform/i8042/serio1/input/input7/event6
+MAJOR=13
+MINOR=70
+SEQNUM=1495
+SUBSYSTEM=input
+UDEV_LOG=3
+
+UDEV  [6.043155] add      /devices/virtual/misc/snapshot (misc)
+ACTION=add
+DEVNAME=/dev/snapshot
+DEVPATH=/devices/virtual/misc/snapshot
+MAJOR=10
+MINOR=231
+SEQNUM=1380
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6043065
+
+UDEV  [6.043789] add      /devices/virtual/misc/tun (misc)
+ACTION=add
+DEVNAME=/dev/net/tun
+DEVPATH=/devices/virtual/misc/tun
+MAJOR=10
+MINOR=200
+SEQNUM=1381
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6043714
+
+UDEV  [6.044330] add      /devices/virtual/misc/uinput (misc)
+ACTION=add
+DEVNAME=/dev/uinput
+DEVPATH=/devices/virtual/misc/uinput
+MAJOR=10
+MINOR=223
+SEQNUM=1382
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6044257
+
+UDEV  [6.045055] add      /devices/virtual/misc/vga_arbiter (misc)
+ACTION=add
+DEVNAME=/dev/vga_arbiter
+DEVPATH=/devices/virtual/misc/vga_arbiter
+MAJOR=10
+MINOR=63
+SEQNUM=1383
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6044979
+
+UDEV  [6.047082] add      /devices/virtual/net/lo (net)
+ACTION=add
+DEVPATH=/devices/virtual/net/lo
+ID_MM_CANDIDATE=1
+IFINDEX=1
+INTERFACE=lo
+SEQNUM=1384
+SUBSYSTEM=net
+UDEV_LOG=3
+USEC_INITIALIZED=6046967
+
+UDEV  [6.053799] add      /devices/virtual/ppp/ppp (ppp)
+ACTION=add
+DEVNAME=/dev/ppp
+DEVPATH=/devices/virtual/ppp/ppp
+MAJOR=108
+MINOR=0
+SEQNUM=1385
+SUBSYSTEM=ppp
+UDEV_LOG=3
+USEC_INITIALIZED=6053618
+
+UDEV  [6.056280] add      /devices/virtual/thermal/cooling_device0 (thermal)
+ACTION=add
+DEVPATH=/devices/virtual/thermal/cooling_device0
+SEQNUM=1386
+SUBSYSTEM=thermal
+UDEV_LOG=3
+USEC_INITIALIZED=6056220
+
+UDEV  [6.057134] add      /devices/virtual/tty/console (tty)
+ACTION=add
+DEVNAME=/dev/console
+DEVPATH=/devices/virtual/tty/console
+ID_MM_CANDIDATE=1
+MAJOR=5
+MINOR=1
+SEQNUM=1387
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6057029
+
+UDEV  [6.057790] add      /devices/virtual/tty/ptmx (tty)
+ACTION=add
+DEVMODE=0666
+DEVNAME=/dev/ptmx
+DEVPATH=/devices/virtual/tty/ptmx
+ID_MM_CANDIDATE=1
+MAJOR=5
+MINOR=2
+SEQNUM=1388
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6057600
+
+UDEV  [6.058401] add      /devices/virtual/tty/tty (tty)
+ACTION=add
+DEVMODE=0666
+DEVNAME=/dev/tty
+DEVPATH=/devices/virtual/tty/tty
+ID_MM_CANDIDATE=1
+MAJOR=5
+MINOR=0
+SEQNUM=1389
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6058303
+
+UDEV  [6.058963] add      /devices/virtual/tty/tty0 (tty)
+ACTION=add
+DEVNAME=/dev/tty0
+DEVPATH=/devices/virtual/tty/tty0
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=0
+SEQNUM=1390
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6058870
+
+UDEV  [6.060470] add      /devices/virtual/tty/tty10 (tty)
+ACTION=add
+DEVNAME=/dev/tty10
+DEVPATH=/devices/virtual/tty/tty10
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=10
+SEQNUM=1392
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6060367
+
+UDEV  [6.061088] add      /devices/virtual/tty/tty11 (tty)
+ACTION=add
+DEVNAME=/dev/tty11
+DEVPATH=/devices/virtual/tty/tty11
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=11
+SEQNUM=1393
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6060992
+
+UDEV  [6.061727] add      /devices/virtual/tty/tty12 (tty)
+ACTION=add
+DEVNAME=/dev/tty12
+DEVPATH=/devices/virtual/tty/tty12
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=12
+SEQNUM=1394
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6061625
+
+UDEV  [6.063173] add      /devices/virtual/tty/tty13 (tty)
+ACTION=add
+DEVNAME=/dev/tty13
+DEVPATH=/devices/virtual/tty/tty13
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=13
+SEQNUM=1395
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6063076
+
+UDEV  [6.063777] add      /devices/virtual/tty/tty14 (tty)
+ACTION=add
+DEVNAME=/dev/tty14
+DEVPATH=/devices/virtual/tty/tty14
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=14
+SEQNUM=1396
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6063689
+
+UDEV  [6.064360] add      /devices/virtual/tty/tty15 (tty)
+ACTION=add
+DEVNAME=/dev/tty15
+DEVPATH=/devices/virtual/tty/tty15
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=15
+SEQNUM=1397
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6064272
+
+UDEV  [6.064893] add      /devices/virtual/tty/tty16 (tty)
+ACTION=add
+DEVNAME=/dev/tty16
+DEVPATH=/devices/virtual/tty/tty16
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=16
+SEQNUM=1398
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6064806
+
+UDEV  [6.065375] add      /devices/virtual/tty/tty17 (tty)
+ACTION=add
+DEVNAME=/dev/tty17
+DEVPATH=/devices/virtual/tty/tty17
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=17
+SEQNUM=1399
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6065289
+
+UDEV  [6.065930] add      /devices/virtual/tty/tty18 (tty)
+ACTION=add
+DEVNAME=/dev/tty18
+DEVPATH=/devices/virtual/tty/tty18
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=18
+SEQNUM=1400
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6065839
+
+UDEV  [6.066486] add      /devices/virtual/tty/tty19 (tty)
+ACTION=add
+DEVNAME=/dev/tty19
+DEVPATH=/devices/virtual/tty/tty19
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=19
+SEQNUM=1401
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6066355
+
+UDEV  [6.067419] add      /devices/virtual/tty/tty20 (tty)
+ACTION=add
+DEVNAME=/dev/tty20
+DEVPATH=/devices/virtual/tty/tty20
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=20
+SEQNUM=1403
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6067288
+
+UDEV  [6.067973] add      /devices/virtual/tty/tty21 (tty)
+ACTION=add
+DEVNAME=/dev/tty21
+DEVPATH=/devices/virtual/tty/tty21
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=21
+SEQNUM=1404
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6067843
+
+UDEV  [6.068640] add      /devices/virtual/tty/tty22 (tty)
+ACTION=add
+DEVNAME=/dev/tty22
+DEVPATH=/devices/virtual/tty/tty22
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=22
+SEQNUM=1405
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6068547
+
+UDEV  [6.069134] add      /devices/virtual/tty/tty23 (tty)
+ACTION=add
+DEVNAME=/dev/tty23
+DEVPATH=/devices/virtual/tty/tty23
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=23
+SEQNUM=1406
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6069048
+
+UDEV  [6.069660] add      /devices/virtual/tty/tty24 (tty)
+ACTION=add
+DEVNAME=/dev/tty24
+DEVPATH=/devices/virtual/tty/tty24
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=24
+SEQNUM=1407
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6069572
+
+UDEV  [6.070143] add      /devices/virtual/tty/tty25 (tty)
+ACTION=add
+DEVNAME=/dev/tty25
+DEVPATH=/devices/virtual/tty/tty25
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=25
+SEQNUM=1408
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6070054
+
+UDEV  [6.070668] add      /devices/virtual/tty/tty26 (tty)
+ACTION=add
+DEVNAME=/dev/tty26
+DEVPATH=/devices/virtual/tty/tty26
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=26
+SEQNUM=1409
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6070582
+
+UDEV  [6.071152] add      /devices/virtual/tty/tty27 (tty)
+ACTION=add
+DEVNAME=/dev/tty27
+DEVPATH=/devices/virtual/tty/tty27
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=27
+SEQNUM=1410
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6071063
+
+UDEV  [6.071713] add      /devices/virtual/tty/tty28 (tty)
+ACTION=add
+DEVNAME=/dev/tty28
+DEVPATH=/devices/virtual/tty/tty28
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=28
+SEQNUM=1411
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6071616
+
+UDEV  [6.072411] add      /devices/virtual/tty/tty29 (tty)
+ACTION=add
+DEVNAME=/dev/tty29
+DEVPATH=/devices/virtual/tty/tty29
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=29
+SEQNUM=1412
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6072215
+
+UDEV  [6.074786] add      /devices/virtual/tty/tty30 (tty)
+ACTION=add
+DEVNAME=/dev/tty30
+DEVPATH=/devices/virtual/tty/tty30
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=30
+SEQNUM=1414
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6074674
+
+UDEV  [6.075454] add      /devices/virtual/tty/tty31 (tty)
+ACTION=add
+DEVNAME=/dev/tty31
+DEVPATH=/devices/virtual/tty/tty31
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=31
+SEQNUM=1415
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6075357
+
+UDEV  [6.076036] add      /devices/virtual/tty/tty32 (tty)
+ACTION=add
+DEVNAME=/dev/tty32
+DEVPATH=/devices/virtual/tty/tty32
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=32
+SEQNUM=1416
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6075941
+
+UDEV  [6.078107] add      /devices/virtual/tty/tty33 (tty)
+ACTION=add
+DEVNAME=/dev/tty33
+DEVPATH=/devices/virtual/tty/tty33
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=33
+SEQNUM=1417
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6078010
+
+UDEV  [6.079328] add      /devices/virtual/tty/tty34 (tty)
+ACTION=add
+DEVNAME=/dev/tty34
+DEVPATH=/devices/virtual/tty/tty34
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=34
+SEQNUM=1418
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6079222
+
+UDEV  [6.090459] add      /devices/virtual/tty/tty35 (tty)
+ACTION=add
+DEVNAME=/dev/tty35
+DEVPATH=/devices/virtual/tty/tty35
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=35
+SEQNUM=1419
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6090343
+
+UDEV  [6.091618] add      /devices/virtual/tty/tty36 (tty)
+ACTION=add
+DEVNAME=/dev/tty36
+DEVPATH=/devices/virtual/tty/tty36
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=36
+SEQNUM=1420
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6091510
+
+UDEV  [6.094047] add      /devices/virtual/tty/tty37 (tty)
+ACTION=add
+DEVNAME=/dev/tty37
+DEVPATH=/devices/virtual/tty/tty37
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=37
+SEQNUM=1421
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6093938
+
+UDEV  [6.094676] add      /devices/virtual/tty/tty38 (tty)
+ACTION=add
+DEVNAME=/dev/tty38
+DEVPATH=/devices/virtual/tty/tty38
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=38
+SEQNUM=1422
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6094583
+
+UDEV  [6.095623] add      /devices/virtual/tty/tty39 (tty)
+ACTION=add
+DEVNAME=/dev/tty39
+DEVPATH=/devices/virtual/tty/tty39
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=39
+SEQNUM=1423
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6095512
+
+UDEV  [6.096649] add      /devices/virtual/tty/tty40 (tty)
+ACTION=add
+DEVNAME=/dev/tty40
+DEVPATH=/devices/virtual/tty/tty40
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=40
+SEQNUM=1425
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6096551
+
+UDEV  [6.097319] add      /devices/virtual/tty/tty41 (tty)
+ACTION=add
+DEVNAME=/dev/tty41
+DEVPATH=/devices/virtual/tty/tty41
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=41
+SEQNUM=1426
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6097226
+
+UDEV  [6.097875] add      /devices/virtual/tty/tty42 (tty)
+ACTION=add
+DEVNAME=/dev/tty42
+DEVPATH=/devices/virtual/tty/tty42
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=42
+SEQNUM=1427
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6097781
+
+UDEV  [6.098400] add      /devices/virtual/tty/tty43 (tty)
+ACTION=add
+DEVNAME=/dev/tty43
+DEVPATH=/devices/virtual/tty/tty43
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=43
+SEQNUM=1428
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6098304
+
+UDEV  [6.099095] add      /devices/virtual/tty/tty44 (tty)
+ACTION=add
+DEVNAME=/dev/tty44
+DEVPATH=/devices/virtual/tty/tty44
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=44
+SEQNUM=1429
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6098993
+
+KERNEL[6.099361] add      /devices/virtual/vc/vcs2 (vc)
+ACTION=add
+DEVNAME=vcs2
+DEVPATH=/devices/virtual/vc/vcs2
+MAJOR=7
+MINOR=2
+SEQNUM=1496
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+KERNEL[6.099412] add      /devices/virtual/vc/vcsa2 (vc)
+ACTION=add
+DEVNAME=vcsa2
+DEVPATH=/devices/virtual/vc/vcsa2
+MAJOR=7
+MINOR=130
+SEQNUM=1497
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+UDEV  [6.099952] add      /devices/virtual/tty/tty45 (tty)
+ACTION=add
+DEVNAME=/dev/tty45
+DEVPATH=/devices/virtual/tty/tty45
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=45
+SEQNUM=1430
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6099860
+
+UDEV  [6.100752] add      /devices/virtual/tty/tty46 (tty)
+ACTION=add
+DEVNAME=/dev/tty46
+DEVPATH=/devices/virtual/tty/tty46
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=46
+SEQNUM=1431
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6100659
+
+UDEV  [6.103134] add      /devices/virtual/tty/tty47 (tty)
+ACTION=add
+DEVNAME=/dev/tty47
+DEVPATH=/devices/virtual/tty/tty47
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=47
+SEQNUM=1432
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6103032
+
+KERNEL[6.103496] add      /devices/virtual/vc/vcs3 (vc)
+ACTION=add
+DEVNAME=vcs3
+DEVPATH=/devices/virtual/vc/vcs3
+MAJOR=7
+MINOR=3
+SEQNUM=1498
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+UDEV  [6.103996] add      /devices/virtual/tty/tty48 (tty)
+ACTION=add
+DEVNAME=/dev/tty48
+DEVPATH=/devices/virtual/tty/tty48
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=48
+SEQNUM=1433
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6103906
+
+KERNEL[6.104268] add      /devices/virtual/vc/vcsa3 (vc)
+ACTION=add
+DEVNAME=vcsa3
+DEVPATH=/devices/virtual/vc/vcsa3
+MAJOR=7
+MINOR=131
+SEQNUM=1499
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+UDEV  [6.104858] add      /devices/virtual/tty/tty49 (tty)
+ACTION=add
+DEVNAME=/dev/tty49
+DEVPATH=/devices/virtual/tty/tty49
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=49
+SEQNUM=1434
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6104750
+
+UDEV  [6.108939] add      /devices/virtual/tty/tty50 (tty)
+ACTION=add
+DEVNAME=/dev/tty50
+DEVPATH=/devices/virtual/tty/tty50
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=50
+SEQNUM=1436
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6108819
+
+UDEV  [6.109685] add      /devices/virtual/tty/tty51 (tty)
+ACTION=add
+DEVNAME=/dev/tty51
+DEVPATH=/devices/virtual/tty/tty51
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=51
+SEQNUM=1437
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6109588
+
+UDEV  [6.110303] add      /devices/virtual/tty/tty52 (tty)
+ACTION=add
+DEVNAME=/dev/tty52
+DEVPATH=/devices/virtual/tty/tty52
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=52
+SEQNUM=1438
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6110207
+
+UDEV  [6.110983] add      /devices/virtual/tty/tty53 (tty)
+ACTION=add
+DEVNAME=/dev/tty53
+DEVPATH=/devices/virtual/tty/tty53
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=53
+SEQNUM=1439
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6110896
+
+UDEV  [6.111541] add      /devices/virtual/tty/tty54 (tty)
+ACTION=add
+DEVNAME=/dev/tty54
+DEVPATH=/devices/virtual/tty/tty54
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=54
+SEQNUM=1440
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6111430
+
+UDEV  [6.116955] add      /devices/virtual/tty/tty55 (tty)
+ACTION=add
+DEVNAME=/dev/tty55
+DEVPATH=/devices/virtual/tty/tty55
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=55
+SEQNUM=1441
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6116845
+
+UDEV  [6.140039] add      /devices/virtual/tty/tty56 (tty)
+ACTION=add
+DEVNAME=/dev/tty56
+DEVPATH=/devices/virtual/tty/tty56
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=56
+SEQNUM=1442
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6139919
+
+UDEV  [6.143941] add      /devices/virtual/tty/tty57 (tty)
+ACTION=add
+DEVNAME=/dev/tty57
+DEVPATH=/devices/virtual/tty/tty57
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=57
+SEQNUM=1443
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6143832
+
+UDEV  [6.144491] add      /devices/virtual/tty/tty58 (tty)
+ACTION=add
+DEVNAME=/dev/tty58
+DEVPATH=/devices/virtual/tty/tty58
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=58
+SEQNUM=1444
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6144403
+
+KERNEL[6.145442] add      /module/snd_seq (module)
+ACTION=add
+DEVPATH=/module/snd_seq
+SEQNUM=1500
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.145791] add      /devices/virtual/tty/tty59 (tty)
+ACTION=add
+DEVNAME=/dev/tty59
+DEVPATH=/devices/virtual/tty/tty59
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=59
+SEQNUM=1445
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6145700
+
+UDEV  [6.150546] add      /devices/virtual/tty/tty60 (tty)
+ACTION=add
+DEVNAME=/dev/tty60
+DEVPATH=/devices/virtual/tty/tty60
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=60
+SEQNUM=1447
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6150380
+
+UDEV  [6.151172] add      /devices/virtual/tty/tty61 (tty)
+ACTION=add
+DEVNAME=/dev/tty61
+DEVPATH=/devices/virtual/tty/tty61
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=61
+SEQNUM=1448
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6151087
+
+UDEV  [6.151567] add      /devices/virtual/tty/tty62 (tty)
+ACTION=add
+DEVNAME=/dev/tty62
+DEVPATH=/devices/virtual/tty/tty62
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=62
+SEQNUM=1449
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6151472
+
+UDEV  [6.151910] add      /devices/virtual/tty/tty63 (tty)
+ACTION=add
+DEVNAME=/dev/tty63
+DEVPATH=/devices/virtual/tty/tty63
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=63
+SEQNUM=1450
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6151828
+
+UDEV  [6.152853] add      /devices/virtual/tty/tty7 (tty)
+ACTION=add
+DEVNAME=/dev/tty7
+DEVPATH=/devices/virtual/tty/tty7
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=7
+SEQNUM=1451
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6152769
+
+UDEV  [6.153189] add      /devices/virtual/tty/tty8 (tty)
+ACTION=add
+DEVNAME=/dev/tty8
+DEVPATH=/devices/virtual/tty/tty8
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=8
+SEQNUM=1452
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6153110
+
+UDEV  [6.160706] add      /devices/virtual/tty/tty9 (tty)
+ACTION=add
+DEVNAME=/dev/tty9
+DEVPATH=/devices/virtual/tty/tty9
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=9
+SEQNUM=1453
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6160586
+
+UDEV  [6.161142] add      /devices/virtual/tty/ttyprintk (tty)
+ACTION=add
+DEVNAME=/dev/ttyprintk
+DEVPATH=/devices/virtual/tty/ttyprintk
+ID_MM_CANDIDATE=1
+MAJOR=5
+MINOR=3
+SEQNUM=1454
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6161049
+
+KERNEL[6.161421] add      /devices/virtual/vc/vcs5 (vc)
+ACTION=add
+DEVNAME=vcs5
+DEVPATH=/devices/virtual/vc/vcs5
+MAJOR=7
+MINOR=5
+SEQNUM=1501
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+KERNEL[6.161509] add      /devices/virtual/vc/vcsa5 (vc)
+ACTION=add
+DEVNAME=vcsa5
+DEVPATH=/devices/virtual/vc/vcsa5
+MAJOR=7
+MINOR=133
+SEQNUM=1502
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+UDEV  [6.163928] add      /devices/virtual/vc/vcs (vc)
+ACTION=add
+DEVNAME=/dev/vcs
+DEVPATH=/devices/virtual/vc/vcs
+MAJOR=7
+MINOR=0
+SEQNUM=1455
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6163802
+
+KERNEL[6.164398] add      /devices/virtual/sound/seq (sound)
+ACTION=add
+DEVNAME=snd/seq
+DEVPATH=/devices/virtual/sound/seq
+MAJOR=116
+MINOR=1
+SEQNUM=1503
+SUBSYSTEM=sound
+UDEV_LOG=3
+
+UDEV  [6.164943] add      /devices/virtual/vc/vcs1 (vc)
+ACTION=add
+DEVNAME=/dev/vcs1
+DEVPATH=/devices/virtual/vc/vcs1
+MAJOR=7
+MINOR=1
+SEQNUM=1456
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6164867
+
+UDEV  [6.166268] add      /devices/virtual/vc/vcs7 (vc)
+ACTION=add
+DEVNAME=/dev/vcs7
+DEVPATH=/devices/virtual/vc/vcs7
+MAJOR=7
+MINOR=7
+SEQNUM=1457
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6166190
+
+UDEV  [6.168548] add      /devices/virtual/vc/vcsa (vc)
+ACTION=add
+DEVNAME=/dev/vcsa
+DEVPATH=/devices/virtual/vc/vcsa
+MAJOR=7
+MINOR=128
+SEQNUM=1458
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6168474
+
+UDEV  [6.168887] add      /devices/virtual/vc/vcsa1 (vc)
+ACTION=add
+DEVNAME=/dev/vcsa1
+DEVPATH=/devices/virtual/vc/vcsa1
+MAJOR=7
+MINOR=129
+SEQNUM=1459
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6168819
+
+UDEV  [6.169282] add      /devices/virtual/vc/vcsa7 (vc)
+ACTION=add
+DEVNAME=/dev/vcsa7
+DEVPATH=/devices/virtual/vc/vcsa7
+MAJOR=7
+MINOR=135
+SEQNUM=1460
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6169195
+
+UDEV  [6.169677] add      /devices/virtual/vtconsole/vtcon0 (vtconsole)
+ACTION=add
+DEVPATH=/devices/virtual/vtconsole/vtcon0
+SEQNUM=1461
+SUBSYSTEM=vtconsole
+UDEV_LOG=3
+USEC_INITIALIZED=6169638
+
+UDEV  [6.170464] add      /devices/virtual/vtconsole/vtcon1 (vtconsole)
+ACTION=add
+DEVPATH=/devices/virtual/vtconsole/vtcon1
+SEQNUM=1462
+SUBSYSTEM=vtconsole
+UDEV_LOG=3
+USEC_INITIALIZED=6170421
+
+KERNEL[6.173197] add      /devices/virtual/vc/vcs4 (vc)
+ACTION=add
+DEVNAME=vcs4
+DEVPATH=/devices/virtual/vc/vcs4
+MAJOR=7
+MINOR=4
+SEQNUM=1504
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+UDEV  [6.173693] add      /module/parport (module)
+ACTION=add
+DEVPATH=/module/parport
+SEQNUM=1463
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6173661
+
+KERNEL[6.173842] add      /devices/virtual/vc/vcsa4 (vc)
+ACTION=add
+DEVNAME=vcsa4
+DEVPATH=/devices/virtual/vc/vcsa4
+MAJOR=7
+MINOR=132
+SEQNUM=1505
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+KERNEL[6.173996] add      /devices/virtual/vc/vcs6 (vc)
+ACTION=add
+DEVNAME=vcs6
+DEVPATH=/devices/virtual/vc/vcs6
+MAJOR=7
+MINOR=6
+SEQNUM=1506
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+KERNEL[6.174044] add      /devices/virtual/vc/vcsa6 (vc)
+ACTION=add
+DEVNAME=vcsa6
+DEVPATH=/devices/virtual/vc/vcsa6
+MAJOR=7
+MINOR=134
+SEQNUM=1507
+SUBSYSTEM=vc
+UDEV_LOG=3
+
+UDEV  [6.174439] add      /module/snd_page_alloc (module)
+ACTION=add
+DEVPATH=/module/snd_page_alloc
+SEQNUM=1467
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6174403
+
+UDEV  [6.174635] add      /class/printer (class)
+ACTION=add
+DEVPATH=/class/printer
+SEQNUM=1465
+SUBSYSTEM=class
+UDEV_LOG=3
+USEC_INITIALIZED=6174605
+
+UDEV  [6.175044] add      /class/sound (class)
+ACTION=add
+DEVPATH=/class/sound
+SEQNUM=1469
+SUBSYSTEM=class
+UDEV_LOG=3
+USEC_INITIALIZED=6175015
+
+UDEV  [6.175203] add      /module/soundcore (module)
+ACTION=add
+DEVPATH=/module/soundcore
+SEQNUM=1468
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6175174
+
+UDEV  [6.181101] add      /module/i2c_piix4 (module)
+ACTION=add
+DEVPATH=/module/i2c_piix4
+SEQNUM=1470
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6181055
+
+UDEV  [6.181473] add      /module/vboxguest (module)
+ACTION=add
+DEVPATH=/module/vboxguest
+SEQNUM=1472
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6181435
+
+UDEV  [6.181682] add      /bus/pci/drivers/piix4_smbus (drivers)
+ACTION=add
+DEVPATH=/bus/pci/drivers/piix4_smbus
+SEQNUM=1471
+SUBSYSTEM=drivers
+UDEV_LOG=3
+USEC_INITIALIZED=6181645
+
+KERNEL[6.189638] add      /module/snd_seq_midi_event (module)
+ACTION=add
+DEVPATH=/module/snd_seq_midi_event
+SEQNUM=1508
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.192920] add      /devices/virtual/misc/vboxguest (misc)
+ACTION=add
+DEVNAME=/dev/vboxguest
+DEVPATH=/devices/virtual/misc/vboxguest
+MAJOR=10
+MINOR=57
+SEQNUM=1475
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6192840
+
+UDEV  [6.193324] add      /devices/virtual/misc/vboxuser (misc)
+ACTION=add
+DEVNAME=/dev/vboxuser
+DEVPATH=/devices/virtual/misc/vboxuser
+MAJOR=10
+MINOR=56
+SEQNUM=1476
+SUBSYSTEM=misc
+UDEV_LOG=3
+USEC_INITIALIZED=6193255
+
+UDEV  [6.195266] add      /devices/virtual/input/input5 (input)
+ACTION=add
+DEVPATH=/devices/virtual/input/input5
+EV=1
+ID_INPUT=1
+ID_INPUT_MOUSE=1
+ID_SERIAL=noserial
+MODALIAS=input:b0001v80EEpCAFEe0401-e0,kramlsfw
+PRODUCT=1/80ee/cafe/401
+PROP=0
+SEQNUM=1473
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=6184020
+
+KERNEL[6.196490] add      /module/ppdev (module)
+ACTION=add
+DEVPATH=/module/ppdev
+SEQNUM=1509
+SUBSYSTEM=module
+UDEV_LOG=3
+
+KERNEL[6.196567] add      /class/ppdev (class)
+ACTION=add
+DEVPATH=/class/ppdev
+SEQNUM=1510
+SUBSYSTEM=class
+UDEV_LOG=3
+
+UDEV  [6.197866] add      /module/mac_hid (module)
+ACTION=add
+DEVPATH=/module/mac_hid
+SEQNUM=1477
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6197820
+
+UDEV  [6.198662] add      /devices/virtual/input/input5/event4 (input)
+ACTION=add
+DEVNAME=/dev/input/event4
+DEVPATH=/devices/virtual/input/input5/event4
+ID_INPUT=1
+ID_INPUT_MOUSE=1
+ID_SERIAL=noserial
+MAJOR=13
+MINOR=68
+SEQNUM=1474
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=6198562
+
+UDEV  [6.199577] add      /module/serio_raw (module)
+ACTION=add
+DEVPATH=/module/serio_raw
+SEQNUM=1478
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6199548
+
+UDEV  [6.200058] add      /bus/serio/drivers/serio_raw (drivers)
+ACTION=add
+DEVPATH=/bus/serio/drivers/serio_raw
+SEQNUM=1479
+SUBSYSTEM=drivers
+UDEV_LOG=3
+USEC_INITIALIZED=6199776
+
+UDEV  [6.200431] add      /module/psmouse (module)
+ACTION=add
+DEVPATH=/module/psmouse
+SEQNUM=1480
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6200391
+
+UDEV  [6.200659] add      /module/video (module)
+ACTION=add
+DEVPATH=/module/video
+SEQNUM=1481
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6200629
+
+UDEV  [6.203824] add      /bus/acpi/drivers/video (drivers)
+ACTION=add
+DEVPATH=/bus/acpi/drivers/video
+SEQNUM=1484
+SUBSYSTEM=drivers
+UDEV_LOG=3
+USEC_INITIALIZED=6203766
+
+UDEV  [6.204133] add      /bus/serio/drivers/psmouse (drivers)
+ACTION=add
+DEVPATH=/bus/serio/drivers/psmouse
+SEQNUM=1485
+SUBSYSTEM=drivers
+UDEV_LOG=3
+USEC_INITIALIZED=6204101
+
+UDEV  [6.204533] add      /module/snd (module)
+ACTION=add
+DEVPATH=/module/snd
+SEQNUM=1486
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6204500
+
+UDEV  [6.205136] add      /module/joydev (module)
+ACTION=add
+DEVPATH=/module/joydev
+SEQNUM=1487
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6205099
+
+UDEV  [6.209806] add      /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/js0 (input)
+ACTION=add
+DEVLINKS=/dev/input/by-id/usb-VirtualBox_USB_Tablet-mouse /dev/input/by-path/pci-0000:00:06.0-usb-0:1:1.0-mouse
+DEVNAME=/dev/input/js0
+DEVPATH=/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/js0
+ID_BUS=usb
+ID_INPUT=1
+ID_INPUT_MOUSE=1
+ID_MODEL=USB_Tablet
+ID_MODEL_ENC=USB\x20Tablet
+ID_MODEL_ID=0021
+ID_PATH=pci-0000:00:06.0-usb-0:1:1.0
+ID_PATH_TAG=pci-0000_00_06_0-usb-0_1_1_0
+ID_REVISION=0100
+ID_SERIAL=VirtualBox_USB_Tablet
+ID_TYPE=hid
+ID_USB_DRIVER=usbhid
+ID_USB_INTERFACES=:030000:
+ID_USB_INTERFACE_NUM=00
+ID_VENDOR=VirtualBox
+ID_VENDOR_ENC=VirtualBox
+ID_VENDOR_ID=80ee
+MAJOR=13
+MINOR=0
+SEQNUM=1488
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=6209694
+
+KERNEL[6.221548] add      /module/parport_pc (module)
+ACTION=add
+DEVPATH=/module/parport_pc
+SEQNUM=1511
+SUBSYSTEM=module
+UDEV_LOG=3
+
+KERNEL[6.222711] add      /bus/platform/drivers/parport_pc (drivers)
+ACTION=add
+DEVPATH=/bus/platform/drivers/parport_pc
+SEQNUM=1512
+SUBSYSTEM=drivers
+UDEV_LOG=3
+
+KERNEL[6.222753] add      /bus/pnp/drivers/parport_pc (drivers)
+ACTION=add
+DEVPATH=/bus/pnp/drivers/parport_pc
+SEQNUM=1513
+SUBSYSTEM=drivers
+UDEV_LOG=3
+
+KERNEL[6.222872] add      /devices/platform/parport_pc.956 (platform)
+ACTION=add
+DEVPATH=/devices/platform/parport_pc.956
+MODALIAS=platform:parport_pc
+SEQNUM=1514
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[6.222998] remove   /devices/platform/parport_pc.956 (platform)
+ACTION=remove
+DEVPATH=/devices/platform/parport_pc.956
+MODALIAS=platform:parport_pc
+SEQNUM=1515
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[6.223040] add      /devices/platform/parport_pc.888 (platform)
+ACTION=add
+DEVPATH=/devices/platform/parport_pc.888
+MODALIAS=platform:parport_pc
+SEQNUM=1516
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[6.223134] remove   /devices/platform/parport_pc.888 (platform)
+ACTION=remove
+DEVPATH=/devices/platform/parport_pc.888
+MODALIAS=platform:parport_pc
+SEQNUM=1517
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[6.223209] add      /devices/platform/parport_pc.632 (platform)
+ACTION=add
+DEVPATH=/devices/platform/parport_pc.632
+MODALIAS=platform:parport_pc
+SEQNUM=1518
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[6.223317] remove   /devices/platform/parport_pc.632 (platform)
+ACTION=remove
+DEVPATH=/devices/platform/parport_pc.632
+MODALIAS=platform:parport_pc
+SEQNUM=1519
+SUBSYSTEM=platform
+UDEV_LOG=3
+
+KERNEL[6.223370] add      /bus/pci/drivers/parport_pc (drivers)
+ACTION=add
+DEVPATH=/bus/pci/drivers/parport_pc
+SEQNUM=1520
+SUBSYSTEM=drivers
+UDEV_LOG=3
+
+UDEV  [6.227002] add      /devices/virtual/input/input5/js1 (input)
+ACTION=add
+DEVNAME=/dev/input/js1
+DEVPATH=/devices/virtual/input/input5/js1
+ID_INPUT=1
+ID_INPUT_MOUSE=1
+ID_SERIAL=noserial
+MAJOR=13
+MINOR=1
+SEQNUM=1489
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=6226551
+
+UDEV  [6.244726] add      /module/snd_seq_device (module)
+ACTION=add
+DEVPATH=/module/snd_seq_device
+SEQNUM=1490
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6244659
+
+UDEV  [6.245661] add      /module/snd_timer (module)
+ACTION=add
+DEVPATH=/module/snd_timer
+SEQNUM=1491
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6245628
+
+UDEV  [6.251192] add      /devices/virtual/sound/timer (sound)
+ACTION=add
+DEVNAME=/dev/snd/timer
+DEVPATH=/devices/virtual/sound/timer
+MAJOR=116
+MINOR=33
+SEQNUM=1492
+SUBSYSTEM=sound
+TAGS=:udev-acl:
+UDEV_LOG=3
+USEC_INITIALIZED=6251067
+
+UDEV  [6.282930] add      /devices/virtual/vc/vcs2 (vc)
+ACTION=add
+DEVNAME=/dev/vcs2
+DEVPATH=/devices/virtual/vc/vcs2
+MAJOR=7
+MINOR=2
+SEQNUM=1496
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6282819
+
+UDEV  [6.286510] add      /devices/virtual/vc/vcsa2 (vc)
+ACTION=add
+DEVNAME=/dev/vcsa2
+DEVPATH=/devices/virtual/vc/vcsa2
+MAJOR=7
+MINOR=130
+SEQNUM=1497
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6286393
+
+UDEV  [6.289237] add      /devices/virtual/vc/vcs3 (vc)
+ACTION=add
+DEVNAME=/dev/vcs3
+DEVPATH=/devices/virtual/vc/vcs3
+MAJOR=7
+MINOR=3
+SEQNUM=1498
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6289150
+
+UDEV  [6.292778] add      /devices/virtual/vc/vcsa3 (vc)
+ACTION=add
+DEVNAME=/dev/vcsa3
+DEVPATH=/devices/virtual/vc/vcsa3
+MAJOR=7
+MINOR=131
+SEQNUM=1499
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6292698
+
+UDEV  [6.294046] add      /module/snd_seq (module)
+ACTION=add
+DEVPATH=/module/snd_seq
+SEQNUM=1500
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6294013
+
+UDEV  [6.295890] add      /devices/virtual/vc/vcs5 (vc)
+ACTION=add
+DEVNAME=/dev/vcs5
+DEVPATH=/devices/virtual/vc/vcs5
+MAJOR=7
+MINOR=5
+SEQNUM=1501
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6295740
+
+UDEV  [6.296996] add      /devices/virtual/vc/vcsa5 (vc)
+ACTION=add
+DEVNAME=/dev/vcsa5
+DEVPATH=/devices/virtual/vc/vcsa5
+MAJOR=7
+MINOR=133
+SEQNUM=1502
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6296928
+
+UDEV  [6.298563] add      /devices/virtual/sound/seq (sound)
+ACTION=add
+DEVNAME=/dev/snd/seq
+DEVPATH=/devices/virtual/sound/seq
+MAJOR=116
+MINOR=1
+SEQNUM=1503
+SUBSYSTEM=sound
+TAGS=:udev-acl:
+UDEV_LOG=3
+USEC_INITIALIZED=6298467
+
+UDEV  [6.300989] add      /devices/virtual/vc/vcs4 (vc)
+ACTION=add
+DEVNAME=/dev/vcs4
+DEVPATH=/devices/virtual/vc/vcs4
+MAJOR=7
+MINOR=4
+SEQNUM=1504
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6300848
+
+UDEV  [6.339598] add      /devices/platform/i8042/serio1/input/input7 (input)
+ACTION=add
+DEVPATH=/devices/platform/i8042/serio1/input/input7
+EV=7
+ID_INPUT=1
+ID_INPUT_MOUSE=1
+ID_PATH=platform-i8042-serio-1
+ID_PATH_TAG=platform-i8042-serio-1
+ID_SERIAL=noserial
+KEY=1f0000 0 0 0 0 0 0 0 0
+MODALIAS=input:b0011v0002p0006e0000-e0,1,2,k110,111,112,113,114,r0,1,6,8,amlsfw
+NAME="ImExPS/2 Generic Explorer Mouse"
+PHYS="isa0060/serio1/input0"
+PRODUCT=11/2/6/0
+PROP=0
+REL=143
+SEQNUM=1493
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=6282250
+
+UDEV  [6.347781] add      /devices/virtual/tty/tty1 (tty)
+ACTION=add
+DEVNAME=/dev/tty1
+DEVPATH=/devices/virtual/tty/tty1
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=1
+SEQNUM=1391
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6059828
+
+UDEV  [6.350208] add      /devices/virtual/tty/tty3 (tty)
+ACTION=add
+DEVNAME=/dev/tty3
+DEVPATH=/devices/virtual/tty/tty3
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=3
+SEQNUM=1413
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6074237
+
+UDEV  [6.353015] add      /devices/virtual/tty/tty4 (tty)
+ACTION=add
+DEVNAME=/dev/tty4
+DEVPATH=/devices/virtual/tty/tty4
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=4
+SEQNUM=1424
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6096136
+
+UDEV  [6.355686] add      /devices/virtual/tty/tty6 (tty)
+ACTION=add
+DEVNAME=/dev/tty6
+DEVPATH=/devices/virtual/tty/tty6
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=6
+SEQNUM=1446
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6149982
+
+UDEV  [6.363603] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input6 (input)
+ACTION=add
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input6
+EV=3
+ID_INPUT=1
+ID_INPUT_KEY=1
+ID_PATH=acpi-LNXVIDEO:00
+ID_PATH_TAG=acpi-LNXVIDEO_00
+KEY=3e000b00000000 0 0 0
+MODALIAS=input:b0019v0000p0006e0000-e0,1,kE0,E1,E3,F1,F2,F3,F4,F5,ramlsfw
+NAME="Video Bus"
+PHYS="LNXVIDEO/video/input0"
+PRODUCT=19/0/6/0
+PROP=0
+SEQNUM=1482
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=6201877
+
+UDEV  [6.365684] add      /devices/virtual/tty/tty5 (tty)
+ACTION=add
+DEVNAME=/dev/tty5
+DEVPATH=/devices/virtual/tty/tty5
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=5
+SEQNUM=1435
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6105876
+
+UDEV  [6.369409] add      /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input6/event5 (input)
+ACTION=add
+DEVNAME=/dev/input/event5
+DEVPATH=/devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input6/event5
+DMI_VENDOR=innotek GmbH
+ID_INPUT=1
+ID_INPUT_KEY=1
+ID_PATH=acpi-LNXVIDEO:00
+ID_PATH_TAG=acpi-LNXVIDEO_00
+MAJOR=13
+MINOR=69
+SEQNUM=1483
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=6369231
+XKBLAYOUT=us,th
+XKBMODEL=pc105
+XKBOPTIONS=grp:alt_shift_toggle,grp_led:scroll
+XKBVARIANT=,
+
+UDEV  [6.371298] add      /devices/virtual/tty/tty2 (tty)
+ACTION=add
+DEVNAME=/dev/tty2
+DEVPATH=/devices/virtual/tty/tty2
+ID_MM_CANDIDATE=1
+MAJOR=4
+MINOR=2
+SEQNUM=1402
+SUBSYSTEM=tty
+UDEV_LOG=3
+USEC_INITIALIZED=6066896
+
+UDEV  [6.372925] add      /devices/platform/i8042/serio1/input/input7/mouse1 (input)
+ACTION=add
+DEVLINKS=/dev/input/by-path/platform-i8042-serio-1-mouse
+DEVNAME=/dev/input/mouse1
+DEVPATH=/devices/platform/i8042/serio1/input/input7/mouse1
+ID_INPUT=1
+ID_INPUT_MOUSE=1
+ID_PATH=platform-i8042-serio-1
+ID_PATH_TAG=platform-i8042-serio-1
+ID_SERIAL=noserial
+MAJOR=13
+MINOR=33
+SEQNUM=1494
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=6372752
+
+UDEV  [6.374675] add      /devices/platform/i8042/serio1/input/input7/event6 (input)
+ACTION=add
+DEVLINKS=/dev/input/by-path/platform-i8042-serio-1-event-mouse
+DEVNAME=/dev/input/event6
+DEVPATH=/devices/platform/i8042/serio1/input/input7/event6
+ID_INPUT=1
+ID_INPUT_MOUSE=1
+ID_PATH=platform-i8042-serio-1
+ID_PATH_TAG=platform-i8042-serio-1
+ID_SERIAL=noserial
+MAJOR=13
+MINOR=70
+SEQNUM=1495
+SUBSYSTEM=input
+UDEV_LOG=3
+USEC_INITIALIZED=6374370
+
+UDEV  [6.376165] add      /devices/virtual/vc/vcsa4 (vc)
+ACTION=add
+DEVNAME=/dev/vcsa4
+DEVPATH=/devices/virtual/vc/vcsa4
+MAJOR=7
+MINOR=132
+SEQNUM=1505
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6375846
+
+UDEV  [6.377875] add      /devices/virtual/vc/vcs6 (vc)
+ACTION=add
+DEVNAME=/dev/vcs6
+DEVPATH=/devices/virtual/vc/vcs6
+MAJOR=7
+MINOR=6
+SEQNUM=1506
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6377750
+
+UDEV  [6.379120] add      /devices/virtual/vc/vcsa6 (vc)
+ACTION=add
+DEVNAME=/dev/vcsa6
+DEVPATH=/devices/virtual/vc/vcsa6
+MAJOR=7
+MINOR=134
+SEQNUM=1507
+SUBSYSTEM=vc
+UDEV_LOG=3
+USEC_INITIALIZED=6379035
+
+UDEV  [6.379595] add      /module/snd_seq_midi_event (module)
+ACTION=add
+DEVPATH=/module/snd_seq_midi_event
+SEQNUM=1508
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6379564
+
+UDEV  [6.379998] add      /module/ppdev (module)
+ACTION=add
+DEVPATH=/module/ppdev
+SEQNUM=1509
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6379967
+
+UDEV  [6.380462] add      /class/ppdev (class)
+ACTION=add
+DEVPATH=/class/ppdev
+SEQNUM=1510
+SUBSYSTEM=class
+UDEV_LOG=3
+USEC_INITIALIZED=6380434
+
+UDEV  [6.381105] add      /bus/platform/drivers/parport_pc (drivers)
+ACTION=add
+DEVPATH=/bus/platform/drivers/parport_pc
+SEQNUM=1512
+SUBSYSTEM=drivers
+UDEV_LOG=3
+USEC_INITIALIZED=6381073
+
+UDEV  [6.381575] add      /bus/pnp/drivers/parport_pc (drivers)
+ACTION=add
+DEVPATH=/bus/pnp/drivers/parport_pc
+SEQNUM=1513
+SUBSYSTEM=drivers
+UDEV_LOG=3
+USEC_INITIALIZED=6381542
+
+UDEV  [6.391230] add      /bus/pci/drivers/parport_pc (drivers)
+ACTION=add
+DEVPATH=/bus/pci/drivers/parport_pc
+SEQNUM=1520
+SUBSYSTEM=drivers
+UDEV_LOG=3
+USEC_INITIALIZED=6391175
+
+UDEV  [6.396522] add      /devices/platform/parport_pc.956 (platform)
+ACTION=add
+DEVPATH=/devices/platform/parport_pc.956
+MODALIAS=platform:parport_pc
+SEQNUM=1514
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=6381921
+
+UDEV  [6.397139] remove   /devices/platform/parport_pc.956 (platform)
+ACTION=remove
+DEVPATH=/devices/platform/parport_pc.956
+MODALIAS=platform:parport_pc
+SEQNUM=1515
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=6382080
+
+UDEV  [6.398809] add      /module/parport_pc (module)
+ACTION=add
+DEVPATH=/module/parport_pc
+SEQNUM=1511
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6380764
+
+UDEV  [6.401334] add      /devices/platform/parport_pc.632 (platform)
+ACTION=add
+DEVPATH=/devices/platform/parport_pc.632
+MODALIAS=platform:parport_pc
+SEQNUM=1518
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=6390614
+
+UDEV  [6.402076] remove   /devices/platform/parport_pc.632 (platform)
+ACTION=remove
+DEVPATH=/devices/platform/parport_pc.632
+MODALIAS=platform:parport_pc
+SEQNUM=1519
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=6390937
+
+UDEV  [6.402779] add      /devices/platform/parport_pc.888 (platform)
+ACTION=add
+DEVPATH=/devices/platform/parport_pc.888
+MODALIAS=platform:parport_pc
+SEQNUM=1516
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=6382172
+
+UDEV  [6.403114] remove   /devices/platform/parport_pc.888 (platform)
+ACTION=remove
+DEVPATH=/devices/platform/parport_pc.888
+MODALIAS=platform:parport_pc
+SEQNUM=1517
+SUBSYSTEM=platform
+UDEV_LOG=3
+USEC_INITIALIZED=6390457
+
+UDEV  [6.405238] add      /devices/virtual/graphics/fbcon (graphics)
+ACTION=add
+DEVPATH=/devices/virtual/graphics/fbcon
+SEQNUM=1358
+SUBSYSTEM=graphics
+UDEV_LOG=3
+USEC_INITIALIZED=5944880
+
+KERNEL[6.442719] add      /module/snd_rawmidi (module)
+ACTION=add
+DEVPATH=/module/snd_rawmidi
+SEQNUM=1521
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.443013] add      /module/snd_rawmidi (module)
+ACTION=add
+DEVPATH=/module/snd_rawmidi
+SEQNUM=1521
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6442981
+
+KERNEL[6.496270] add      /module/snd_seq_midi (module)
+ACTION=add
+DEVPATH=/module/snd_seq_midi
+SEQNUM=1522
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.496519] add      /module/snd_seq_midi (module)
+ACTION=add
+DEVPATH=/module/snd_seq_midi
+SEQNUM=1522
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6496487
+
+KERNEL[6.542613] add      /module/snd_pcm (module)
+ACTION=add
+DEVPATH=/module/snd_pcm
+SEQNUM=1523
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.542838] add      /module/snd_pcm (module)
+ACTION=add
+DEVPATH=/module/snd_pcm
+SEQNUM=1523
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6542804
+
+KERNEL[6.561136] add      /module/ac97_bus (module)
+ACTION=add
+DEVPATH=/module/ac97_bus
+SEQNUM=1524
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.561436] add      /module/ac97_bus (module)
+ACTION=add
+DEVPATH=/module/ac97_bus
+SEQNUM=1524
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6561402
+
+KERNEL[6.561607] add      /bus/ac97 (bus)
+ACTION=add
+DEVPATH=/bus/ac97
+SEQNUM=1525
+SUBSYSTEM=bus
+UDEV_LOG=3
+
+UDEV  [6.561850] add      /bus/ac97 (bus)
+ACTION=add
+DEVPATH=/bus/ac97
+SEQNUM=1525
+SUBSYSTEM=bus
+UDEV_LOG=3
+USEC_INITIALIZED=6561819
+
+UDEV  [6.567370] add      /devices/virtual/block/loop6 (block)
+ACTION=add
+DEVNAME=/dev/loop6
+DEVPATH=/devices/virtual/block/loop6
+DEVTYPE=disk
+MAJOR=7
+MINOR=6
+SEQNUM=1339
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PRESENTATION_NOPOLICY=1
+USEC_INITIALIZED=926234
+
+UDEV  [6.568073] add      /devices/virtual/block/loop3 (block)
+ACTION=add
+DEVNAME=/dev/loop3
+DEVPATH=/devices/virtual/block/loop3
+DEVTYPE=disk
+MAJOR=7
+MINOR=3
+SEQNUM=1336
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PRESENTATION_NOPOLICY=1
+USEC_INITIALIZED=925837
+
+UDEV  [6.569432] add      /devices/virtual/block/loop7 (block)
+ACTION=add
+DEVNAME=/dev/loop7
+DEVPATH=/devices/virtual/block/loop7
+DEVTYPE=disk
+MAJOR=7
+MINOR=7
+SEQNUM=1340
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PRESENTATION_NOPOLICY=1
+USEC_INITIALIZED=926381
+
+UDEV  [6.570100] add      /devices/virtual/block/loop0 (block)
+ACTION=add
+DEVNAME=/dev/loop0
+DEVPATH=/devices/virtual/block/loop0
+DEVTYPE=disk
+MAJOR=7
+MINOR=0
+SEQNUM=1333
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PRESENTATION_NOPOLICY=1
+USEC_INITIALIZED=911576
+
+UDEV  [6.570764] add      /devices/virtual/block/loop5 (block)
+ACTION=add
+DEVNAME=/dev/loop5
+DEVPATH=/devices/virtual/block/loop5
+DEVTYPE=disk
+MAJOR=7
+MINOR=5
+SEQNUM=1338
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PRESENTATION_NOPOLICY=1
+USEC_INITIALIZED=926107
+
+UDEV  [6.571351] add      /devices/virtual/block/loop2 (block)
+ACTION=add
+DEVNAME=/dev/loop2
+DEVPATH=/devices/virtual/block/loop2
+DEVTYPE=disk
+MAJOR=7
+MINOR=2
+SEQNUM=1335
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PRESENTATION_NOPOLICY=1
+USEC_INITIALIZED=925673
+
+UDEV  [6.571966] add      /devices/virtual/block/loop1 (block)
+ACTION=add
+DEVNAME=/dev/loop1
+DEVPATH=/devices/virtual/block/loop1
+DEVTYPE=disk
+MAJOR=7
+MINOR=1
+SEQNUM=1334
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PRESENTATION_NOPOLICY=1
+USEC_INITIALIZED=925515
+
+UDEV  [6.573578] add      /devices/virtual/block/loop4 (block)
+ACTION=add
+DEVNAME=/dev/loop4
+DEVPATH=/devices/virtual/block/loop4
+DEVTYPE=disk
+MAJOR=7
+MINOR=4
+SEQNUM=1337
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PRESENTATION_NOPOLICY=1
+USEC_INITIALIZED=925961
+
+KERNEL[6.648932] add      /module/snd_ac97_codec (module)
+ACTION=add
+DEVPATH=/module/snd_ac97_codec
+SEQNUM=1526
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.649842] add      /module/snd_ac97_codec (module)
+ACTION=add
+DEVPATH=/module/snd_ac97_codec
+SEQNUM=1526
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6649808
+
+KERNEL[6.677131] add      /module/snd_intel8x0 (module)
+ACTION=add
+DEVPATH=/module/snd_intel8x0
+SEQNUM=1527
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.677332] add      /module/snd_intel8x0 (module)
+ACTION=add
+DEVPATH=/module/snd_intel8x0
+SEQNUM=1527
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6677300
+
+KERNEL[6.930709] add      /module/bluetooth (module)
+ACTION=add
+DEVPATH=/module/bluetooth
+SEQNUM=1528
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [6.931371] add      /module/bluetooth (module)
+ACTION=add
+DEVPATH=/module/bluetooth
+SEQNUM=1528
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=6931296
+
+KERNEL[6.932023] add      /class/bluetooth (class)
+ACTION=add
+DEVPATH=/class/bluetooth
+SEQNUM=1529
+SUBSYSTEM=class
+UDEV_LOG=3
+
+UDEV  [6.932703] add      /class/bluetooth (class)
+ACTION=add
+DEVPATH=/class/bluetooth
+SEQNUM=1529
+SUBSYSTEM=class
+UDEV_LOG=3
+USEC_INITIALIZED=6932359
+
+KERNEL[6.956092] add      /devices/pci0000:00/0000:00:05.0/sound/card0 (sound)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0
+SEQNUM=1530
+SUBSYSTEM=sound
+UDEV_LOG=3
+
+KERNEL[6.956210] add      /devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D1c (sound)
+ACTION=add
+DEVNAME=snd/pcmC0D1c
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D1c
+MAJOR=116
+MINOR=2
+SEQNUM=1531
+SUBSYSTEM=sound
+UDEV_LOG=3
+
+KERNEL[6.956289] add      /devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D0p (sound)
+ACTION=add
+DEVNAME=snd/pcmC0D0p
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D0p
+MAJOR=116
+MINOR=3
+SEQNUM=1532
+SUBSYSTEM=sound
+UDEV_LOG=3
+
+KERNEL[6.956363] add      /devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D0c (sound)
+ACTION=add
+DEVNAME=snd/pcmC0D0c
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D0c
+MAJOR=116
+MINOR=4
+SEQNUM=1533
+SUBSYSTEM=sound
+UDEV_LOG=3
+
+KERNEL[6.956419] add      /devices/pci0000:00/0000:00:05.0/0-0:AD1980 (ac97)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:05.0/0-0:AD1980
+SEQNUM=1534
+SUBSYSTEM=ac97
+UDEV_LOG=3
+
+KERNEL[6.956653] add      /devices/pci0000:00/0000:00:05.0/sound/card0/controlC0 (sound)
+ACTION=add
+DEVNAME=snd/controlC0
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0/controlC0
+MAJOR=116
+MINOR=5
+SEQNUM=1535
+SUBSYSTEM=sound
+UDEV_LOG=3
+
+KERNEL[6.956723] add      /bus/pci/drivers/snd_intel8x0 (drivers)
+ACTION=add
+DEVPATH=/bus/pci/drivers/snd_intel8x0
+SEQNUM=1536
+SUBSYSTEM=drivers
+UDEV_LOG=3
+
+UDEV  [6.956993] add      /bus/pci/drivers/snd_intel8x0 (drivers)
+ACTION=add
+DEVPATH=/bus/pci/drivers/snd_intel8x0
+SEQNUM=1536
+SUBSYSTEM=drivers
+UDEV_LOG=3
+USEC_INITIALIZED=6956956
+
+UDEV  [6.957661] add      /devices/pci0000:00/0000:00:05.0 (pci)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:05.0
+MODALIAS=pci:v00008086d00002415sv00001028sd00000177bc04sc01i00
+PCI_CLASS=40100
+PCI_ID=8086:2415
+PCI_SLOT_NAME=0000:00:05.0
+PCI_SUBSYS_ID=1028:0177
+SEQNUM=1209
+SUBSYSTEM=pci
+UDEV_LOG=3
+USEC_INITIALIZED=5563493
+
+UDEV  [6.958235] add      /devices/pci0000:00/0000:00:05.0/0-0:AD1980 (ac97)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:05.0/0-0:AD1980
+SEQNUM=1534
+SUBSYSTEM=ac97
+UDEV_LOG=3
+USEC_INITIALIZED=6958192
+
+UDEV  [6.958371] add      /devices/pci0000:00/0000:00:05.0/sound/card0 (sound)
+ACTION=add
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0
+SEQNUM=1530
+SUBSYSTEM=sound
+UDEV_LOG=3
+USEC_INITIALIZED=6958334
+
+UDEV  [6.959142] add      /devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D0p (sound)
+ACTION=add
+DEVNAME=/dev/snd/pcmC0D0p
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D0p
+MAJOR=116
+MINOR=3
+SEQNUM=1532
+SUBSYSTEM=sound
+TAGS=:udev-acl:
+UDEV_LOG=3
+USEC_INITIALIZED=6959042
+
+UDEV  [6.959430] add      /devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D0c (sound)
+ACTION=add
+DEVNAME=/dev/snd/pcmC0D0c
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D0c
+MAJOR=116
+MINOR=4
+SEQNUM=1533
+SUBSYSTEM=sound
+TAGS=:udev-acl:
+UDEV_LOG=3
+USEC_INITIALIZED=6959314
+
+KERNEL[6.959626] change   /devices/pci0000:00/0000:00:05.0/sound/card0 (sound)
+ACTION=change
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0
+SEQNUM=1537
+SUBSYSTEM=sound
+UDEV_LOG=3
+
+UDEV  [6.959907] add      /devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D1c (sound)
+ACTION=add
+DEVNAME=/dev/snd/pcmC0D1c
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0/pcmC0D1c
+MAJOR=116
+MINOR=2
+SEQNUM=1531
+SUBSYSTEM=sound
+TAGS=:udev-acl:
+UDEV_LOG=3
+USEC_INITIALIZED=6959778
+
+KERNEL[7.187594] add      /module/rfcomm (module)
+ACTION=add
+DEVPATH=/module/rfcomm
+SEQNUM=1538
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [7.189611] add      /module/rfcomm (module)
+ACTION=add
+DEVPATH=/module/rfcomm
+SEQNUM=1538
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=7188217
+
+KERNEL[8.484984] add      /module/bnep (module)
+ACTION=add
+DEVPATH=/module/bnep
+SEQNUM=1539
+SUBSYSTEM=module
+UDEV_LOG=3
+
+UDEV  [8.485593] add      /module/bnep (module)
+ACTION=add
+DEVPATH=/module/bnep
+SEQNUM=1539
+SUBSYSTEM=module
+UDEV_LOG=3
+USEC_INITIALIZED=8485209
+
+UDEV  [8.640385] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda (block)
+ACTION=add
+DEVLINKS=/dev/disk/by-id/ata-VBOX_HARDDISK_VBa3819136-f590a0e3 /dev/disk/by-id/scsi-SATA_VBOX_HARDDISK_VBa3819136-f590a0e3 /dev/disk/by-path/pci-0000:00:0d.0-scsi-0:0:0:0
+DEVNAME=/dev/sda
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda
+DEVTYPE=disk
+ID_ATA=1
+ID_ATA_FEATURE_SET_PM=1
+ID_ATA_FEATURE_SET_PM_ENABLED=1
+ID_ATA_SATA=1
+ID_ATA_SATA_SIGNAL_RATE_GEN2=1
+ID_ATA_WRITE_CACHE=1
+ID_ATA_WRITE_CACHE_ENABLED=1
+ID_BUS=ata
+ID_MODEL=VBOX_HARDDISK
+ID_MODEL_ENC=VBOX\x20HARDDISK\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_PART_TABLE_TYPE=dos
+ID_PATH=pci-0000:00:0d.0-scsi-0:0:0:0
+ID_PATH_TAG=pci-0000_00_0d_0-scsi-0_0_0_0
+ID_REVISION=1.0
+ID_SCSI_COMPAT=SATA_VBOX_HARDDISK_VBa3819136-f590a0e3
+ID_SERIAL=VBOX_HARDDISK_VBa3819136-f590a0e3
+ID_SERIAL_SHORT=VBa3819136-f590a0e3
+ID_TYPE=disk
+MAJOR=8
+MINOR=0
+SEQNUM=1227
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_ATA_SMART_IS_AVAILABLE=0
+UDISKS_PARTITION_TABLE=1
+UDISKS_PARTITION_TABLE_COUNT=3
+UDISKS_PARTITION_TABLE_SCHEME=mbr
+UDISKS_PRESENTATION_NOPOLICY=0
+USEC_INITIALIZED=1892875
+
+UDEV  [8.657437] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda5 (block)
+ACTION=add
+DEVLINKS=/dev/disk/by-id/ata-VBOX_HARDDISK_VBa3819136-f590a0e3-part5 /dev/disk/by-id/scsi-SATA_VBOX_HARDDISK_VBa3819136-f590a0e3-part5 /dev/disk/by-path/pci-0000:00:0d.0-scsi-0:0:0:0-part5 /dev/disk/by-uuid/8ed95539-d8e1-435c-950a-c2d64c5b76ca
+DEVNAME=/dev/sda5
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda5
+DEVTYPE=partition
+ID_ATA=1
+ID_ATA_FEATURE_SET_PM=1
+ID_ATA_FEATURE_SET_PM_ENABLED=1
+ID_ATA_SATA=1
+ID_ATA_SATA_SIGNAL_RATE_GEN2=1
+ID_ATA_WRITE_CACHE=1
+ID_ATA_WRITE_CACHE_ENABLED=1
+ID_BUS=ata
+ID_FS_TYPE=swap
+ID_FS_USAGE=other
+ID_FS_UUID=8ed95539-d8e1-435c-950a-c2d64c5b76ca
+ID_FS_UUID_ENC=8ed95539-d8e1-435c-950a-c2d64c5b76ca
+ID_FS_VERSION=2
+ID_MODEL=VBOX_HARDDISK
+ID_MODEL_ENC=VBOX\x20HARDDISK\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_PART_ENTRY_DISK=8:0
+ID_PART_ENTRY_NUMBER=5
+ID_PART_ENTRY_OFFSET=14682112
+ID_PART_ENTRY_SCHEME=dos
+ID_PART_ENTRY_SIZE=2093056
+ID_PART_ENTRY_TYPE=0x82
+ID_PART_TABLE_TYPE=dos
+ID_PATH=pci-0000:00:0d.0-scsi-0:0:0:0
+ID_PATH_TAG=pci-0000_00_0d_0-scsi-0_0_0_0
+ID_REVISION=1.0
+ID_SCSI_COMPAT=SATA_VBOX_HARDDISK_VBa3819136-f590a0e3
+ID_SERIAL=VBOX_HARDDISK_VBa3819136-f590a0e3
+ID_SERIAL_SHORT=VBa3819136-f590a0e3
+ID_TYPE=disk
+MAJOR=8
+MINOR=5
+SEQNUM=1230
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PARTITION=1
+UDISKS_PARTITION_ALIGNMENT_OFFSET=0
+UDISKS_PARTITION_NUMBER=5
+UDISKS_PARTITION_OFFSET=7517241344
+UDISKS_PARTITION_SCHEME=mbr
+UDISKS_PARTITION_SIZE=1071644672
+UDISKS_PARTITION_SLAVE=/sys/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda
+UDISKS_PARTITION_TYPE=0x82
+UDISKS_PRESENTATION_NOPOLICY=0
+USEC_INITIALIZED=1970826
+
+UDEV  [8.658965] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda1 (block)
+ACTION=add
+DEVLINKS=/dev/disk/by-id/ata-VBOX_HARDDISK_VBa3819136-f590a0e3-part1 /dev/disk/by-id/scsi-SATA_VBOX_HARDDISK_VBa3819136-f590a0e3-part1 /dev/disk/by-path/pci-0000:00:0d.0-scsi-0:0:0:0-part1 /dev/disk/by-uuid/5aec5fa7-8b35-43dc-8693-693a86ea3a60
+DEVNAME=/dev/sda1
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda1
+DEVTYPE=partition
+ID_ATA=1
+ID_ATA_FEATURE_SET_PM=1
+ID_ATA_FEATURE_SET_PM_ENABLED=1
+ID_ATA_SATA=1
+ID_ATA_SATA_SIGNAL_RATE_GEN2=1
+ID_ATA_WRITE_CACHE=1
+ID_ATA_WRITE_CACHE_ENABLED=1
+ID_BUS=ata
+ID_FS_TYPE=ext4
+ID_FS_USAGE=filesystem
+ID_FS_UUID=5aec5fa7-8b35-43dc-8693-693a86ea3a60
+ID_FS_UUID_ENC=5aec5fa7-8b35-43dc-8693-693a86ea3a60
+ID_FS_VERSION=1.0
+ID_MODEL=VBOX_HARDDISK
+ID_MODEL_ENC=VBOX\x20HARDDISK\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_PART_ENTRY_DISK=8:0
+ID_PART_ENTRY_FLAGS=0x80
+ID_PART_ENTRY_NUMBER=1
+ID_PART_ENTRY_OFFSET=2048
+ID_PART_ENTRY_SCHEME=dos
+ID_PART_ENTRY_SIZE=14678016
+ID_PART_ENTRY_TYPE=0x83
+ID_PART_TABLE_TYPE=dos
+ID_PATH=pci-0000:00:0d.0-scsi-0:0:0:0
+ID_PATH_TAG=pci-0000_00_0d_0-scsi-0_0_0_0
+ID_REVISION=1.0
+ID_SCSI_COMPAT=SATA_VBOX_HARDDISK_VBa3819136-f590a0e3
+ID_SERIAL=VBOX_HARDDISK_VBa3819136-f590a0e3
+ID_SERIAL_SHORT=VBa3819136-f590a0e3
+ID_TYPE=disk
+MAJOR=8
+MINOR=1
+SEQNUM=1228
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PARTITION=1
+UDISKS_PARTITION_ALIGNMENT_OFFSET=0
+UDISKS_PARTITION_FLAGS=boot
+UDISKS_PARTITION_NUMBER=1
+UDISKS_PARTITION_OFFSET=1048576
+UDISKS_PARTITION_SCHEME=mbr
+UDISKS_PARTITION_SIZE=7515144192
+UDISKS_PARTITION_SLAVE=/sys/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda
+UDISKS_PARTITION_TYPE=0x83
+UDISKS_PRESENTATION_NOPOLICY=0
+USEC_INITIALIZED=1978269
+
+UDEV  [8.665350] change   /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda1 (block)
+ACTION=change
+DEVLINKS=/dev/disk/by-id/ata-VBOX_HARDDISK_VBa3819136-f590a0e3-part1 /dev/disk/by-id/scsi-SATA_VBOX_HARDDISK_VBa3819136-f590a0e3-part1 /dev/disk/by-path/pci-0000:00:0d.0-scsi-0:0:0:0-part1 /dev/disk/by-uuid/5aec5fa7-8b35-43dc-8693-693a86ea3a60
+DEVNAME=/dev/sda1
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda1
+DEVTYPE=partition
+ID_ATA=1
+ID_ATA_FEATURE_SET_PM=1
+ID_ATA_FEATURE_SET_PM_ENABLED=1
+ID_ATA_SATA=1
+ID_ATA_SATA_SIGNAL_RATE_GEN2=1
+ID_ATA_WRITE_CACHE=1
+ID_ATA_WRITE_CACHE_ENABLED=1
+ID_BUS=ata
+ID_FS_TYPE=ext4
+ID_FS_USAGE=filesystem
+ID_FS_UUID=5aec5fa7-8b35-43dc-8693-693a86ea3a60
+ID_FS_UUID_ENC=5aec5fa7-8b35-43dc-8693-693a86ea3a60
+ID_FS_VERSION=1.0
+ID_MODEL=VBOX_HARDDISK
+ID_MODEL_ENC=VBOX\x20HARDDISK\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_PART_ENTRY_DISK=8:0
+ID_PART_ENTRY_FLAGS=0x80
+ID_PART_ENTRY_NUMBER=1
+ID_PART_ENTRY_OFFSET=2048
+ID_PART_ENTRY_SCHEME=dos
+ID_PART_ENTRY_SIZE=14678016
+ID_PART_ENTRY_TYPE=0x83
+ID_PART_TABLE_TYPE=dos
+ID_PATH=pci-0000:00:0d.0-scsi-0:0:0:0
+ID_PATH_TAG=pci-0000_00_0d_0-scsi-0_0_0_0
+ID_REVISION=1.0
+ID_SCSI_COMPAT=SATA_VBOX_HARDDISK_VBa3819136-f590a0e3
+ID_SERIAL=VBOX_HARDDISK_VBa3819136-f590a0e3
+ID_SERIAL_SHORT=VBa3819136-f590a0e3
+ID_TYPE=disk
+MAJOR=8
+MINOR=1
+SEQNUM=1466
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PARTITION=1
+UDISKS_PARTITION_ALIGNMENT_OFFSET=0
+UDISKS_PARTITION_FLAGS=boot
+UDISKS_PARTITION_NUMBER=1
+UDISKS_PARTITION_OFFSET=1048576
+UDISKS_PARTITION_SCHEME=mbr
+UDISKS_PARTITION_SIZE=7515144192
+UDISKS_PARTITION_SLAVE=/sys/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda
+UDISKS_PARTITION_TYPE=0x83
+UDISKS_PRESENTATION_NOPOLICY=0
+USEC_INITIALIZED=1978269
+
+UDEV  [8.801061] add      /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda2 (block)
+ACTION=add
+DEVLINKS=/dev/disk/by-id/ata-VBOX_HARDDISK_VBa3819136-f590a0e3-part2 /dev/disk/by-id/scsi-SATA_VBOX_HARDDISK_VBa3819136-f590a0e3-part2 /dev/disk/by-path/pci-0000:00:0d.0-scsi-0:0:0:0-part2
+DEVNAME=/dev/sda2
+DEVPATH=/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda2
+DEVTYPE=partition
+ID_ATA=1
+ID_ATA_FEATURE_SET_PM=1
+ID_ATA_FEATURE_SET_PM_ENABLED=1
+ID_ATA_SATA=1
+ID_ATA_SATA_SIGNAL_RATE_GEN2=1
+ID_ATA_WRITE_CACHE=1
+ID_ATA_WRITE_CACHE_ENABLED=1
+ID_BUS=ata
+ID_MODEL=VBOX_HARDDISK
+ID_MODEL_ENC=VBOX\x20HARDDISK\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+ID_PART_ENTRY_DISK=8:0
+ID_PART_ENTRY_NUMBER=2
+ID_PART_ENTRY_OFFSET=14682110
+ID_PART_ENTRY_SCHEME=dos
+ID_PART_ENTRY_SIZE=2093058
+ID_PART_ENTRY_TYPE=0x5
+ID_PART_TABLE_TYPE=dos
+ID_PATH=pci-0000:00:0d.0-scsi-0:0:0:0
+ID_PATH_TAG=pci-0000_00_0d_0-scsi-0_0_0_0
+ID_REVISION=1.0
+ID_SCSI_COMPAT=SATA_VBOX_HARDDISK_VBa3819136-f590a0e3
+ID_SERIAL=VBOX_HARDDISK_VBa3819136-f590a0e3
+ID_SERIAL_SHORT=VBa3819136-f590a0e3
+ID_TYPE=disk
+MAJOR=8
+MINOR=2
+SEQNUM=1229
+SUBSYSTEM=block
+UDEV_LOG=3
+UDISKS_PARTITION=1
+UDISKS_PARTITION_ALIGNMENT_OFFSET=0
+UDISKS_PARTITION_NUMBER=2
+UDISKS_PARTITION_OFFSET=7517240320
+UDISKS_PARTITION_SCHEME=mbr
+UDISKS_PARTITION_SIZE=1071645696
+UDISKS_PARTITION_SLAVE=/sys/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda
+UDISKS_PARTITION_TYPE=0x05
+UDISKS_PRESENTATION_NOPOLICY=0
+USEC_INITIALIZED=1900667
+
+UDEV  [8.903259] add      /module/lp (module)
+ACTION=add
+DEVPATH=/module/lp
+SEQNUM=1464
+SUBSYSTEM=module
+TAGS=:udev-configure-printer:
+UDEV_LOG=3
+USEC_INITIALIZED=6173371
+
+UDEV  [11.464646] add      /devices/pci0000:00/0000:00:05.0/sound/card0/controlC0 (sound)
+ACTION=add
+DEVLINKS=/dev/snd/by-path/pci-0000:00:05.0
+DEVNAME=/dev/snd/controlC0
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0/controlC0
+ID_PATH=pci-0000:00:05.0
+ID_PATH_TAG=pci-0000_00_05_0
+MAJOR=116
+MINOR=5
+SEQNUM=1535
+SUBSYSTEM=sound
+TAGS=:udev-acl:
+UDEV_LOG=3
+USEC_INITIALIZED=6960241
+
+UDEV  [11.471727] change   /devices/pci0000:00/0000:00:05.0/sound/card0 (sound)
+ACTION=change
+DEVPATH=/devices/pci0000:00/0000:00:05.0/sound/card0
+ID_BUS=pci
+ID_MODEL_FROM_DATABASE=82801AA AC'97 Audio Controller
+ID_MODEL_ID=/sys/devices/pci0000:00/0000:00:05.0
+ID_PATH=pci-0000:00:05.0
+ID_PATH_TAG=pci-0000_00_05_0
+ID_VENDOR_FROM_DATABASE=Intel Corporation
+ID_VENDOR_ID=0x8086
+PULSE_PROFILE_SET=extra-hdmi.conf
+SEQNUM=1537
+SOUND_FORM_FACTOR=internal
+SOUND_INITIALIZED=1
+SUBSYSTEM=sound
+UDEV_LOG=3
+USEC_INITIALIZED=11471588
+

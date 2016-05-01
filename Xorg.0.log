@@ -1,0 +1,1517 @@
+[    13.764] 
+X.Org X Server 1.11.3
+Release Date: 2011-12-16
+[    13.764] X Protocol Version 11, Revision 0
+[    13.764] Build Operating System: Linux 2.6.42-61-generic x86_64 Ubuntu
+[    13.764] Current Operating System: Linux aueiei-VirtualBox 3.13.0-32-generic #57~precise1-Ubuntu SMP Tue Jul 15 03:51:20 UTC 2014 x86_64
+[    13.764] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.13.0-32-generic root=UUID=5aec5fa7-8b35-43dc-8693-693a86ea3a60 ro quiet splash vt.handoff=7
+[    13.764] Build Date: 12 February 2015  02:49:01PM
+[    13.764] xorg-server 2:1.11.4-0ubuntu10.17 (For technical support please see http://www.ubuntu.com/support) 
+[    13.764] Current version of pixman: 0.30.2
+[    13.764] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    13.764] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    13.764] (==) Log file: "/var/log/Xorg.0.log", Time: Sun May  1 21:57:27 2016
+[    13.847] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    13.909] (==) No Layout section.  Using the first Screen section.
+[    13.909] (==) No screen section available. Using defaults.
+[    13.909] (**) |-->Screen "Default Screen Section" (0)
+[    13.909] (**) |   |-->Monitor "<default monitor>"
+[    13.926] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    13.926] (==) Automatically adding devices
+[    13.926] (==) Automatically enabling devices
+[    13.967] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    13.967] 	Entry deleted from font path.
+[    13.967] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    13.967] 	Entry deleted from font path.
+[    13.967] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    13.967] 	Entry deleted from font path.
+[    13.981] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    13.981] 	Entry deleted from font path.
+[    13.981] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    13.981] 	Entry deleted from font path.
+[    13.981] (WW) The directory "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType" does not exist.
+[    13.981] 	Entry deleted from font path.
+[    13.981] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    13.981] (==) ModulePath set to "/usr/lib/x86_64-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[    13.981] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    13.981] (II) Loader magic: 0x7f911bc82b00
+[    13.981] (II) Module ABI versions:
+[    13.981] 	X.Org ANSI C Emulation: 0.4
+[    13.981] 	X.Org Video Driver: 11.0
+[    13.981] 	X.Org XInput driver : 16.0
+[    13.981] 	X.Org Server Extension : 6.0
+[    13.983] (--) PCI:*(0:0:2:0) 80ee:beef:0000:0000 rev 0, Mem @ 0xe0000000/16777216
+[    13.983] (II) Open ACPI successful (/var/run/acpid.socket)
+[    13.983] (II) LoadModule: "extmod"
+[    14.167] (II) Loading /usr/lib/xorg/modules/extensions/libextmod.so
+[    14.211] (II) Module extmod: vendor="X.Org Foundation"
+[    14.211] 	compiled for 1.11.3, module version = 1.0.0
+[    14.211] 	Module class: X.Org Server Extension
+[    14.211] 	ABI class: X.Org Server Extension, version 6.0
+[    14.211] (II) Loading extension MIT-SCREEN-SAVER
+[    14.211] (II) Loading extension XFree86-VidModeExtension
+[    14.211] (II) Loading extension XFree86-DGA
+[    14.211] (II) Loading extension DPMS
+[    14.211] (II) Loading extension XVideo
+[    14.211] (II) Loading extension XVideo-MotionCompensation
+[    14.211] (II) Loading extension X-Resource
+[    14.211] (II) LoadModule: "dbe"
+[    14.211] (II) Loading /usr/lib/xorg/modules/extensions/libdbe.so
+[    14.247] (II) Module dbe: vendor="X.Org Foundation"
+[    14.247] 	compiled for 1.11.3, module version = 1.0.0
+[    14.247] 	Module class: X.Org Server Extension
+[    14.247] 	ABI class: X.Org Server Extension, version 6.0
+[    14.247] (II) Loading extension DOUBLE-BUFFER
+[    14.247] (II) LoadModule: "glx"
+[    14.248] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    14.345] (II) Module glx: vendor="X.Org Foundation"
+[    14.345] 	compiled for 1.11.3, module version = 1.0.0
+[    14.345] 	ABI class: X.Org Server Extension, version 6.0
+[    14.345] (==) AIGLX enabled
+[    14.354] (II) Loading extension GLX
+[    14.354] (II) LoadModule: "record"
+[    14.354] (II) Loading /usr/lib/xorg/modules/extensions/librecord.so
+[    14.357] (II) Module record: vendor="X.Org Foundation"
+[    14.357] 	compiled for 1.11.3, module version = 1.13.0
+[    14.357] 	Module class: X.Org Server Extension
+[    14.357] 	ABI class: X.Org Server Extension, version 6.0
+[    14.357] (II) Loading extension RECORD
+[    14.357] (II) LoadModule: "dri"
+[    14.357] (II) Loading /usr/lib/xorg/modules/extensions/libdri.so
+[    14.372] (II) Module dri: vendor="X.Org Foundation"
+[    14.372] 	compiled for 1.11.3, module version = 1.0.0
+[    14.372] 	ABI class: X.Org Server Extension, version 6.0
+[    14.372] (II) Loading extension XFree86-DRI
+[    14.372] (II) LoadModule: "dri2"
+[    14.373] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[    14.383] (II) Module dri2: vendor="X.Org Foundation"
+[    14.383] 	compiled for 1.11.3, module version = 1.2.0
+[    14.383] 	ABI class: X.Org Server Extension, version 6.0
+[    14.383] (II) Loading extension DRI2
+[    14.383] (==) Matched vboxvideo as autoconfigured driver 0
+[    14.383] (==) Matched vesa as autoconfigured driver 1
+[    14.383] (==) Matched fbdev as autoconfigured driver 2
+[    14.383] (==) Assigned the driver to the xf86ConfigLayout
+[    14.383] (II) LoadModule: "vboxvideo"
+[    14.394] (WW) Warning, couldn't open module vboxvideo
+[    14.394] (II) UnloadModule: "vboxvideo"
+[    14.395] (II) Unloading vboxvideo
+[    14.395] (EE) Failed to load module "vboxvideo" (module does not exist, 0)
+[    14.395] (II) LoadModule: "vesa"
+[    14.395] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    14.398] (II) Module vesa: vendor="X.Org Foundation"
+[    14.398] 	compiled for 1.11.3, module version = 2.3.0
+[    14.398] 	Module class: X.Org Video Driver
+[    14.398] 	ABI class: X.Org Video Driver, version 11.0
+[    14.398] (II) LoadModule: "fbdev"
+[    14.398] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    14.417] (II) Module fbdev: vendor="X.Org Foundation"
+[    14.417] 	compiled for 1.11.3, module version = 0.4.2
+[    14.417] 	ABI class: X.Org Video Driver, version 11.0
+[    14.417] (==) Matched vboxvideo as autoconfigured driver 0
+[    14.417] (==) Matched vesa as autoconfigured driver 1
+[    14.417] (==) Matched fbdev as autoconfigured driver 2
+[    14.417] (==) Assigned the driver to the xf86ConfigLayout
+[    14.417] (II) LoadModule: "vboxvideo"
+[    14.418] (WW) Warning, couldn't open module vboxvideo
+[    14.418] (II) UnloadModule: "vboxvideo"
+[    14.418] (II) Unloading vboxvideo
+[    14.418] (EE) Failed to load module "vboxvideo" (module does not exist, 0)
+[    14.418] (II) LoadModule: "vesa"
+[    14.418] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    14.418] (II) Module vesa: vendor="X.Org Foundation"
+[    14.418] 	compiled for 1.11.3, module version = 2.3.0
+[    14.418] 	Module class: X.Org Video Driver
+[    14.418] 	ABI class: X.Org Video Driver, version 11.0
+[    14.418] (II) UnloadModule: "vesa"
+[    14.418] (II) Unloading vesa
+[    14.418] (II) Failed to load module "vesa" (already loaded, 0)
+[    14.418] (II) LoadModule: "fbdev"
+[    14.418] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    14.418] (II) Module fbdev: vendor="X.Org Foundation"
+[    14.418] 	compiled for 1.11.3, module version = 0.4.2
+[    14.418] 	ABI class: X.Org Video Driver, version 11.0
+[    14.418] (II) UnloadModule: "fbdev"
+[    14.418] (II) Unloading fbdev
+[    14.418] (II) Failed to load module "fbdev" (already loaded, 0)
+[    14.418] (II) VESA: driver for VESA chipsets: vesa
+[    14.418] (II) FBDEV: driver for framebuffer: fbdev
+[    14.418] (++) using VT number 7
+
+[    14.418] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    14.418] (WW) Falling back to old probe method for fbdev
+[    14.418] (II) Loading sub module "fbdevhw"
+[    14.418] (II) LoadModule: "fbdevhw"
+[    14.419] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    14.434] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    14.434] 	compiled for 1.11.3, module version = 0.0.2
+[    14.434] 	ABI class: X.Org Video Driver, version 11.0
+[    14.434] (II) Loading sub module "vbe"
+[    14.434] (II) LoadModule: "vbe"
+[    14.435] (II) Loading /usr/lib/xorg/modules/libvbe.so
+[    14.447] (II) Module vbe: vendor="X.Org Foundation"
+[    14.447] 	compiled for 1.11.3, module version = 1.1.0
+[    14.447] 	ABI class: X.Org Video Driver, version 11.0
+[    14.447] (II) Loading sub module "int10"
+[    14.447] (II) LoadModule: "int10"
+[    14.447] (II) Loading /usr/lib/xorg/modules/libint10.so
+[    14.455] (II) Module int10: vendor="X.Org Foundation"
+[    14.455] 	compiled for 1.11.3, module version = 1.0.0
+[    14.455] 	ABI class: X.Org Video Driver, version 11.0
+[    14.455] (II) VESA(0): initializing int10
+[    14.456] (II) VESA(0): Primary V_BIOS segment is: 0xc000
+[    14.458] (II) VESA(0): VESA BIOS detected
+[    14.458] (II) VESA(0): VESA VBE Version 2.0
+[    14.458] (II) VESA(0): VESA VBE Total Mem: 12288 kB
+[    14.458] (II) VESA(0): VESA VBE OEM: VirtualBox VESA BIOS
+[    14.458] (II) VESA(0): VESA VBE OEM Software Rev: 0.3
+[    14.458] (II) VESA(0): VESA VBE OEM Vendor: Oracle Corporation
+[    14.458] (II) VESA(0): VESA VBE OEM Product: Oracle VM VirtualBox VBE Adapter
+[    14.458] (II) VESA(0): VESA VBE OEM Product Rev: Oracle VM VirtualBox Version 5.0.16
+[    14.682] (II) VESA(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    14.682] (==) VESA(0): Depth 24, (--) framebuffer bpp 32
+[    14.682] (==) VESA(0): RGB weight 888
+[    14.682] (==) VESA(0): Default visual is TrueColor
+[    14.682] (==) VESA(0): Using gamma correction (1.0, 1.0, 1.0)
+[    14.682] (II) Loading sub module "ddc"
+[    14.682] (II) LoadModule: "ddc"
+[    14.682] (II) Module "ddc" already built-in
+[    14.682] (II) VESA(0): VESA VBE DDC not supported
+[    14.682] (II) VESA(0): VESA VBE PanelID invalid
+[    14.682] (II) VESA(0): Searching for matching VESA mode(s):
+[    14.684] Mode: 100 (640x400)
+[    14.684] 	ModeAttributes: 0x9b
+[    14.684] 	WinAAttributes: 0x7
+[    14.684] 	WinBAttributes: 0x0
+[    14.684] 	WinGranularity: 64
+[    14.684] 	WinSize: 64
+[    14.684] 	WinASegment: 0xa000
+[    14.684] 	WinBSegment: 0x0
+[    14.684] 	WinFuncPtr: 0xc0000629
+[    14.684] 	BytesPerScanline: 640
+[    14.684] 	XResolution: 640
+[    14.684] 	YResolution: 400
+[    14.684] 	XCharSize: 8
+[    14.684] 	YCharSize: 16
+[    14.684] 	NumberOfPlanes: 1
+[    14.684] 	BitsPerPixel: 8
+[    14.684] 	NumberOfBanks: 1
+[    14.684] 	MemoryModel: 4
+[    14.684] 	BankSize: 0
+[    14.684] 	NumberOfImages: 48
+[    14.684] 	RedMaskSize: 0
+[    14.684] 	RedFieldPosition: 0
+[    14.684] 	GreenMaskSize: 0
+[    14.684] 	GreenFieldPosition: 0
+[    14.684] 	BlueMaskSize: 0
+[    14.684] 	BlueFieldPosition: 0
+[    14.684] 	RsvdMaskSize: 0
+[    14.684] 	RsvdFieldPosition: 0
+[    14.684] 	DirectColorModeInfo: 0
+[    14.684] 	PhysBasePtr: 0xe0000000
+[    14.686] Mode: 101 (640x480)
+[    14.686] 	ModeAttributes: 0x9b
+[    14.686] 	WinAAttributes: 0x7
+[    14.686] 	WinBAttributes: 0x0
+[    14.686] 	WinGranularity: 64
+[    14.686] 	WinSize: 64
+[    14.686] 	WinASegment: 0xa000
+[    14.686] 	WinBSegment: 0x0
+[    14.686] 	WinFuncPtr: 0xc0000629
+[    14.686] 	BytesPerScanline: 640
+[    14.686] 	XResolution: 640
+[    14.686] 	YResolution: 480
+[    14.686] 	XCharSize: 8
+[    14.686] 	YCharSize: 16
+[    14.686] 	NumberOfPlanes: 1
+[    14.686] 	BitsPerPixel: 8
+[    14.686] 	NumberOfBanks: 1
+[    14.686] 	MemoryModel: 4
+[    14.686] 	BankSize: 0
+[    14.686] 	NumberOfImages: 39
+[    14.686] 	RedMaskSize: 0
+[    14.686] 	RedFieldPosition: 0
+[    14.686] 	GreenMaskSize: 0
+[    14.686] 	GreenFieldPosition: 0
+[    14.686] 	BlueMaskSize: 0
+[    14.686] 	BlueFieldPosition: 0
+[    14.686] 	RsvdMaskSize: 0
+[    14.686] 	RsvdFieldPosition: 0
+[    14.686] 	DirectColorModeInfo: 0
+[    14.686] 	PhysBasePtr: 0xe0000000
+[    14.687] Mode: 102 (800x600)
+[    14.687] 	ModeAttributes: 0x1f
+[    14.687] 	WinAAttributes: 0x7
+[    14.687] 	WinBAttributes: 0x0
+[    14.687] 	WinGranularity: 64
+[    14.687] 	WinSize: 64
+[    14.687] 	WinASegment: 0xa000
+[    14.687] 	WinBSegment: 0x0
+[    14.687] 	WinFuncPtr: 0xc0000629
+[    14.687] 	BytesPerScanline: 100
+[    14.687] 	XResolution: 800
+[    14.687] 	YResolution: 600
+[    14.687] 	XCharSize: 8
+[    14.687] 	YCharSize: 16
+[    14.687] 	NumberOfPlanes: 4
+[    14.687] 	BitsPerPixel: 4
+[    14.687] 	NumberOfBanks: 1
+[    14.687] 	MemoryModel: 3
+[    14.687] 	BankSize: 0
+[    14.687] 	NumberOfImages: 51
+[    14.687] 	RedMaskSize: 0
+[    14.687] 	RedFieldPosition: 0
+[    14.687] 	GreenMaskSize: 0
+[    14.687] 	GreenFieldPosition: 0
+[    14.687] 	BlueMaskSize: 0
+[    14.687] 	BlueFieldPosition: 0
+[    14.687] 	RsvdMaskSize: 0
+[    14.687] 	RsvdFieldPosition: 0
+[    14.687] 	DirectColorModeInfo: 0
+[    14.687] 	PhysBasePtr: 0xe0000000
+[    14.689] Mode: 103 (800x600)
+[    14.689] 	ModeAttributes: 0x9b
+[    14.689] 	WinAAttributes: 0x7
+[    14.689] 	WinBAttributes: 0x0
+[    14.689] 	WinGranularity: 64
+[    14.689] 	WinSize: 64
+[    14.689] 	WinASegment: 0xa000
+[    14.689] 	WinBSegment: 0x0
+[    14.689] 	WinFuncPtr: 0xc0000629
+[    14.689] 	BytesPerScanline: 800
+[    14.689] 	XResolution: 800
+[    14.689] 	YResolution: 600
+[    14.689] 	XCharSize: 8
+[    14.689] 	YCharSize: 16
+[    14.689] 	NumberOfPlanes: 1
+[    14.689] 	BitsPerPixel: 8
+[    14.689] 	NumberOfBanks: 1
+[    14.689] 	MemoryModel: 4
+[    14.689] 	BankSize: 0
+[    14.689] 	NumberOfImages: 25
+[    14.689] 	RedMaskSize: 0
+[    14.689] 	RedFieldPosition: 0
+[    14.689] 	GreenMaskSize: 0
+[    14.689] 	GreenFieldPosition: 0
+[    14.689] 	BlueMaskSize: 0
+[    14.689] 	BlueFieldPosition: 0
+[    14.689] 	RsvdMaskSize: 0
+[    14.689] 	RsvdFieldPosition: 0
+[    14.689] 	DirectColorModeInfo: 0
+[    14.689] 	PhysBasePtr: 0xe0000000
+[    14.690] Mode: 104 (1024x768)
+[    14.690] 	ModeAttributes: 0x1f
+[    14.690] 	WinAAttributes: 0x7
+[    14.690] 	WinBAttributes: 0x0
+[    14.690] 	WinGranularity: 64
+[    14.690] 	WinSize: 64
+[    14.690] 	WinASegment: 0xa000
+[    14.690] 	WinBSegment: 0x0
+[    14.690] 	WinFuncPtr: 0xc0000629
+[    14.690] 	BytesPerScanline: 128
+[    14.690] 	XResolution: 1024
+[    14.690] 	YResolution: 768
+[    14.690] 	XCharSize: 8
+[    14.690] 	YCharSize: 16
+[    14.691] 	NumberOfPlanes: 4
+[    14.691] 	BitsPerPixel: 4
+[    14.691] 	NumberOfBanks: 1
+[    14.691] 	MemoryModel: 3
+[    14.691] 	BankSize: 0
+[    14.691] 	NumberOfImages: 31
+[    14.691] 	RedMaskSize: 0
+[    14.691] 	RedFieldPosition: 0
+[    14.691] 	GreenMaskSize: 0
+[    14.691] 	GreenFieldPosition: 0
+[    14.691] 	BlueMaskSize: 0
+[    14.691] 	BlueFieldPosition: 0
+[    14.691] 	RsvdMaskSize: 0
+[    14.691] 	RsvdFieldPosition: 0
+[    14.691] 	DirectColorModeInfo: 0
+[    14.691] 	PhysBasePtr: 0xe0000000
+[    14.692] Mode: 105 (1024x768)
+[    14.692] 	ModeAttributes: 0x9b
+[    14.692] 	WinAAttributes: 0x7
+[    14.692] 	WinBAttributes: 0x0
+[    14.692] 	WinGranularity: 64
+[    14.692] 	WinSize: 64
+[    14.692] 	WinASegment: 0xa000
+[    14.692] 	WinBSegment: 0x0
+[    14.692] 	WinFuncPtr: 0xc0000629
+[    14.692] 	BytesPerScanline: 1024
+[    14.692] 	XResolution: 1024
+[    14.692] 	YResolution: 768
+[    14.692] 	XCharSize: 8
+[    14.692] 	YCharSize: 16
+[    14.692] 	NumberOfPlanes: 1
+[    14.692] 	BitsPerPixel: 8
+[    14.692] 	NumberOfBanks: 1
+[    14.692] 	MemoryModel: 4
+[    14.692] 	BankSize: 0
+[    14.692] 	NumberOfImages: 15
+[    14.692] 	RedMaskSize: 0
+[    14.692] 	RedFieldPosition: 0
+[    14.692] 	GreenMaskSize: 0
+[    14.692] 	GreenFieldPosition: 0
+[    14.692] 	BlueMaskSize: 0
+[    14.692] 	BlueFieldPosition: 0
+[    14.692] 	RsvdMaskSize: 0
+[    14.692] 	RsvdFieldPosition: 0
+[    14.692] 	DirectColorModeInfo: 0
+[    14.692] 	PhysBasePtr: 0xe0000000
+[    14.694] Mode: 106 (1280x1024)
+[    14.694] 	ModeAttributes: 0x1f
+[    14.694] 	WinAAttributes: 0x7
+[    14.694] 	WinBAttributes: 0x0
+[    14.694] 	WinGranularity: 64
+[    14.694] 	WinSize: 64
+[    14.694] 	WinASegment: 0xa000
+[    14.694] 	WinBSegment: 0x0
+[    14.694] 	WinFuncPtr: 0xc0000629
+[    14.694] 	BytesPerScanline: 160
+[    14.694] 	XResolution: 1280
+[    14.694] 	YResolution: 1024
+[    14.694] 	XCharSize: 8
+[    14.694] 	YCharSize: 16
+[    14.694] 	NumberOfPlanes: 4
+[    14.694] 	BitsPerPixel: 4
+[    14.694] 	NumberOfBanks: 1
+[    14.695] 	MemoryModel: 3
+[    14.695] 	BankSize: 0
+[    14.695] 	NumberOfImages: 18
+[    14.695] 	RedMaskSize: 0
+[    14.695] 	RedFieldPosition: 0
+[    14.695] 	GreenMaskSize: 0
+[    14.695] 	GreenFieldPosition: 0
+[    14.695] 	BlueMaskSize: 0
+[    14.695] 	BlueFieldPosition: 0
+[    14.695] 	RsvdMaskSize: 0
+[    14.695] 	RsvdFieldPosition: 0
+[    14.695] 	DirectColorModeInfo: 0
+[    14.695] 	PhysBasePtr: 0xe0000000
+[    14.696] Mode: 107 (1280x1024)
+[    14.696] 	ModeAttributes: 0x9b
+[    14.696] 	WinAAttributes: 0x7
+[    14.696] 	WinBAttributes: 0x0
+[    14.696] 	WinGranularity: 64
+[    14.696] 	WinSize: 64
+[    14.696] 	WinASegment: 0xa000
+[    14.696] 	WinBSegment: 0x0
+[    14.696] 	WinFuncPtr: 0xc0000629
+[    14.696] 	BytesPerScanline: 1280
+[    14.696] 	XResolution: 1280
+[    14.696] 	YResolution: 1024
+[    14.696] 	XCharSize: 8
+[    14.696] 	YCharSize: 16
+[    14.696] 	NumberOfPlanes: 1
+[    14.696] 	BitsPerPixel: 8
+[    14.696] 	NumberOfBanks: 1
+[    14.696] 	MemoryModel: 4
+[    14.696] 	BankSize: 0
+[    14.696] 	NumberOfImages: 8
+[    14.696] 	RedMaskSize: 0
+[    14.696] 	RedFieldPosition: 0
+[    14.697] 	GreenMaskSize: 0
+[    14.697] 	GreenFieldPosition: 0
+[    14.697] 	BlueMaskSize: 0
+[    14.697] 	BlueFieldPosition: 0
+[    14.697] 	RsvdMaskSize: 0
+[    14.697] 	RsvdFieldPosition: 0
+[    14.697] 	DirectColorModeInfo: 0
+[    14.697] 	PhysBasePtr: 0xe0000000
+[    14.698] Mode: 10d (320x200)
+[    14.698] 	ModeAttributes: 0x9b
+[    14.698] 	WinAAttributes: 0x7
+[    14.698] 	WinBAttributes: 0x0
+[    14.698] 	WinGranularity: 64
+[    14.698] 	WinSize: 64
+[    14.698] 	WinASegment: 0xa000
+[    14.698] 	WinBSegment: 0x0
+[    14.698] 	WinFuncPtr: 0xc0000629
+[    14.698] 	BytesPerScanline: 640
+[    14.698] 	XResolution: 320
+[    14.698] 	YResolution: 200
+[    14.698] 	XCharSize: 8
+[    14.698] 	YCharSize: 16
+[    14.698] 	NumberOfPlanes: 1
+[    14.698] 	BitsPerPixel: 15
+[    14.698] 	NumberOfBanks: 1
+[    14.698] 	MemoryModel: 6
+[    14.698] 	BankSize: 0
+[    14.698] 	NumberOfImages: 97
+[    14.698] 	RedMaskSize: 5
+[    14.698] 	RedFieldPosition: 10
+[    14.698] 	GreenMaskSize: 5
+[    14.698] 	GreenFieldPosition: 5
+[    14.698] 	BlueMaskSize: 5
+[    14.698] 	BlueFieldPosition: 0
+[    14.698] 	RsvdMaskSize: 1
+[    14.698] 	RsvdFieldPosition: 15
+[    14.698] 	DirectColorModeInfo: 0
+[    14.698] 	PhysBasePtr: 0xe0000000
+[    14.700] Mode: 10e (320x200)
+[    14.700] 	ModeAttributes: 0x9b
+[    14.700] 	WinAAttributes: 0x7
+[    14.700] 	WinBAttributes: 0x0
+[    14.700] 	WinGranularity: 64
+[    14.700] 	WinSize: 64
+[    14.700] 	WinASegment: 0xa000
+[    14.700] 	WinBSegment: 0x0
+[    14.700] 	WinFuncPtr: 0xc0000629
+[    14.700] 	BytesPerScanline: 640
+[    14.700] 	XResolution: 320
+[    14.700] 	YResolution: 200
+[    14.700] 	XCharSize: 8
+[    14.700] 	YCharSize: 16
+[    14.700] 	NumberOfPlanes: 1
+[    14.700] 	BitsPerPixel: 16
+[    14.700] 	NumberOfBanks: 1
+[    14.700] 	MemoryModel: 6
+[    14.700] 	BankSize: 0
+[    14.700] 	NumberOfImages: 97
+[    14.700] 	RedMaskSize: 5
+[    14.700] 	RedFieldPosition: 11
+[    14.700] 	GreenMaskSize: 6
+[    14.700] 	GreenFieldPosition: 5
+[    14.700] 	BlueMaskSize: 5
+[    14.700] 	BlueFieldPosition: 0
+[    14.700] 	RsvdMaskSize: 0
+[    14.700] 	RsvdFieldPosition: 0
+[    14.700] 	DirectColorModeInfo: 0
+[    14.700] 	PhysBasePtr: 0xe0000000
+[    14.702] Mode: 10f (320x200)
+[    14.702] 	ModeAttributes: 0x9b
+[    14.702] 	WinAAttributes: 0x7
+[    14.702] 	WinBAttributes: 0x0
+[    14.702] 	WinGranularity: 64
+[    14.702] 	WinSize: 64
+[    14.702] 	WinASegment: 0xa000
+[    14.702] 	WinBSegment: 0x0
+[    14.702] 	WinFuncPtr: 0xc0000629
+[    14.702] 	BytesPerScanline: 960
+[    14.702] 	XResolution: 320
+[    14.702] 	YResolution: 200
+[    14.702] 	XCharSize: 8
+[    14.702] 	YCharSize: 16
+[    14.702] 	NumberOfPlanes: 1
+[    14.702] 	BitsPerPixel: 24
+[    14.702] 	NumberOfBanks: 1
+[    14.702] 	MemoryModel: 6
+[    14.702] 	BankSize: 0
+[    14.702] 	NumberOfImages: 64
+[    14.702] 	RedMaskSize: 8
+[    14.702] 	RedFieldPosition: 16
+[    14.702] 	GreenMaskSize: 8
+[    14.702] 	GreenFieldPosition: 8
+[    14.702] 	BlueMaskSize: 8
+[    14.702] 	BlueFieldPosition: 0
+[    14.702] 	RsvdMaskSize: 0
+[    14.702] 	RsvdFieldPosition: 0
+[    14.702] 	DirectColorModeInfo: 0
+[    14.702] 	PhysBasePtr: 0xe0000000
+[    14.704] Mode: 110 (640x480)
+[    14.704] 	ModeAttributes: 0x9b
+[    14.704] 	WinAAttributes: 0x7
+[    14.704] 	WinBAttributes: 0x0
+[    14.704] 	WinGranularity: 64
+[    14.704] 	WinSize: 64
+[    14.704] 	WinASegment: 0xa000
+[    14.704] 	WinBSegment: 0x0
+[    14.704] 	WinFuncPtr: 0xc0000629
+[    14.704] 	BytesPerScanline: 1280
+[    14.704] 	XResolution: 640
+[    14.704] 	YResolution: 480
+[    14.704] 	XCharSize: 8
+[    14.704] 	YCharSize: 16
+[    14.704] 	NumberOfPlanes: 1
+[    14.704] 	BitsPerPixel: 15
+[    14.704] 	NumberOfBanks: 1
+[    14.704] 	MemoryModel: 6
+[    14.704] 	BankSize: 0
+[    14.704] 	NumberOfImages: 19
+[    14.704] 	RedMaskSize: 5
+[    14.704] 	RedFieldPosition: 10
+[    14.705] 	GreenMaskSize: 5
+[    14.705] 	GreenFieldPosition: 5
+[    14.705] 	BlueMaskSize: 5
+[    14.705] 	BlueFieldPosition: 0
+[    14.705] 	RsvdMaskSize: 1
+[    14.705] 	RsvdFieldPosition: 15
+[    14.705] 	DirectColorModeInfo: 0
+[    14.705] 	PhysBasePtr: 0xe0000000
+[    14.706] Mode: 111 (640x480)
+[    14.706] 	ModeAttributes: 0x9b
+[    14.706] 	WinAAttributes: 0x7
+[    14.706] 	WinBAttributes: 0x0
+[    14.706] 	WinGranularity: 64
+[    14.706] 	WinSize: 64
+[    14.706] 	WinASegment: 0xa000
+[    14.706] 	WinBSegment: 0x0
+[    14.706] 	WinFuncPtr: 0xc0000629
+[    14.706] 	BytesPerScanline: 1280
+[    14.706] 	XResolution: 640
+[    14.706] 	YResolution: 480
+[    14.706] 	XCharSize: 8
+[    14.706] 	YCharSize: 16
+[    14.706] 	NumberOfPlanes: 1
+[    14.706] 	BitsPerPixel: 16
+[    14.706] 	NumberOfBanks: 1
+[    14.706] 	MemoryModel: 6
+[    14.706] 	BankSize: 0
+[    14.706] 	NumberOfImages: 19
+[    14.706] 	RedMaskSize: 5
+[    14.706] 	RedFieldPosition: 11
+[    14.706] 	GreenMaskSize: 6
+[    14.706] 	GreenFieldPosition: 5
+[    14.706] 	BlueMaskSize: 5
+[    14.706] 	BlueFieldPosition: 0
+[    14.706] 	RsvdMaskSize: 0
+[    14.706] 	RsvdFieldPosition: 0
+[    14.706] 	DirectColorModeInfo: 0
+[    14.706] 	PhysBasePtr: 0xe0000000
+[    14.708] Mode: 112 (640x480)
+[    14.708] 	ModeAttributes: 0x9b
+[    14.708] 	WinAAttributes: 0x7
+[    14.708] 	WinBAttributes: 0x0
+[    14.708] 	WinGranularity: 64
+[    14.709] 	WinSize: 64
+[    14.709] 	WinASegment: 0xa000
+[    14.709] 	WinBSegment: 0x0
+[    14.709] 	WinFuncPtr: 0xc0000629
+[    14.709] 	BytesPerScanline: 1920
+[    14.709] 	XResolution: 640
+[    14.709] 	YResolution: 480
+[    14.709] 	XCharSize: 8
+[    14.709] 	YCharSize: 16
+[    14.709] 	NumberOfPlanes: 1
+[    14.709] 	BitsPerPixel: 24
+[    14.709] 	NumberOfBanks: 1
+[    14.709] 	MemoryModel: 6
+[    14.709] 	BankSize: 0
+[    14.709] 	NumberOfImages: 12
+[    14.709] 	RedMaskSize: 8
+[    14.709] 	RedFieldPosition: 16
+[    14.709] 	GreenMaskSize: 8
+[    14.709] 	GreenFieldPosition: 8
+[    14.709] 	BlueMaskSize: 8
+[    14.709] 	BlueFieldPosition: 0
+[    14.709] 	RsvdMaskSize: 0
+[    14.709] 	RsvdFieldPosition: 0
+[    14.709] 	DirectColorModeInfo: 0
+[    14.709] 	PhysBasePtr: 0xe0000000
+[    14.711] Mode: 113 (800x600)
+[    14.711] 	ModeAttributes: 0x9b
+[    14.711] 	WinAAttributes: 0x7
+[    14.711] 	WinBAttributes: 0x0
+[    14.711] 	WinGranularity: 64
+[    14.711] 	WinSize: 64
+[    14.711] 	WinASegment: 0xa000
+[    14.711] 	WinBSegment: 0x0
+[    14.711] 	WinFuncPtr: 0xc0000629
+[    14.711] 	BytesPerScanline: 1600
+[    14.711] 	XResolution: 800
+[    14.711] 	YResolution: 600
+[    14.711] 	XCharSize: 8
+[    14.711] 	YCharSize: 16
+[    14.711] 	NumberOfPlanes: 1
+[    14.711] 	BitsPerPixel: 15
+[    14.711] 	NumberOfBanks: 1
+[    14.711] 	MemoryModel: 6
+[    14.711] 	BankSize: 0
+[    14.711] 	NumberOfImages: 12
+[    14.711] 	RedMaskSize: 5
+[    14.711] 	RedFieldPosition: 10
+[    14.711] 	GreenMaskSize: 5
+[    14.711] 	GreenFieldPosition: 5
+[    14.711] 	BlueMaskSize: 5
+[    14.711] 	BlueFieldPosition: 0
+[    14.711] 	RsvdMaskSize: 1
+[    14.711] 	RsvdFieldPosition: 15
+[    14.711] 	DirectColorModeInfo: 0
+[    14.711] 	PhysBasePtr: 0xe0000000
+[    14.713] Mode: 114 (800x600)
+[    14.713] 	ModeAttributes: 0x9b
+[    14.713] 	WinAAttributes: 0x7
+[    14.713] 	WinBAttributes: 0x0
+[    14.713] 	WinGranularity: 64
+[    14.713] 	WinSize: 64
+[    14.713] 	WinASegment: 0xa000
+[    14.713] 	WinBSegment: 0x0
+[    14.713] 	WinFuncPtr: 0xc0000629
+[    14.713] 	BytesPerScanline: 1600
+[    14.713] 	XResolution: 800
+[    14.713] 	YResolution: 600
+[    14.713] 	XCharSize: 8
+[    14.713] 	YCharSize: 16
+[    14.713] 	NumberOfPlanes: 1
+[    14.713] 	BitsPerPixel: 16
+[    14.713] 	NumberOfBanks: 1
+[    14.713] 	MemoryModel: 6
+[    14.713] 	BankSize: 0
+[    14.713] 	NumberOfImages: 12
+[    14.713] 	RedMaskSize: 5
+[    14.713] 	RedFieldPosition: 11
+[    14.713] 	GreenMaskSize: 6
+[    14.713] 	GreenFieldPosition: 5
+[    14.713] 	BlueMaskSize: 5
+[    14.713] 	BlueFieldPosition: 0
+[    14.713] 	RsvdMaskSize: 0
+[    14.713] 	RsvdFieldPosition: 0
+[    14.713] 	DirectColorModeInfo: 0
+[    14.713] 	PhysBasePtr: 0xe0000000
+[    14.715] Mode: 115 (800x600)
+[    14.715] 	ModeAttributes: 0x9b
+[    14.715] 	WinAAttributes: 0x7
+[    14.715] 	WinBAttributes: 0x0
+[    14.715] 	WinGranularity: 64
+[    14.715] 	WinSize: 64
+[    14.715] 	WinASegment: 0xa000
+[    14.715] 	WinBSegment: 0x0
+[    14.715] 	WinFuncPtr: 0xc0000629
+[    14.715] 	BytesPerScanline: 2400
+[    14.715] 	XResolution: 800
+[    14.715] 	YResolution: 600
+[    14.715] 	XCharSize: 8
+[    14.715] 	YCharSize: 16
+[    14.715] 	NumberOfPlanes: 1
+[    14.715] 	BitsPerPixel: 24
+[    14.715] 	NumberOfBanks: 1
+[    14.715] 	MemoryModel: 6
+[    14.715] 	BankSize: 0
+[    14.715] 	NumberOfImages: 7
+[    14.715] 	RedMaskSize: 8
+[    14.715] 	RedFieldPosition: 16
+[    14.715] 	GreenMaskSize: 8
+[    14.715] 	GreenFieldPosition: 8
+[    14.715] 	BlueMaskSize: 8
+[    14.715] 	BlueFieldPosition: 0
+[    14.715] 	RsvdMaskSize: 0
+[    14.715] 	RsvdFieldPosition: 0
+[    14.715] 	DirectColorModeInfo: 0
+[    14.715] 	PhysBasePtr: 0xe0000000
+[    14.718] Mode: 116 (1024x768)
+[    14.718] 	ModeAttributes: 0x9b
+[    14.718] 	WinAAttributes: 0x7
+[    14.718] 	WinBAttributes: 0x0
+[    14.718] 	WinGranularity: 64
+[    14.718] 	WinSize: 64
+[    14.718] 	WinASegment: 0xa000
+[    14.718] 	WinBSegment: 0x0
+[    14.718] 	WinFuncPtr: 0xc0000629
+[    14.718] 	BytesPerScanline: 2048
+[    14.718] 	XResolution: 1024
+[    14.718] 	YResolution: 768
+[    14.718] 	XCharSize: 8
+[    14.718] 	YCharSize: 16
+[    14.718] 	NumberOfPlanes: 1
+[    14.718] 	BitsPerPixel: 15
+[    14.718] 	NumberOfBanks: 1
+[    14.718] 	MemoryModel: 6
+[    14.718] 	BankSize: 0
+[    14.718] 	NumberOfImages: 7
+[    14.718] 	RedMaskSize: 5
+[    14.718] 	RedFieldPosition: 10
+[    14.718] 	GreenMaskSize: 5
+[    14.718] 	GreenFieldPosition: 5
+[    14.718] 	BlueMaskSize: 5
+[    14.718] 	BlueFieldPosition: 0
+[    14.718] 	RsvdMaskSize: 1
+[    14.718] 	RsvdFieldPosition: 15
+[    14.718] 	DirectColorModeInfo: 0
+[    14.718] 	PhysBasePtr: 0xe0000000
+[    14.720] Mode: 117 (1024x768)
+[    14.720] 	ModeAttributes: 0x9b
+[    14.720] 	WinAAttributes: 0x7
+[    14.720] 	WinBAttributes: 0x0
+[    14.720] 	WinGranularity: 64
+[    14.720] 	WinSize: 64
+[    14.720] 	WinASegment: 0xa000
+[    14.720] 	WinBSegment: 0x0
+[    14.720] 	WinFuncPtr: 0xc0000629
+[    14.720] 	BytesPerScanline: 2048
+[    14.720] 	XResolution: 1024
+[    14.720] 	YResolution: 768
+[    14.720] 	XCharSize: 8
+[    14.720] 	YCharSize: 16
+[    14.720] 	NumberOfPlanes: 1
+[    14.720] 	BitsPerPixel: 16
+[    14.720] 	NumberOfBanks: 1
+[    14.720] 	MemoryModel: 6
+[    14.720] 	BankSize: 0
+[    14.720] 	NumberOfImages: 7
+[    14.720] 	RedMaskSize: 5
+[    14.720] 	RedFieldPosition: 11
+[    14.720] 	GreenMaskSize: 6
+[    14.720] 	GreenFieldPosition: 5
+[    14.720] 	BlueMaskSize: 5
+[    14.720] 	BlueFieldPosition: 0
+[    14.720] 	RsvdMaskSize: 0
+[    14.720] 	RsvdFieldPosition: 0
+[    14.720] 	DirectColorModeInfo: 0
+[    14.720] 	PhysBasePtr: 0xe0000000
+[    14.723] Mode: 118 (1024x768)
+[    14.723] 	ModeAttributes: 0x9b
+[    14.723] 	WinAAttributes: 0x7
+[    14.723] 	WinBAttributes: 0x0
+[    14.723] 	WinGranularity: 64
+[    14.723] 	WinSize: 64
+[    14.723] 	WinASegment: 0xa000
+[    14.723] 	WinBSegment: 0x0
+[    14.723] 	WinFuncPtr: 0xc0000629
+[    14.723] 	BytesPerScanline: 3072
+[    14.723] 	XResolution: 1024
+[    14.723] 	YResolution: 768
+[    14.723] 	XCharSize: 8
+[    14.723] 	YCharSize: 16
+[    14.723] 	NumberOfPlanes: 1
+[    14.723] 	BitsPerPixel: 24
+[    14.723] 	NumberOfBanks: 1
+[    14.723] 	MemoryModel: 6
+[    14.723] 	BankSize: 0
+[    14.723] 	NumberOfImages: 4
+[    14.723] 	RedMaskSize: 8
+[    14.723] 	RedFieldPosition: 16
+[    14.723] 	GreenMaskSize: 8
+[    14.723] 	GreenFieldPosition: 8
+[    14.723] 	BlueMaskSize: 8
+[    14.723] 	BlueFieldPosition: 0
+[    14.723] 	RsvdMaskSize: 0
+[    14.723] 	RsvdFieldPosition: 0
+[    14.723] 	DirectColorModeInfo: 0
+[    14.723] 	PhysBasePtr: 0xe0000000
+[    14.725] Mode: 119 (1280x1024)
+[    14.725] 	ModeAttributes: 0x9b
+[    14.725] 	WinAAttributes: 0x7
+[    14.725] 	WinBAttributes: 0x0
+[    14.725] 	WinGranularity: 64
+[    14.725] 	WinSize: 64
+[    14.725] 	WinASegment: 0xa000
+[    14.725] 	WinBSegment: 0x0
+[    14.725] 	WinFuncPtr: 0xc0000629
+[    14.725] 	BytesPerScanline: 2560
+[    14.725] 	XResolution: 1280
+[    14.725] 	YResolution: 1024
+[    14.725] 	XCharSize: 8
+[    14.725] 	YCharSize: 16
+[    14.725] 	NumberOfPlanes: 1
+[    14.725] 	BitsPerPixel: 15
+[    14.725] 	NumberOfBanks: 1
+[    14.725] 	MemoryModel: 6
+[    14.725] 	BankSize: 0
+[    14.725] 	NumberOfImages: 3
+[    14.725] 	RedMaskSize: 5
+[    14.725] 	RedFieldPosition: 10
+[    14.725] 	GreenMaskSize: 5
+[    14.725] 	GreenFieldPosition: 5
+[    14.725] 	BlueMaskSize: 5
+[    14.725] 	BlueFieldPosition: 0
+[    14.725] 	RsvdMaskSize: 1
+[    14.725] 	RsvdFieldPosition: 15
+[    14.725] 	DirectColorModeInfo: 0
+[    14.725] 	PhysBasePtr: 0xe0000000
+[    14.728] Mode: 11a (1280x1024)
+[    14.728] 	ModeAttributes: 0x9b
+[    14.728] 	WinAAttributes: 0x7
+[    14.728] 	WinBAttributes: 0x0
+[    14.728] 	WinGranularity: 64
+[    14.728] 	WinSize: 64
+[    14.728] 	WinASegment: 0xa000
+[    14.728] 	WinBSegment: 0x0
+[    14.728] 	WinFuncPtr: 0xc0000629
+[    14.728] 	BytesPerScanline: 2560
+[    14.728] 	XResolution: 1280
+[    14.728] 	YResolution: 1024
+[    14.728] 	XCharSize: 8
+[    14.728] 	YCharSize: 16
+[    14.728] 	NumberOfPlanes: 1
+[    14.728] 	BitsPerPixel: 16
+[    14.728] 	NumberOfBanks: 1
+[    14.728] 	MemoryModel: 6
+[    14.728] 	BankSize: 0
+[    14.728] 	NumberOfImages: 3
+[    14.728] 	RedMaskSize: 5
+[    14.728] 	RedFieldPosition: 11
+[    14.728] 	GreenMaskSize: 6
+[    14.728] 	GreenFieldPosition: 5
+[    14.728] 	BlueMaskSize: 5
+[    14.728] 	BlueFieldPosition: 0
+[    14.728] 	RsvdMaskSize: 0
+[    14.728] 	RsvdFieldPosition: 0
+[    14.728] 	DirectColorModeInfo: 0
+[    14.728] 	PhysBasePtr: 0xe0000000
+[    14.730] Mode: 11b (1280x1024)
+[    14.730] 	ModeAttributes: 0x9b
+[    14.730] 	WinAAttributes: 0x7
+[    14.730] 	WinBAttributes: 0x0
+[    14.730] 	WinGranularity: 64
+[    14.730] 	WinSize: 64
+[    14.730] 	WinASegment: 0xa000
+[    14.730] 	WinBSegment: 0x0
+[    14.730] 	WinFuncPtr: 0xc0000629
+[    14.730] 	BytesPerScanline: 3840
+[    14.730] 	XResolution: 1280
+[    14.730] 	YResolution: 1024
+[    14.730] 	XCharSize: 8
+[    14.730] 	YCharSize: 16
+[    14.730] 	NumberOfPlanes: 1
+[    14.730] 	BitsPerPixel: 24
+[    14.730] 	NumberOfBanks: 1
+[    14.730] 	MemoryModel: 6
+[    14.730] 	BankSize: 0
+[    14.730] 	NumberOfImages: 2
+[    14.730] 	RedMaskSize: 8
+[    14.730] 	RedFieldPosition: 16
+[    14.730] 	GreenMaskSize: 8
+[    14.730] 	GreenFieldPosition: 8
+[    14.730] 	BlueMaskSize: 8
+[    14.730] 	BlueFieldPosition: 0
+[    14.730] 	RsvdMaskSize: 0
+[    14.730] 	RsvdFieldPosition: 0
+[    14.730] 	DirectColorModeInfo: 0
+[    14.730] 	PhysBasePtr: 0xe0000000
+[    14.732] *Mode: 140 (320x200)
+[    14.732] 	ModeAttributes: 0x9b
+[    14.732] 	WinAAttributes: 0x7
+[    14.732] 	WinBAttributes: 0x0
+[    14.732] 	WinGranularity: 64
+[    14.732] 	WinSize: 64
+[    14.732] 	WinASegment: 0xa000
+[    14.732] 	WinBSegment: 0x0
+[    14.732] 	WinFuncPtr: 0xc0000629
+[    14.732] 	BytesPerScanline: 1280
+[    14.732] 	XResolution: 320
+[    14.732] 	YResolution: 200
+[    14.732] 	XCharSize: 8
+[    14.732] 	YCharSize: 16
+[    14.732] 	NumberOfPlanes: 1
+[    14.732] 	BitsPerPixel: 32
+[    14.732] 	NumberOfBanks: 1
+[    14.732] 	MemoryModel: 6
+[    14.732] 	BankSize: 0
+[    14.732] 	NumberOfImages: 48
+[    14.732] 	RedMaskSize: 8
+[    14.732] 	RedFieldPosition: 16
+[    14.732] 	GreenMaskSize: 8
+[    14.732] 	GreenFieldPosition: 8
+[    14.732] 	BlueMaskSize: 8
+[    14.732] 	BlueFieldPosition: 0
+[    14.732] 	RsvdMaskSize: 8
+[    14.732] 	RsvdFieldPosition: 24
+[    14.732] 	DirectColorModeInfo: 2
+[    14.732] 	PhysBasePtr: 0xe0000000
+[    14.735] *Mode: 141 (640x400)
+[    14.735] 	ModeAttributes: 0x9b
+[    14.735] 	WinAAttributes: 0x7
+[    14.735] 	WinBAttributes: 0x0
+[    14.735] 	WinGranularity: 64
+[    14.735] 	WinSize: 64
+[    14.735] 	WinASegment: 0xa000
+[    14.735] 	WinBSegment: 0x0
+[    14.735] 	WinFuncPtr: 0xc0000629
+[    14.735] 	BytesPerScanline: 2560
+[    14.735] 	XResolution: 640
+[    14.735] 	YResolution: 400
+[    14.735] 	XCharSize: 8
+[    14.735] 	YCharSize: 16
+[    14.735] 	NumberOfPlanes: 1
+[    14.735] 	BitsPerPixel: 32
+[    14.735] 	NumberOfBanks: 1
+[    14.735] 	MemoryModel: 6
+[    14.735] 	BankSize: 0
+[    14.735] 	NumberOfImages: 11
+[    14.735] 	RedMaskSize: 8
+[    14.735] 	RedFieldPosition: 16
+[    14.735] 	GreenMaskSize: 8
+[    14.735] 	GreenFieldPosition: 8
+[    14.735] 	BlueMaskSize: 8
+[    14.735] 	BlueFieldPosition: 0
+[    14.735] 	RsvdMaskSize: 8
+[    14.735] 	RsvdFieldPosition: 24
+[    14.735] 	DirectColorModeInfo: 2
+[    14.735] 	PhysBasePtr: 0xe0000000
+[    14.737] *Mode: 142 (640x480)
+[    14.737] 	ModeAttributes: 0x9b
+[    14.737] 	WinAAttributes: 0x7
+[    14.737] 	WinBAttributes: 0x0
+[    14.737] 	WinGranularity: 64
+[    14.737] 	WinSize: 64
+[    14.737] 	WinASegment: 0xa000
+[    14.737] 	WinBSegment: 0x0
+[    14.737] 	WinFuncPtr: 0xc0000629
+[    14.737] 	BytesPerScanline: 2560
+[    14.737] 	XResolution: 640
+[    14.737] 	YResolution: 480
+[    14.737] 	XCharSize: 8
+[    14.737] 	YCharSize: 16
+[    14.737] 	NumberOfPlanes: 1
+[    14.737] 	BitsPerPixel: 32
+[    14.737] 	NumberOfBanks: 1
+[    14.737] 	MemoryModel: 6
+[    14.737] 	BankSize: 0
+[    14.737] 	NumberOfImages: 9
+[    14.737] 	RedMaskSize: 8
+[    14.737] 	RedFieldPosition: 16
+[    14.737] 	GreenMaskSize: 8
+[    14.737] 	GreenFieldPosition: 8
+[    14.737] 	BlueMaskSize: 8
+[    14.737] 	BlueFieldPosition: 0
+[    14.737] 	RsvdMaskSize: 8
+[    14.737] 	RsvdFieldPosition: 24
+[    14.737] 	DirectColorModeInfo: 2
+[    14.737] 	PhysBasePtr: 0xe0000000
+[    14.739] *Mode: 143 (800x600)
+[    14.739] 	ModeAttributes: 0x9b
+[    14.739] 	WinAAttributes: 0x7
+[    14.739] 	WinBAttributes: 0x0
+[    14.739] 	WinGranularity: 64
+[    14.740] 	WinSize: 64
+[    14.740] 	WinASegment: 0xa000
+[    14.740] 	WinBSegment: 0x0
+[    14.740] 	WinFuncPtr: 0xc0000629
+[    14.740] 	BytesPerScanline: 3200
+[    14.740] 	XResolution: 800
+[    14.740] 	YResolution: 600
+[    14.740] 	XCharSize: 8
+[    14.740] 	YCharSize: 16
+[    14.740] 	NumberOfPlanes: 1
+[    14.740] 	BitsPerPixel: 32
+[    14.740] 	NumberOfBanks: 1
+[    14.740] 	MemoryModel: 6
+[    14.740] 	BankSize: 0
+[    14.740] 	NumberOfImages: 5
+[    14.740] 	RedMaskSize: 8
+[    14.740] 	RedFieldPosition: 16
+[    14.740] 	GreenMaskSize: 8
+[    14.740] 	GreenFieldPosition: 8
+[    14.740] 	BlueMaskSize: 8
+[    14.740] 	BlueFieldPosition: 0
+[    14.740] 	RsvdMaskSize: 8
+[    14.740] 	RsvdFieldPosition: 24
+[    14.740] 	DirectColorModeInfo: 2
+[    14.740] 	PhysBasePtr: 0xe0000000
+[    14.742] *Mode: 144 (1024x768)
+[    14.742] 	ModeAttributes: 0x9b
+[    14.742] 	WinAAttributes: 0x7
+[    14.742] 	WinBAttributes: 0x0
+[    14.742] 	WinGranularity: 64
+[    14.742] 	WinSize: 64
+[    14.742] 	WinASegment: 0xa000
+[    14.742] 	WinBSegment: 0x0
+[    14.742] 	WinFuncPtr: 0xc0000629
+[    14.742] 	BytesPerScanline: 4096
+[    14.742] 	XResolution: 1024
+[    14.742] 	YResolution: 768
+[    14.742] 	XCharSize: 8
+[    14.742] 	YCharSize: 16
+[    14.742] 	NumberOfPlanes: 1
+[    14.742] 	BitsPerPixel: 32
+[    14.742] 	NumberOfBanks: 1
+[    14.742] 	MemoryModel: 6
+[    14.742] 	BankSize: 0
+[    14.742] 	NumberOfImages: 3
+[    14.742] 	RedMaskSize: 8
+[    14.742] 	RedFieldPosition: 16
+[    14.742] 	GreenMaskSize: 8
+[    14.742] 	GreenFieldPosition: 8
+[    14.742] 	BlueMaskSize: 8
+[    14.742] 	BlueFieldPosition: 0
+[    14.742] 	RsvdMaskSize: 8
+[    14.742] 	RsvdFieldPosition: 24
+[    14.742] 	DirectColorModeInfo: 2
+[    14.742] 	PhysBasePtr: 0xe0000000
+[    14.744] *Mode: 145 (1280x1024)
+[    14.744] 	ModeAttributes: 0x9b
+[    14.744] 	WinAAttributes: 0x7
+[    14.744] 	WinBAttributes: 0x0
+[    14.744] 	WinGranularity: 64
+[    14.744] 	WinSize: 64
+[    14.744] 	WinASegment: 0xa000
+[    14.744] 	WinBSegment: 0x0
+[    14.744] 	WinFuncPtr: 0xc0000629
+[    14.744] 	BytesPerScanline: 5120
+[    14.744] 	XResolution: 1280
+[    14.744] 	YResolution: 1024
+[    14.744] 	XCharSize: 8
+[    14.744] 	YCharSize: 16
+[    14.744] 	NumberOfPlanes: 1
+[    14.744] 	BitsPerPixel: 32
+[    14.744] 	NumberOfBanks: 1
+[    14.744] 	MemoryModel: 6
+[    14.744] 	BankSize: 0
+[    14.744] 	NumberOfImages: 1
+[    14.744] 	RedMaskSize: 8
+[    14.744] 	RedFieldPosition: 16
+[    14.744] 	GreenMaskSize: 8
+[    14.744] 	GreenFieldPosition: 8
+[    14.744] 	BlueMaskSize: 8
+[    14.744] 	BlueFieldPosition: 0
+[    14.744] 	RsvdMaskSize: 8
+[    14.744] 	RsvdFieldPosition: 24
+[    14.744] 	DirectColorModeInfo: 2
+[    14.744] 	PhysBasePtr: 0xe0000000
+[    14.747] Mode: 146 (320x200)
+[    14.747] 	ModeAttributes: 0x9b
+[    14.747] 	WinAAttributes: 0x7
+[    14.747] 	WinBAttributes: 0x0
+[    14.747] 	WinGranularity: 64
+[    14.747] 	WinSize: 64
+[    14.747] 	WinASegment: 0xa000
+[    14.747] 	WinBSegment: 0x0
+[    14.747] 	WinFuncPtr: 0xc0000629
+[    14.747] 	BytesPerScanline: 320
+[    14.747] 	XResolution: 320
+[    14.747] 	YResolution: 200
+[    14.747] 	XCharSize: 8
+[    14.747] 	YCharSize: 16
+[    14.747] 	NumberOfPlanes: 1
+[    14.747] 	BitsPerPixel: 8
+[    14.747] 	NumberOfBanks: 1
+[    14.747] 	MemoryModel: 4
+[    14.747] 	BankSize: 0
+[    14.747] 	NumberOfImages: 195
+[    14.747] 	RedMaskSize: 0
+[    14.747] 	RedFieldPosition: 0
+[    14.747] 	GreenMaskSize: 0
+[    14.747] 	GreenFieldPosition: 0
+[    14.747] 	BlueMaskSize: 0
+[    14.747] 	BlueFieldPosition: 0
+[    14.747] 	RsvdMaskSize: 0
+[    14.747] 	RsvdFieldPosition: 0
+[    14.747] 	DirectColorModeInfo: 0
+[    14.747] 	PhysBasePtr: 0xe0000000
+[    14.749] *Mode: 147 (1600x1200)
+[    14.749] 	ModeAttributes: 0x9b
+[    14.749] 	WinAAttributes: 0x7
+[    14.749] 	WinBAttributes: 0x0
+[    14.749] 	WinGranularity: 64
+[    14.749] 	WinSize: 64
+[    14.749] 	WinASegment: 0xa000
+[    14.749] 	WinBSegment: 0x0
+[    14.749] 	WinFuncPtr: 0xc0000629
+[    14.749] 	BytesPerScanline: 6400
+[    14.749] 	XResolution: 1600
+[    14.749] 	YResolution: 1200
+[    14.749] 	XCharSize: 8
+[    14.749] 	YCharSize: 16
+[    14.749] 	NumberOfPlanes: 1
+[    14.749] 	BitsPerPixel: 32
+[    14.749] 	NumberOfBanks: 1
+[    14.749] 	MemoryModel: 6
+[    14.749] 	BankSize: 0
+[    14.750] 	NumberOfImages: 0
+[    14.750] 	RedMaskSize: 8
+[    14.750] 	RedFieldPosition: 16
+[    14.750] 	GreenMaskSize: 8
+[    14.750] 	GreenFieldPosition: 8
+[    14.750] 	BlueMaskSize: 8
+[    14.750] 	BlueFieldPosition: 0
+[    14.750] 	RsvdMaskSize: 8
+[    14.750] 	RsvdFieldPosition: 24
+[    14.750] 	DirectColorModeInfo: 2
+[    14.750] 	PhysBasePtr: 0xe0000000
+[    14.752] Mode: 148 (1152x864)
+[    14.752] 	ModeAttributes: 0x9b
+[    14.752] 	WinAAttributes: 0x7
+[    14.752] 	WinBAttributes: 0x0
+[    14.752] 	WinGranularity: 64
+[    14.752] 	WinSize: 64
+[    14.752] 	WinASegment: 0xa000
+[    14.752] 	WinBSegment: 0x0
+[    14.752] 	WinFuncPtr: 0xc0000629
+[    14.752] 	BytesPerScanline: 1152
+[    14.752] 	XResolution: 1152
+[    14.752] 	YResolution: 864
+[    14.752] 	XCharSize: 8
+[    14.752] 	YCharSize: 16
+[    14.752] 	NumberOfPlanes: 1
+[    14.752] 	BitsPerPixel: 8
+[    14.752] 	NumberOfBanks: 1
+[    14.752] 	MemoryModel: 4
+[    14.752] 	BankSize: 0
+[    14.752] 	NumberOfImages: 11
+[    14.752] 	RedMaskSize: 0
+[    14.752] 	RedFieldPosition: 0
+[    14.752] 	GreenMaskSize: 0
+[    14.752] 	GreenFieldPosition: 0
+[    14.752] 	BlueMaskSize: 0
+[    14.752] 	BlueFieldPosition: 0
+[    14.752] 	RsvdMaskSize: 0
+[    14.752] 	RsvdFieldPosition: 0
+[    14.752] 	DirectColorModeInfo: 0
+[    14.752] 	PhysBasePtr: 0xe0000000
+[    14.755] Mode: 149 (1152x864)
+[    14.755] 	ModeAttributes: 0x9b
+[    14.755] 	WinAAttributes: 0x7
+[    14.755] 	WinBAttributes: 0x0
+[    14.755] 	WinGranularity: 64
+[    14.755] 	WinSize: 64
+[    14.755] 	WinASegment: 0xa000
+[    14.755] 	WinBSegment: 0x0
+[    14.755] 	WinFuncPtr: 0xc0000629
+[    14.755] 	BytesPerScanline: 2304
+[    14.755] 	XResolution: 1152
+[    14.755] 	YResolution: 864
+[    14.755] 	XCharSize: 8
+[    14.755] 	YCharSize: 16
+[    14.755] 	NumberOfPlanes: 1
+[    14.755] 	BitsPerPixel: 15
+[    14.755] 	NumberOfBanks: 1
+[    14.755] 	MemoryModel: 6
+[    14.755] 	BankSize: 0
+[    14.755] 	NumberOfImages: 5
+[    14.755] 	RedMaskSize: 5
+[    14.755] 	RedFieldPosition: 10
+[    14.755] 	GreenMaskSize: 5
+[    14.755] 	GreenFieldPosition: 5
+[    14.755] 	BlueMaskSize: 5
+[    14.755] 	BlueFieldPosition: 0
+[    14.755] 	RsvdMaskSize: 1
+[    14.755] 	RsvdFieldPosition: 15
+[    14.755] 	DirectColorModeInfo: 0
+[    14.755] 	PhysBasePtr: 0xe0000000
+[    14.757] Mode: 14a (1152x864)
+[    14.757] 	ModeAttributes: 0x9b
+[    14.757] 	WinAAttributes: 0x7
+[    14.758] 	WinBAttributes: 0x0
+[    14.758] 	WinGranularity: 64
+[    14.758] 	WinSize: 64
+[    14.758] 	WinASegment: 0xa000
+[    14.758] 	WinBSegment: 0x0
+[    14.758] 	WinFuncPtr: 0xc0000629
+[    14.758] 	BytesPerScanline: 2304
+[    14.758] 	XResolution: 1152
+[    14.758] 	YResolution: 864
+[    14.758] 	XCharSize: 8
+[    14.758] 	YCharSize: 16
+[    14.758] 	NumberOfPlanes: 1
+[    14.758] 	BitsPerPixel: 16
+[    14.758] 	NumberOfBanks: 1
+[    14.758] 	MemoryModel: 6
+[    14.758] 	BankSize: 0
+[    14.758] 	NumberOfImages: 5
+[    14.758] 	RedMaskSize: 5
+[    14.758] 	RedFieldPosition: 11
+[    14.758] 	GreenMaskSize: 6
+[    14.758] 	GreenFieldPosition: 5
+[    14.758] 	BlueMaskSize: 5
+[    14.758] 	BlueFieldPosition: 0
+[    14.758] 	RsvdMaskSize: 0
+[    14.758] 	RsvdFieldPosition: 0
+[    14.758] 	DirectColorModeInfo: 0
+[    14.758] 	PhysBasePtr: 0xe0000000
+[    14.760] Mode: 14b (1152x864)
+[    14.760] 	ModeAttributes: 0x9b
+[    14.760] 	WinAAttributes: 0x7
+[    14.760] 	WinBAttributes: 0x0
+[    14.760] 	WinGranularity: 64
+[    14.760] 	WinSize: 64
+[    14.760] 	WinASegment: 0xa000
+[    14.760] 	WinBSegment: 0x0
+[    14.760] 	WinFuncPtr: 0xc0000629
+[    14.760] 	BytesPerScanline: 3456
+[    14.760] 	XResolution: 1152
+[    14.760] 	YResolution: 864
+[    14.760] 	XCharSize: 8
+[    14.760] 	YCharSize: 16
+[    14.760] 	NumberOfPlanes: 1
+[    14.760] 	BitsPerPixel: 24
+[    14.760] 	NumberOfBanks: 1
+[    14.760] 	MemoryModel: 6
+[    14.760] 	BankSize: 0
+[    14.760] 	NumberOfImages: 3
+[    14.760] 	RedMaskSize: 8
+[    14.760] 	RedFieldPosition: 16
+[    14.760] 	GreenMaskSize: 8
+[    14.760] 	GreenFieldPosition: 8
+[    14.760] 	BlueMaskSize: 8
+[    14.760] 	BlueFieldPosition: 0
+[    14.760] 	RsvdMaskSize: 0
+[    14.761] 	RsvdFieldPosition: 0
+[    14.761] 	DirectColorModeInfo: 0
+[    14.761] 	PhysBasePtr: 0xe0000000
+[    14.763] *Mode: 14c (1152x864)
+[    14.763] 	ModeAttributes: 0x9b
+[    14.763] 	WinAAttributes: 0x7
+[    14.763] 	WinBAttributes: 0x0
+[    14.763] 	WinGranularity: 64
+[    14.763] 	WinSize: 64
+[    14.763] 	WinASegment: 0xa000
+[    14.763] 	WinBSegment: 0x0
+[    14.763] 	WinFuncPtr: 0xc0000629
+[    14.763] 	BytesPerScanline: 4608
+[    14.763] 	XResolution: 1152
+[    14.763] 	YResolution: 864
+[    14.763] 	XCharSize: 8
+[    14.763] 	YCharSize: 16
+[    14.763] 	NumberOfPlanes: 1
+[    14.763] 	BitsPerPixel: 32
+[    14.763] 	NumberOfBanks: 1
+[    14.763] 	MemoryModel: 6
+[    14.763] 	BankSize: 0
+[    14.763] 	NumberOfImages: 2
+[    14.763] 	RedMaskSize: 8
+[    14.763] 	RedFieldPosition: 16
+[    14.763] 	GreenMaskSize: 8
+[    14.763] 	GreenFieldPosition: 8
+[    14.763] 	BlueMaskSize: 8
+[    14.763] 	BlueFieldPosition: 0
+[    14.763] 	RsvdMaskSize: 8
+[    14.763] 	RsvdFieldPosition: 24
+[    14.763] 	DirectColorModeInfo: 2
+[    14.763] 	PhysBasePtr: 0xe0000000
+[    14.763] 
+[    14.763] (II) VESA(0): Total Memory: 192 64KB banks (12288kB)
+[    14.763] (II) VESA(0): <default monitor>: Using default hsync range of 31.50-48.00 kHz
+[    14.763] (II) VESA(0): <default monitor>: Using default vrefresh range of 50.00-70.00 Hz
+[    14.763] (II) VESA(0): <default monitor>: Using default maximum pixel clock of 65.00 MHz
+[    14.763] (WW) VESA(0): Unable to estimate virtual size
+[    14.763] (II) VESA(0): Not using built-in mode "1600x1200" (no mode of this name)
+[    14.763] (II) VESA(0): Not using built-in mode "1280x1024" (no mode of this name)
+[    14.763] (II) VESA(0): Not using built-in mode "1152x864" (no mode of this name)
+[    14.763] (II) VESA(0): Not using built-in mode "1024x768" (no mode of this name)
+[    14.763] (II) VESA(0): Not using built-in mode "800x600" (no mode of this name)
+[    14.763] (II) VESA(0): Not using built-in mode "640x480" (no mode of this name)
+[    14.763] (II) VESA(0): Not using built-in mode "640x400" (no mode of this name)
+[    14.763] (II) VESA(0): Not using built-in mode "320x200" (no mode of this name)
+[    14.763] (WW) VESA(0): No valid modes left. Trying less strict filter...
+[    14.763] (II) VESA(0): <default monitor>: Using hsync range of 31.50-48.00 kHz
+[    14.763] (II) VESA(0): <default monitor>: Using vrefresh range of 50.00-70.00 Hz
+[    14.763] (II) VESA(0): <default monitor>: Using maximum pixel clock of 65.00 MHz
+[    14.763] (WW) VESA(0): Unable to estimate virtual size
+[    14.763] (II) VESA(0): Not using built-in mode "1600x1200" (hsync out of range)
+[    14.763] (II) VESA(0): Not using built-in mode "1280x1024" (hsync out of range)
+[    14.763] (II) VESA(0): Not using built-in mode "1152x864" (hsync out of range)
+[    14.763] (II) VESA(0): Not using built-in mode "640x400" (hsync out of range)
+[    14.763] (II) VESA(0): Not using built-in mode "320x200" (illegal horizontal timings)
+[    14.763] (--) VESA(0): Virtual size is 1024x768 (pitch 1024)
+[    14.763] (**) VESA(0): *Built-in mode "1024x768"
+[    14.763] (**) VESA(0): *Built-in mode "800x600"
+[    14.763] (**) VESA(0): *Built-in mode "640x480"
+[    14.763] (==) VESA(0): DPI set to (96, 96)
+[    14.763] (II) VESA(0): Attempting to use 60Hz refresh for mode "1024x768" (144)
+[    14.764] (II) VESA(0): Attempting to use 60Hz refresh for mode "800x600" (143)
+[    14.764] (II) VESA(0): Attempting to use 60Hz refresh for mode "640x480" (142)
+[    14.764] (**) VESA(0): Using "Shadow Framebuffer"
+[    14.764] (II) Loading sub module "shadow"
+[    14.764] (II) LoadModule: "shadow"
+[    14.764] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[    14.767] (II) Module shadow: vendor="X.Org Foundation"
+[    14.767] 	compiled for 1.11.3, module version = 1.1.0
+[    14.767] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    14.767] (II) Loading sub module "fb"
+[    14.767] (II) LoadModule: "fb"
+[    14.767] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    14.787] (II) Module fb: vendor="X.Org Foundation"
+[    14.787] 	compiled for 1.11.3, module version = 1.0.0
+[    14.787] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    14.787] (II) UnloadModule: "fbdev"
+[    14.787] (II) Unloading fbdev
+[    14.787] (II) UnloadModule: "fbdevhw"
+[    14.787] (II) Unloading fbdevhw
+[    14.787] (==) Depth 24 pixmap format is 32 bpp
+[    14.787] (II) Loading sub module "int10"
+[    14.787] (II) LoadModule: "int10"
+[    14.788] (II) Loading /usr/lib/xorg/modules/libint10.so
+[    14.788] (II) Module int10: vendor="X.Org Foundation"
+[    14.788] 	compiled for 1.11.3, module version = 1.0.0
+[    14.788] 	ABI class: X.Org Video Driver, version 11.0
+[    14.788] (II) VESA(0): initializing int10
+[    14.788] (II) VESA(0): Primary V_BIOS segment is: 0xc000
+[    14.790] (II) VESA(0): VESA BIOS detected
+[    14.790] (II) VESA(0): VESA VBE Version 2.0
+[    14.790] (II) VESA(0): VESA VBE Total Mem: 12288 kB
+[    14.790] (II) VESA(0): VESA VBE OEM: VirtualBox VESA BIOS
+[    14.790] (II) VESA(0): VESA VBE OEM Software Rev: 0.3
+[    14.790] (II) VESA(0): VESA VBE OEM Vendor: Oracle Corporation
+[    14.790] (II) VESA(0): VESA VBE OEM Product: Oracle VM VirtualBox VBE Adapter
+[    14.790] (II) VESA(0): VESA VBE OEM Product Rev: Oracle VM VirtualBox Version 5.0.16
+[    14.790] (II) VESA(0): virtual address = 0x7f9116420000,
+	physical address = 0xe0000000, size = 12582912
+[    14.796] (II) VESA(0): Setting up VESA Mode 0x144 (1024x768)
+[    14.805] (==) VESA(0): Default visual is TrueColor
+[    14.818] (==) VESA(0): Backing store disabled
+[    14.818] (==) VESA(0): DPMS enabled
+[    14.818] (==) RandR enabled
+[    14.819] (II) Initializing built-in extension Generic Event Extension
+[    14.819] (II) Initializing built-in extension SHAPE
+[    14.819] (II) Initializing built-in extension MIT-SHM
+[    14.819] (II) Initializing built-in extension XInputExtension
+[    14.819] (II) Initializing built-in extension XTEST
+[    14.819] (II) Initializing built-in extension BIG-REQUESTS
+[    14.819] (II) Initializing built-in extension SYNC
+[    14.819] (II) Initializing built-in extension XKEYBOARD
+[    14.819] (II) Initializing built-in extension XC-MISC
+[    14.819] (II) Initializing built-in extension SECURITY
+[    14.819] (II) Initializing built-in extension XINERAMA
+[    14.819] (II) Initializing built-in extension XFIXES
+[    14.819] (II) Initializing built-in extension RENDER
+[    14.819] (II) Initializing built-in extension RANDR
+[    14.819] (II) Initializing built-in extension COMPOSITE
+[    14.819] (II) Initializing built-in extension DAMAGE
+[    14.826] (II) AIGLX: Screen 0 is not DRI2 capable
+[    14.826] (II) AIGLX: Screen 0 is not DRI capable
+[    14.826] (EE) AIGLX error: dlopen of /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so failed (/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so: cannot open shared object file: No such file or directory)
+[    14.826] (EE) GLX: could not load software renderer
+[    14.826] (II) GLX: no usable GL providers found for screen 0
+[    15.064] (II) XKB: reuse xkmfile /var/lib/xkb/server-B20D7FC79C7F597315E3E501AEF10E0D866E8E92.xkm
+[    15.085] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    15.085] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    15.085] (II) LoadModule: "evdev"
+[    15.085] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    15.104] (II) Module evdev: vendor="X.Org Foundation"
+[    15.104] 	compiled for 1.11.3, module version = 2.7.0
+[    15.104] 	Module class: X.Org XInput Driver
+[    15.104] 	ABI class: X.Org XInput driver, version 16.0
+[    15.104] (II) Using input driver 'evdev' for 'Power Button'
+[    15.104] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    15.104] (**) Power Button: always reports core events
+[    15.104] (**) evdev: Power Button: Device: "/dev/input/event0"
+[    15.104] (--) evdev: Power Button: Vendor 0 Product 0x1
+[    15.104] (--) evdev: Power Button: Found keys
+[    15.104] (II) evdev: Power Button: Configuring as keyboard
+[    15.104] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[    15.104] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    15.104] (**) Option "xkb_rules" "evdev"
+[    15.104] (**) Option "xkb_model" "pc105"
+[    15.104] (**) Option "xkb_layout" "us,th"
+[    15.104] (**) Option "xkb_variant" ","
+[    15.104] (**) Option "xkb_options" "grp:alt_shift_toggle,grp_led:scroll"
+[    15.108] (II) XKB: reuse xkmfile /var/lib/xkb/server-43C7B9EC6478984F821D1424CA8186D46B547861.xkm
+[    15.110] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    15.110] (**) Sleep Button: Applying InputClass "evdev keyboard catchall"
+[    15.110] (II) Using input driver 'evdev' for 'Sleep Button'
+[    15.110] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    15.110] (**) Sleep Button: always reports core events
+[    15.110] (**) evdev: Sleep Button: Device: "/dev/input/event1"
+[    15.110] (--) evdev: Sleep Button: Vendor 0 Product 0x3
+[    15.110] (--) evdev: Sleep Button: Found keys
+[    15.110] (II) evdev: Sleep Button: Configuring as keyboard
+[    15.110] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+[    15.110] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[    15.110] (**) Option "xkb_rules" "evdev"
+[    15.110] (**) Option "xkb_model" "pc105"
+[    15.110] (**) Option "xkb_layout" "us,th"
+[    15.110] (**) Option "xkb_variant" ","
+[    15.110] (**) Option "xkb_options" "grp:alt_shift_toggle,grp_led:scroll"
+[    15.111] (II) config/udev: Adding input device Video Bus (/dev/input/event5)
+[    15.111] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[    15.111] (II) Using input driver 'evdev' for 'Video Bus'
+[    15.111] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    15.111] (**) Video Bus: always reports core events
+[    15.111] (**) evdev: Video Bus: Device: "/dev/input/event5"
+[    15.111] (--) evdev: Video Bus: Vendor 0 Product 0x6
+[    15.111] (--) evdev: Video Bus: Found keys
+[    15.111] (II) evdev: Video Bus: Configuring as keyboard
+[    15.111] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input6/event5"
+[    15.111] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    15.111] (**) Option "xkb_rules" "evdev"
+[    15.111] (**) Option "xkb_model" "pc105"
+[    15.111] (**) Option "xkb_layout" "us,th"
+[    15.111] (**) Option "xkb_variant" ","
+[    15.111] (**) Option "xkb_options" "grp:alt_shift_toggle,grp_led:scroll"
+[    15.113] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[    15.113] (**) VirtualBox USB Tablet: Applying InputClass "evdev pointer catchall"
+[    15.113] (II) Using input driver 'evdev' for 'VirtualBox USB Tablet'
+[    15.113] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    15.113] (**) VirtualBox USB Tablet: always reports core events
+[    15.113] (**) evdev: VirtualBox USB Tablet: Device: "/dev/input/event3"
+[    15.113] (--) evdev: VirtualBox USB Tablet: Vendor 0x80ee Product 0x21
+[    15.113] (--) evdev: VirtualBox USB Tablet: Found 9 mouse buttons
+[    15.113] (--) evdev: VirtualBox USB Tablet: Found scroll wheel(s)
+[    15.113] (--) evdev: VirtualBox USB Tablet: Found relative axes
+[    15.113] (--) evdev: VirtualBox USB Tablet: Found absolute axes
+[    15.113] (--) evdev: VirtualBox USB Tablet: Found x and y absolute axes
+[    15.113] (--) evdev: VirtualBox USB Tablet: Found absolute touchscreen
+[    15.113] (II) evdev: VirtualBox USB Tablet: Configuring as touchscreen
+[    15.113] (II) evdev: VirtualBox USB Tablet: Adding scrollwheel support
+[    15.113] (**) evdev: VirtualBox USB Tablet: YAxisMapping: buttons 4 and 5
+[    15.113] (**) evdev: VirtualBox USB Tablet: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    15.113] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/input/input4/event3"
+[    15.113] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: TOUCHSCREEN, id 9)
+[    15.113] (WW) evdev: VirtualBox USB Tablet: touchpads, tablets and touchscreens ignore relative axes.
+[    15.113] (II) evdev: VirtualBox USB Tablet: initialized for absolute axes.
+[    15.114] (**) VirtualBox USB Tablet: (accel) keeping acceleration scheme 1
+[    15.114] (**) VirtualBox USB Tablet: (accel) acceleration profile 0
+[    15.114] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[    15.114] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[    15.114] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[    15.114] (II) No input driver specified, ignoring this device.
+[    15.114] (II) This device may have been added with another device file.
+[    15.115] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse0)
+[    15.115] (II) No input driver specified, ignoring this device.
+[    15.115] (II) This device may have been added with another device file.
+[    15.115] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    15.115] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[    15.115] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    15.115] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    15.115] (**) AT Translated Set 2 keyboard: always reports core events
+[    15.115] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event2"
+[    15.115] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[    15.115] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[    15.115] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[    15.115] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[    15.115] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 10)
+[    15.115] (**) Option "xkb_rules" "evdev"
+[    15.115] (**) Option "xkb_model" "pc105"
+[    15.115] (**) Option "xkb_layout" "us,th"
+[    15.116] (**) Option "xkb_variant" ","
+[    15.116] (**) Option "xkb_options" "grp:alt_shift_toggle,grp_led:scroll"
+[    15.117] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event6)
+[    15.117] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "evdev pointer catchall"
+[    15.117] (II) Using input driver 'evdev' for 'ImExPS/2 Generic Explorer Mouse'
+[    15.117] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    15.117] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[    15.117] (**) evdev: ImExPS/2 Generic Explorer Mouse: Device: "/dev/input/event6"
+[    15.117] (--) evdev: ImExPS/2 Generic Explorer Mouse: Vendor 0x2 Product 0x6
+[    15.117] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found 9 mouse buttons
+[    15.117] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found scroll wheel(s)
+[    15.117] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found relative axes
+[    15.117] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found x and y relative axes
+[    15.117] (II) evdev: ImExPS/2 Generic Explorer Mouse: Configuring as mouse
+[    15.117] (II) evdev: ImExPS/2 Generic Explorer Mouse: Adding scrollwheel support
+[    15.117] (**) evdev: ImExPS/2 Generic Explorer Mouse: YAxisMapping: buttons 4 and 5
+[    15.117] (**) evdev: ImExPS/2 Generic Explorer Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    15.117] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input7/event6"
+[    15.117] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 11)
+[    15.117] (II) evdev: ImExPS/2 Generic Explorer Mouse: initialized for relative axes.
+[    15.117] (**) ImExPS/2 Generic Explorer Mouse: (accel) keeping acceleration scheme 1
+[    15.117] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration profile 0
+[    15.117] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[    15.117] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[    15.118] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse1)
+[    15.118] (II) No input driver specified, ignoring this device.
+[    15.118] (II) This device may have been added with another device file.
+[    15.122] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/event4)
+[    15.122] (**) VirtualBox mouse integration: Applying InputClass "evdev pointer catchall"
+[    15.122] (II) Using input driver 'evdev' for 'VirtualBox mouse integration'
+[    15.122] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    15.122] (**) VirtualBox mouse integration: always reports core events
+[    15.122] (**) evdev: VirtualBox mouse integration: Device: "/dev/input/event4"
+[    15.123] (--) evdev: VirtualBox mouse integration: Vendor 0x80ee Product 0xcafe
+[    15.123] (--) evdev: VirtualBox mouse integration: Found 1 mouse buttons
+[    15.123] (--) evdev: VirtualBox mouse integration: Found absolute axes
+[    15.123] (--) evdev: VirtualBox mouse integration: Found x and y absolute axes
+[    15.123] (--) evdev: VirtualBox mouse integration: Found absolute touchscreen
+[    15.123] (II) evdev: VirtualBox mouse integration: Configuring as touchscreen
+[    15.123] (**) evdev: VirtualBox mouse integration: YAxisMapping: buttons 4 and 5
+[    15.123] (**) evdev: VirtualBox mouse integration: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    15.123] (**) Option "config_info" "udev:/sys/devices/virtual/input/input5/event4"
+[    15.123] (II) XINPUT: Adding extended input device "VirtualBox mouse integration" (type: TOUCHSCREEN, id 12)
+[    15.123] (II) evdev: VirtualBox mouse integration: initialized for absolute axes.
+[    15.123] (**) VirtualBox mouse integration: (accel) keeping acceleration scheme 1
+[    15.123] (**) VirtualBox mouse integration: (accel) acceleration profile 0
+[    15.123] (**) VirtualBox mouse integration: (accel) acceleration factor: 2.000
+[    15.123] (**) VirtualBox mouse integration: (accel) acceleration threshold: 4
+[    15.124] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/js1)
+[    15.124] (II) No input driver specified, ignoring this device.
+[    15.124] (II) This device may have been added with another device file.
+[    49.112] (II) XKB: reuse xkmfile /var/lib/xkb/server-9E3574F978B3518E28433E5877DE6B5C0AC7DC90.xkm
