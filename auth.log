@@ -26,3 +26,7 @@ May  2 00:17:05 aueiei-VirtualBox sudo: pam_unix(sudo:session): session opened f
 May  2 00:17:05 aueiei-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
 May  2 00:20:25 aueiei-VirtualBox sudo:   aueiei : TTY=pts/1 ; PWD=/home/aueiei/Desktop ; USER=root ; COMMAND=/usr/bin/gedit TestFile
 May  2 00:20:25 aueiei-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by aueiei(uid=1000)
+May  2 00:23:55 aueiei-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+May  2 00:24:09 aueiei-VirtualBox sudo:   aueiei : TTY=pts/1 ; PWD=/home/aueiei/Desktop ; USER=root ; COMMAND=/bin/cat TestFile
+May  2 00:24:09 aueiei-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by aueiei(uid=1000)
+May  2 00:24:09 aueiei-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
