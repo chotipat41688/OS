@@ -10,3 +10,6 @@ May  1 23:47:22 aueiei-VirtualBox sudo: pam_unix(sudo:session): session closed f
 May  2 00:10:52 aueiei-VirtualBox sudo:   aueiei : TTY=pts/1 ; PWD=/home/aueiei/Desktop ; USER=root ; COMMAND=/bin/mkdir TestFolder
 May  2 00:10:52 aueiei-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by aueiei(uid=1000)
 May  2 00:10:52 aueiei-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+May  2 00:14:47 aueiei-VirtualBox sudo:   aueiei : TTY=pts/1 ; PWD=/home/aueiei/Desktop ; USER=root ; COMMAND=/bin/mv TestFolder/ TestFolder_Rename/
+May  2 00:14:47 aueiei-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by aueiei(uid=1000)
+May  2 00:14:47 aueiei-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
