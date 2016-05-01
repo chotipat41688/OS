@@ -1,0 +1,9 @@
+May  1 23:17:01 aueiei-VirtualBox CRON[2555]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  1 23:17:01 aueiei-VirtualBox CRON[2555]: pam_unix(cron:session): session closed for user root
+May  1 23:18:21 aueiei-VirtualBox gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+May  1 23:38:54 aueiei-VirtualBox sudo:   aueiei : TTY=pts/0 ; PWD=/home/aueiei/git ; USER=root ; COMMAND=/usr/bin/apt-get install git
+May  1 23:38:54 aueiei-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by aueiei(uid=1000)
+May  1 23:40:01 aueiei-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+May  1 23:47:22 aueiei-VirtualBox sudo:   aueiei : TTY=pts/0 ; PWD=/home/aueiei/git ; USER=root ; COMMAND=/usr/bin/git init
+May  1 23:47:22 aueiei-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by aueiei(uid=1000)
+May  1 23:47:22 aueiei-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
